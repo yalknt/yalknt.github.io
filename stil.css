@@ -1,0 +1,130 @@
+/*
+'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+' mydesign | ziyaretçi defteri
+' W: http://www.mydesign.gen.tr
+' @: mydesign@mydesign.gen.tr
+'
+' Stil Sayfasý Kodlarý
+' Son Düzenleme: 11 Ekim 2005 / 16:18
+'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+
+
+body {
+	margin:9px 2px 9px 2px;
+	text-align:center;
+}
+
+td {
+	font-size:9px;
+}
+
+A {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#CCCCCC;
+	text-decoration:none;
+}
+
+A:hover {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#666666;
+	text-decoration:none;
+}
+
+A:unknown {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#666666;
+	text-decoration:none;
+}
+
+A.ust_baslik {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#999999;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+A.ust_baslik:hover {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#CCCCCC;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+A.ust_baslik:Visited {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#FF99CC;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+A.ust_baslik:Visited:hover {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#CCCCCC;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.kYazi { 
+	font-family:Verdana,
+	Arial, Helvetica, sans-serif;
+	font-size:9px;color:#FFFFFF;
+	font-weight:normal;
+}
+
+
+.nYazi {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#FFFFFF;
+	font-weight:normal;
+}
+
+.bYazi { 
+	font-family:Verdana,
+	Arial, Helvetica, sans-serif;
+	font-size:9px;color:#FFFFFF;
+	font-weight:normal;
+}
+
+A.tLink {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#FF99FF;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+A.tLink:hover {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#666666;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+.input {
+	border-width: 1px;
+	border-color: #FFFFFF;
+	background-color: #f7f7f7;
+	font-family: tahoma;
+	font-size: 9px;
+	width:250px;
+}
+
+.buton {
+	border-width: 1px;
+	border-color: #999999;
+	height:20px;
+	background-image:url(img/ust_bg.jpg);
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 9px;
+	font-weight: bold;
+}
