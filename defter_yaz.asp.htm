@@ -1,0 +1,245 @@
+<html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-9">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1254">
+<title>Kaligrafia&nbsp;Ziyaretçi Defteri</title>
+<link rel="stylesheet" type="text/css" href="stil.css" tppabs="http://www.kaligrafia.net/defter/stil.css">
+<script Language="JavaScript">
+<!--
+// Mesaja smiley ekleme fonksiyonu
+// Hazırlayan ve scripte eklenmesini öneren Demir Çelenk'e teşekkürler...
+function mesaja_ekle(kalip) {
+	var konum = document.defter.mesaj;
+	kalip = ' ' + kalip + ' ';
+	if (konum.createTextRange && konum.caretPos) {
+		var caretPos = konum.caretPos;
+		caretPos.kalip = caretPos.kalip.charAt(caretPos.kalip.length - 1) == ' ' ? caretPos.kalip + kalip + ' ' : caretPos.kalip + kalip;
+		konum.focus();
+	} else {
+		konum.value  += kalip;
+		konum.focus();
+	}
+}
+
+// Forum kodu fonksiyonu
+function ForumKodu(Kod, Metin) {
+	if (Kod != "") {
+		KodEkle = prompt(Metin,"");
+		if ((KodEkle != null) && (KodEkle != "")){
+			document.defter.mesaj.value += "[" + Kod + "]" + KodEkle + "[/"+ Kod + "] ";
+		}
+	}
+	document.defter.mesaj.focus();
+}
+
+// Form kontrolü fonksiyonu
+function bak()
+{  
+	if (defter.ad.value.length < 3){
+    		alert("Lütfen, Adınızı Yazınız...");
+    		defter.ad.focus();
+    		return (false);
+  	}
+  
+ 
+  	if (defter.mesaj.value.length < 0) {
+    		alert("Lütfen, Mesajınızı Yazınız...");
+    		defter.mesaj.focus();
+    		return (false);
+  	}
+
+  	if (defter.onay_kodu.value.length < 6){
+    		alert("Lütfen, Onay Kodunu Yazınız...");
+    		defter.onay_kodu.focus();
+    		return (false);
+  	}
+	return (true);
+}
+//-->
+</script>
+</head>
+<body bgcolor="#000000">
+<center>
+<!-- Üst bölümde görünmesini istediğiniz kodları buraya yazabilirsiniz -->
+<form method="post" action="http://www.kaligrafia.net/defter/defter_kaydet.asp" onSubmit="return bak()" name="defter">
+<table width="100%" border="0" cellspacing="0" cellpadding="1" style="background-color:#000000;text-align:center">
+<tr>
+	<td>
+	<table width="100%" border="0" cellpadding="0" cellspacing="0" style="background-color:#000000">
+	<tr>
+		<td bgcolor="#000000">
+		<table width="100%" border="0" cellspacing="1" cellpadding="3" style="background-color:#000000">
+		<tr>
+			<td colspan="2" ><a href="defter_oku.asp.htm" tppabs="http://www.kaligrafia.net/defter/defter_oku.asp" class="ust_baslik">KAYITLAR</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="defter_yaz.asp.htm" tppabs="http://www.kaligrafia.net/defter/defter_yaz.asp" class="ust_baslik">DEFTERE YAZ</a></td>
+		</tr>
+     		<tr >
+         		<td width="20%" class="nYazi">Ad:*</td>
+         		<td><input type="text" name="ad" maxlength="255" size="40" class="input" value=""></td>
+     		</tr>
+     		<tr >
+         		<td class="nYazi">E-Mail:</td>
+         		<td width="50%"><input type="text" name="mail" class="input" maxlength="255" size="40" value=""></td>
+     		</tr>
+     		<tr >
+          		<td class="nYazi">Web-Site:</td>
+          		<td><input type="text" name="web" maxlength="255" class="input" size="40" value=""></td>
+     		</tr>
+     		<tr >
+          		<td class="nYazi">Yer:</td>
+          		<td><select name="yer" class="input">
+			
+
+				<option>Diğer</option>
+				<option>Adana</option>
+				<option>Adıyaman</option>
+				<option>Afyon</option>
+				<option>Ağrı</option>
+				<option>Aksaray</option>
+				<option>Amasya</option>
+				<option>Ankara</option>
+				<option>Antalya</option>
+				<option>Ardahan</option>
+				<option>Artvin</option>
+				<option>Aydın</option>
+				<option>Balıkesir</option>
+				<option>Bartın</option>
+				<option>Batman</option>
+				<option>Bayburt</option>
+				<option>Bilecik</option>
+				<option>Bingöl</option>
+				<option>Bitlis</option>
+				<option>Bolu</option>
+				<option>Burdur</option>
+				<option>Bursa</option>
+				<option>Çanakkale</option>
+				<option>Çankırı</option>
+				<option>Çorum</option>
+				<option>Denizli</option>
+				<option>Diyarbakır</option>
+				<option>Düzce</option>
+				<option>Edirne</option>
+				<option>Elazığ</option>
+				<option>Erzincan</option>
+				<option>Erzurum</option>
+				<option>Eskişehir</option>
+				<option>Gaziantep</option>
+				<option>Giresun</option>
+				<option>Gümüşhane</option>
+				<option>Hakkari</option>
+				<option>Hatay</option>
+				<option>Iğdır</option>
+				<option>Isparta</option>
+				<option>İçel</option>
+				<option>İstanbul</option>
+				<option>İzmir</option>
+				<option>Kahramanmaraş</option>
+				<option>Karabük</option>
+				<option>Karaman</option>
+				<option>Kars</option>
+				<option>Kastamonu</option>
+				<option>Kayseri</option>
+				<option>Kıbrıs</option>
+				<option>Kırıkkale</option>
+				<option>Kırklareli</option>
+				<option>Kırşehir</option>
+				<option>Kilis</option>
+				<option>Kocaeli</option>
+				<option>Konya</option>
+				<option>Kütahya</option>
+				<option>Malatya</option>
+				<option>Manisa</option>
+				<option>Mardin</option>
+				<option>Muğla</option>
+				<option>Muş</option>
+				<option>Nevşehir</option>
+				<option>Niğde</option>
+				<option>Ordu </option>
+				<option>Osmaniye</option>
+				<option>Rize</option>
+				<option>Sakarya</option>
+				<option>Samsun</option>
+				<option>Siirt</option>
+				<option>Sinop</option>
+				<option>Sivas</option>
+				<option>Şanlıurfa</option>
+				<option>Şırnak</option>
+				<option>Tekirdağ</option>
+				<option>Tokat</option>
+				<option>Trabzon</option>
+				<option>Tunceli</option>
+				<option>Uşak</option>
+				<option>Van</option>
+				<option>Yalova</option>
+				<option>Yozgat</option>
+				<option>Zonguldak</option>
+			</select>
+			</td>
+     		</tr>
+     		<tr >
+          		<td class="nYazi">MSN Messenger:</td>
+          		<td><input type="text" name="msn" class="input" maxlength="255" size="40" value=""></td>
+     		</tr>
+     		<tr >
+          		<td class="nYazi">Yahoo! Messenger:</td>
+          		<td><input type="text" name="yahoo" class="input" maxlength="255" size="40" value=""></td>
+     		</tr>
+     		<tr >
+          		<td class="nYazi">Icq No:</td>
+          		<td><input type="text" name="icq" class="input" maxlength="255" size="40" value=""></td>
+     		</tr>
+     		<tr >
+          		<td class="nYazi" valign="top">Mesaj:*</td>
+          		<td><div style="float:left"><textarea name="mesaj" class="input" rows="10" cols="40" class="input"></textarea></div>
+				<div style="width:175px;float:left;padding-top:5px;padding-left:20px">
+					<div style="padding:10px 10px 10px 10px;text-align:center;border:1px solid #CCCCCC">
+					<a href="javascript:mesaja_ekle('[:)]')"><img src="smiley1.gif" tppabs="http://www.kaligrafia.net/defter/img/smiley/smiley1.gif" border="0" alt=""></a>&nbsp;
+					<a href="javascript:mesaja_ekle('[;)]')"><img src="smiley2.gif" tppabs="http://www.kaligrafia.net/defter/img/smiley/smiley2.gif" border="0" alt=""></a>&nbsp;
+					<a href="javascript:mesaja_ekle('[:p)]')"><img src="smiley3.gif" tppabs="http://www.kaligrafia.net/defter/img/smiley/smiley3.gif" border="0" alt=""></a>&nbsp;
+					<a href="javascript:mesaja_ekle('[:D]')"><img src="smiley4.gif" tppabs="http://www.kaligrafia.net/defter/img/smiley/smiley4.gif" border="0" alt=""></a>&nbsp;<br>
+					<a href="javascript:mesaja_ekle('[:s]')"><img src="smiley5.gif" tppabs="http://www.kaligrafia.net/defter/img/smiley/smiley5.gif" border="0" alt=""></a>&nbsp;
+					<a href="javascript:mesaja_ekle('[:$]')"><img src="smiley6.gif" tppabs="http://www.kaligrafia.net/defter/img/smiley/smiley6.gif" border="0" alt=""></a>&nbsp;
+					<a href="javascript:mesaja_ekle('[=D]')"><img src="smiley7.gif" tppabs="http://www.kaligrafia.net/defter/img/smiley/smiley7.gif" border="0" alt=""></a>&nbsp;
+					<a href="javascript:mesaja_ekle('[LOL]')"><img src="smiley8.gif" tppabs="http://www.kaligrafia.net/defter/img/smiley/smiley8.gif" border="0" alt=""></a>&nbsp;<br>
+					<a href="javascript:mesaja_ekle('[:(]')"><img src="smiley9.gif" tppabs="http://www.kaligrafia.net/defter/img/smiley/smiley9.gif" border="0" alt=""></a>&nbsp;
+					<a href="javascript:mesaja_ekle('[:^(]')"><img src="smiley10.gif" tppabs="http://www.kaligrafia.net/defter/img/smiley/smiley10.gif" border="0" alt=""></a>&nbsp;
+					<a href="javascript:mesaja_ekle('[:O]')"><img src="smiley11.gif" tppabs="http://www.kaligrafia.net/defter/img/smiley/smiley11.gif" border="0" alt=""></a>&nbsp;
+					<a href="javascript:mesaja_ekle('[:|]')"><img src="smiley12.gif" tppabs="http://www.kaligrafia.net/defter/img/smiley/smiley12.gif" border="0" alt=""></a>&nbsp;<br>
+					<a href="javascript:mesaja_ekle('[:x]')"><img src="smiley13.gif" tppabs="http://www.kaligrafia.net/defter/img/smiley/smiley13.gif" border="0" alt=""></a>&nbsp;
+					<a href="javascript:mesaja_ekle('[}:)]')"><img src="smiley14.gif" tppabs="http://www.kaligrafia.net/defter/img/smiley/smiley14.gif" border="0" alt=""></a>&nbsp;
+					<a href="javascript:mesaja_ekle('[L]')"><img src="smiley15.gif" tppabs="http://www.kaligrafia.net/defter/img/smiley/smiley15.gif" border="0" alt=""></a>&nbsp;
+					<a href="javascript:mesaja_ekle('[%(]')"><img src="smiley16.gif" tppabs="http://www.kaligrafia.net/defter/img/smiley/smiley16.gif" border="0" alt=""></a>&nbsp;
+					<hr size="1" width="90%" color="#CCCCCC">
+					<a href="javascript:ForumKodu('B','Kalın%20Yazı')"><b>Kalın</b></a> |
+					<a href="javascript:ForumKodu('I','İtalik%20Yazı')"><i>İtalik</i></a><br>
+					<a href="javascript:ForumKodu('U','Altçizgili%20Yazı')"><u>Altçizgili</u></a> | 
+					<a href="javascript:ForumKodu('URL','Bağlantı%20Hedefi')">Link</a>
+					</div>
+				</div>
+			</td>
+     		</tr>
+     		
+     		<tr >
+         		<td class="nYazi">Onay Kodu:</td>
+         		<td bgcolor="#FFFFFF"><img src="defter_guvenlik.asp-I=1&8Z2D.gif" tppabs="http://www.kaligrafia.net/defter/defter_guvenlik.asp?I=1&8Z2D" /><img src="defter_guvenlik.asp-I=2&75A9.gif" tppabs="http://www.kaligrafia.net/defter/defter_guvenlik.asp?I=2&75A9" /><img src="defter_guvenlik.asp-I=3&B8Z2.gif" tppabs="http://www.kaligrafia.net/defter/defter_guvenlik.asp?I=3&B8Z2" /><img src="defter_guvenlik.asp-I=4&A2BE.gif" tppabs="http://www.kaligrafia.net/defter/defter_guvenlik.asp?I=4&A2BE" /><img src="defter_guvenlik.asp-I=5&DAC6.gif" tppabs="http://www.kaligrafia.net/defter/defter_guvenlik.asp?I=5&DAC6" /><img src="defter_guvenlik.asp-I=6&4FB2.gif" tppabs="http://www.kaligrafia.net/defter/defter_guvenlik.asp?I=6&4FB2" /></td>
+      		</tr>
+     		<tr >
+          		<td class="nYazi">Onay Kodu Doğrulama:*</td>
+          		<td><input type="text" class="input" name="onay_kodu" maxlength="255" size="40" class="input"></td>
+      		</tr>
+     		
+     		<tr >
+			<td>&nbsp;</td>
+         		<td><input type="submit" class="buton" value=" GÖNDER ">&nbsp;&nbsp;<input type="reset" value=" TEMİZLE " class="buton"></td>
+     		</tr>
+      		</table>
+     		</td>
+    	</tr>
+  	</table>
+  	</td>
+</tr>
+</table>
+</form>
+<!-- Alt bölümde görünmesini istediğiniz kodları buraya yazabilirsiniz -->
+</center>
+</body>
+</html>
