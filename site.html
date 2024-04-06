@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Shop</title>
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            overflow-x: hidden; /* Prevent horizontal scrolling */
+        }
+        .note {
+            background-color: #0080ff;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 20px;
+            width: 100%;
+        }
+        .book {
+            background-color: #333333;
+            border-radius: 8px;
+            margin: 10px;
+            text-align: center;
+            padding: 20px;
+            width: calc(20% - 20px); /* Adjusted width to fit 5 books */
+            max-width: 200px;
+        }
+        .book img {
+            max-width: 150px;
+            max-height: 200px;
+            border-radius: 8px;
+        }
+        .price {
+            font-size: 16px;
+        }
+        .discount {
+            text-decoration: line-through;
+            color: #ff0000;
+        }
+        @media (max-width: 768px) {
+            .book {
+                width: calc(50% - 20px); /* Adjusted width for mobile */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="note">
+        <p>Siparişlerinizi yalknt@gmail.com adresine (Kargo adresiniz, alıcı adı ve telefon numarası ile) bildirmeniz yeterlidir. Kargonuz PTT indirimli kitap kargosu ile 1-2 gün içinde gönderilecektir. (700 TL. üzeri kargo ücretsizdir) e-kitaplar ödeme sonrası aynı gün içinde mail adresinize gönderilir.</p>
+    </div>
+    <div class="container">
+        <div class="book">
+            <img src="0.jpg" alt="Book 1">
+            <div class="title">(YAKINDA) Hipnoz & Hipnoterapi</div>
+        </div>
+
+        <div class="book">
+            <img src="1.jpg" alt="Book 1">
+            <div class="title">Be Sırrı - Berzah</div>
+            <div class="price"><span class="discount">76₺</span> 60₺</div>
+        </div>
+
+        <div class="book">
+            <img src="2.jpg" alt="Book 1">
+            <div class="title">Kuantum Tasavvuf 1</div>
+            <div class="price"><span class="discount">54₺</span> 40₺</div>
+        </div>
+
+        <div class="book">
+            <img src="3.jpg" alt="Book 1">
+            <div class="title">Kuantum Tasavvuf 2</div>
+            <div class="price"><span class="discount">58,50₺</span> 45₺</div>
+        </div>
+
+        <div class="book">
+            <img src="4.jpg" alt="Book 1">
+            <div class="title">Muhiyiddin Arabi'yi Anlamak</div>
+            <div class="price"><span class="discount">58,50₺</span> 45₺</div>
+        </div>
+
+        <div class="book">
+            <img src="5.jpg" alt="Book 1">
+            <div class="title">Yıldız İlmi</div>
+            <div class="price"><span class="discount">158₺</span> 115₺</div>
+        </div>
+
+        <div class="book">
+            <img src="6.jpg" alt="Book 1">
+            <div class="title">Bütüncül Şifa</div>
+            <div class="price"><span class="discount">58,50₺</span> 40₺</div>
+        </div>
+
+        <div class="book">
+            <img src="7.jpg" alt="Book 1">
+            <div class="title">Hakikat ve Suretler</div>
+            <div class="price"><span class="discount">58,50₺</span> 45₺</div>
+        </div>
+
+        <div class="book">
+            <img src="8.jpg" alt="Book 1">
+            <div class="title">Kuantum Rüya</div>
+            <div class="price"><span class="discount">58,50₺</span> 45₺</div>
+        </div>
+
+        <div class="book">
+            <img src="9.jpg" alt="Book 1">
+            <div class="title">Kuantsal Birlik Birinci</div>
+            <div class="price"><span class="discount">125₺</span> 55₺</div>
+        </div>
+
+        <div class="book">
+            <img src="10.jpg" alt="Book 1">
+            <div class="title">Tevhid Dersleri Ve Zikirleri</div>
+            <div class="price"><span class="discount">161₺</span> 125₺</div>
+        </div>
+
+        <div class="book">
+            <img src="11.jpg" alt="Book 1">
+            <div class="title">Şifacı</div>
+            <div class="price"><span class="discount">133₺</span> 115₺</div>
+        </div>
+
+        <div class="book">
+            <img src="12.jpg" alt="Book 1">
+            <div class="title">(E-Kitap) Yıldız İlmi</div>
+            <div class="price">50₺</div>
+        </div>
+
+        <div class="book">
+            <img src="13.jpg" alt="Book 1">
+            <div class="title">(E-Kitap) Muhiyiddin Arabi</div>
+            <div class="price">15₺</div>
+        </div>
+
+        <div class="book">
+            <img src="14.jpg" alt="Book 1">
+            <div class="title">(E-Kitap) Be Sırrı - Berzah</div>
+            <div class="price">20₺</div>
+        </div>
+
+        <div class="book">
+            <img src="15.jpg" alt="Book 1">
+            <div class="title">(E-Kitap) Kuantum Tasavvuf1</div>
+            <div class="price">15₺</div>
+        </div>
+
+        <div class="book">
+            <img src="16.jpg" alt="Book 1">
+            <div class="title">(E-Kitap) Kuantum Tasavvuf2</div>
+            <div class="price">15₺</div>
+        </div>
+
+        <div class="book">
+            <img src="17.jpg" alt="Book 1">
+            <div class="title">(E-Kitap) Bütüncül Şifa</div>
+            <div class="price">25₺</div>
+        </div>
+
+        <div class="book">
+            <img src="18.jpg" alt="Book 1">
+            <div class="title">(E-Kitap) Hakikat Suretler</div>
+            <div class="price">15₺</div>
+        </div>
+
+        <div class="book">
+            <img src="19.jpg" alt="Book 1">
+            <div class="title">(E-Kitap) Kuantum Rüya</div>
+            <div class="price">15₺</div>
+        </div>
+
+        <div class="book">
+            <img src="20.jpg" alt="Book 1">
+            <div class="title">(E-Kitap) Tevhid Dersleri</div>
+            <div class="price">25₺</div>
+        </div>
+
+        <div class="book">
+            <img src="21.jpg" alt="Book 1">
+            <div class="title">(E-Kitap) Şifacı</div>
+            <div class="price">20₺</div>
+        </div>
+
+        <div class="book">
+            <img src="22.jpg" alt="Book 1">
+            <div class="title">(E-Kitap) Allah'a Dost Olmak</div>
+            <div class="price">15₺</div>
+        </div>
+
+        <div class="book">
+            <img src="23.jpg" alt="Book 1">
+            <div class="title">(E-Kitap) Kendini OKU! (Nasihatler)</div>
+            <div class="price">15₺</div>
+        </div>
+
+        <div class="book">
+            <img src="24.jpg" alt="Book 1">
+            <div class="title">Hipnoz & Hipnoterapi</div>
+            <div class="price">50₺</div>
+        </div>
+    </div>
+</body>
+</html>
