@@ -4,72 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kitaplar</title>
-    <style>
-        body {
-            background-color: #1e1e1e;
-            color: #ffffff;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            overflow-x: hidden; /* Prevent horizontal scrolling */
-        }
-        .h1 {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .note {
-            background-color: #0080ff;
-            color: #ffffff;
-            padding: 10px;
-            text-align: center;
-            width: 100%;
-        }
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: flex-start;
-            padding: 20px;
-            width: 100%;
-        }
-        .book {
-            background-color: #333333;
-            border-radius: 8px;
-            margin: 10px;
-            text-align: center;
-            padding: 20px;
-            width: calc(20% - 20px); /* Adjusted width to fit 5 books */
-            max-width: 200px;
-        }
-        .book img {
-            max-width: 150px;
-            max-height: 200px;
-            border-radius: 8px;
-        }
-        .price {
-            font-size: 16px;
-        }
-        .discount {
-            text-decoration: line-through;
-            color: #ff0000;
-        }
-        @media (max-width: 768px) {
-            .book {
-                width: calc(50% - 20px); /* Adjusted width for mobile */
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="note">
-        <p>Siparişlerinizi yalknt@gmail.com adresine (Kargo adresiniz, alıcı adı ve telefon numarası ile) bildirmeniz yeterlidir. Kargonuz PTT indirimli kitap kargosu ile 1-2 gün içinde gönderilecektir. (700 TL. üzeri kargo ücretsizdir) e-kitaplar ödeme sonrası aynı gün içinde mail adresinize gönderilir.</p>
+    <script src="script.js"></script>
+
+    <div id="loading-screen">
+        <div class="spinner"></div>
+        <p>Sayfa Yükleniyor...</p>
     </div>
-<h1>Basılı Kitaplar</h1>
+
+<div id="page-content">
+
+        <div class="popup">
+            <p>Siparişlerinizi yalknt@gmail.com adresine (Kargo adresiniz, alıcı adı ve telefon numarası ile) bildirmeniz
+                yeterlidir. Kargonuz PTT indirimli kitap kargosu ile 1-2 gün içinde gönderilecektir. (700 TL. üzeri kargo
+                ücretsizdir) e-kitaplar ödeme sonrası aynı gün içinde mail adresinize gönderilir.</p>
+        </div>
+
     <div class="container">
         <div class="book">
             <img src="0.jpg" alt="Book 1">
@@ -142,9 +94,7 @@
             <div class="title">Tevhid Dersleri Ve Zikirleri</div>
             <div class="price">130₺</div>
         </div>
-    </div>
-        <h1>E-Kitaplar</h1>
-    <div class="container">        
+
         <div class="book">
             <img src="12.jpg" alt="Book 1">
             <div class="title">(E-Kitap) Yıldız İlmi</div>
@@ -165,56 +115,56 @@
 
         <div class="book">
             <img src="15.jpg" alt="Book 1">
-            <div class="title">(E-Kitap) Kuantum Tasavvuf1</div>
+            <div class="title">(E-Kitap)<br></br>Kuantum Tasavvuf 1</div>
             <div class="price">25₺</div>
         </div>
 
         <div class="book">
             <img src="16.jpg" alt="Book 1">
-            <div class="title">(E-Kitap) Kuantum Tasavvuf2</div>
+            <div class="title">(E-Kitap)<br></br>Kuantum Tasavvuf 2</div>
             <div class="price">25₺</div>
         </div>
 
         <div class="book">
             <img src="17.jpg" alt="Book 1">
-            <div class="title">(E-Kitap) Bütüncül Şifa</div>
+            <div class="title">(E-Kitap)<br></br>Bütüncül Şifa</div>
             <div class="price">25₺</div>
         </div>
 
         <div class="book">
             <img src="18.jpg" alt="Book 1">
-            <div class="title">(E-Kitap) Hakikat Suretler</div>
+            <div class="title">(E-Kitap)<br></br>Hakikat Suretler</div>
             <div class="price">25₺</div>
         </div>
 
         <div class="book">
             <img src="19.jpg" alt="Book 1">
-            <div class="title">(E-Kitap) Kuantum Rüya</div>
+            <div class="title">(E-Kitap)<br></br>Kuantum Rüya</div>
             <div class="price">25₺</div>
         </div>
 
         <div class="book">
             <img src="20.jpg" alt="Book 1">
-            <div class="title">(E-Kitap) Tevhid Dersleri</div>
-            <div class="price">50₺</div>
+            <div class="title">(E-Kitap)<br></br>Tevhid Dersleri</div>
+            <div class="price">50₺<br></br></div>
         </div>
 
         <div class="book">
             <img src="22.jpg" alt="Book 1">
-            <div class="title">(E-Kitap) Allah'a Dost Olmak</div>
-            <div class="price">25₺</div>
+            <div class="title">(E-Kitap)<br></br>Allah'a Dost Olmak</div>
+            <div class="price">25₺<br></br></div>
         </div>
 
         <div class="book">
             <img src="23.jpg" alt="Book 1">
-            <div class="title">(E-Kitap) Kendini OKU! (Nasihatler)</div>
-            <div class="price">25₺</div>
+            <div class="title">(E-Kitap)<br></br>Kendini OKU! (Nasihatler)</div>
+            <div class="price">25₺<br></br></div>
         </div>
 
         <div class="book">
             <img src="24.jpg" alt="Book 1">
-            <div class="title">(E-Kitap) Hipnoz & Hipnoterapi</div>
-            <div class="price">50₺</div>
+            <div class="title">(E-Kitap)<br></br>Hipnoz & Hipnoterapi</div>
+            <div class="price">50₺<br></br></div>
         </div>
 
         <div class="book">
@@ -223,5 +173,9 @@
             <div class="price">150₺</div>
         </div>
     </div>
+<br></br>
+<a></a>
+<br></br>
+</div>
 </body>
 </html>
