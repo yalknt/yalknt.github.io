@@ -400,3 +400,35 @@ body.dark-mode .price {
     color: #bbbbbb;
 }
 
+/* Light Mode */
+.unavailable-button {
+    background-color: #f3f3f3;
+    color: #666;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: not-allowed;
+    margin-top: 10px;
+    width: 100%;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.unavailable-button:hover {
+    background-color: #ff4d4d; /* Light red hover effect */
+    color: #ffffff;
+    box-shadow: 0 4px 10px rgba(255, 77, 77, 0.3);
+}
+
+/* Dark Mode */
+body.dark-mode .unavailable-button {
+    background-color: #2a2a2a; /* Dark grey background */
+    color: #bbbbbb;            /* Light grey text color */
+}
+
+body.dark-mode .unavailable-button:hover {
+    background-color: #cf6679; /* Material dark theme's error color */
+    color: #ffffff;
+    box-shadow: 0 4px 10px rgba(207, 102, 121, 0.3); /* Dark red shadow */
+}
+
