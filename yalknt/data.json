@@ -1,0 +1,984 @@
+{
+  "categories": [
+    "sozluk",
+    "giris",
+    "din",
+    "kuantum",
+    "tasavvuf",
+    "ibniarabi",
+    "zikir",
+    "sifa",
+    "hipnoz",
+    "astroloji",
+    "metafizik",
+    "siir"
+  ],
+  "languages": [
+    "TR",
+    "EN",
+    "DE",
+    "FR"
+  ],
+  "authors": [
+    {
+      "name": "Yalkın Tuncay",
+      "codename": "yalkintuncay",
+      "alternate": "ismailmuhammedankaravi"
+    },
+    {
+      "name": "Ahmet Özmerdivanlı",
+      "codename": "ahmetozmerdivanli"
+    },
+    {
+      "name": "Ahmet Emir Özdemir",
+      "codename": "ahmetemirozdemir"
+    },
+    {
+      "name": "Muhammed Konyevi",
+      "codename": "muhammedkonyevi"
+    },
+    {
+      "name": "Muhyiddin Arabi",
+      "codename": "muhyiddinarabi"
+    }
+  ],
+  "sourcetypes": [
+    "digitalcopy",
+    "physicalcopy",
+    "notavailable",
+    "recommended"
+  ],
+  "buttoncontents": [
+    "read",
+    "preview",
+    "none"
+  ],
+  "releaseyear": [
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020",
+    "2019",
+    "2016",
+    "2015",
+    "2005",
+    "1999",
+    "1980",
+    "unknown"
+  ],
+  "books": [
+    {
+      "title": "Karşılama ve Sunum",
+      "categories": [
+        "sozluk",
+        "giris",
+        "din",
+        "kuantum",
+        "tasavvuf",
+        "ibniarabi",
+        "zikir",
+        "sifa",
+        "hipnoz",
+        "astroloji",
+        "metafizik",
+        "siir"
+      ],
+      "languages": [
+        "TR",
+        "EN",
+        "DE",
+        "FR"
+      ],
+      "authors": [
+        "yalkintuncay",
+        "ahmetozmerdivanli",
+        "ahmetemirozdemir",
+        "muhammedkonyevi",
+        "muhyiddinarabi"
+      ],
+      "sourcetype": [
+        "digitalcopy",
+        "physicalcopy"
+      ],
+      "description_en": "These works and books were written to contribute to the collective memory of humanity and to leave a roadmap for future generations. My writings have become written records to carry the message of not only a period but also eternity. Every word is a gift to humanity, with devotion and without expecting anything in return.",
+      "description_tr": "Bu çalışma ve kitaplar, insanlığın ortak hafızasına bir katkı sunmak ve gelecek nesillere bir yol haritası bırakmak adına kaleme alındı. Yazdıklarım, sadece bir dönemin değil, aynı zamanda sonsuzluğun mesajını taşımak üzere yazılı kayıtlara dönüştü. Her kelime, özveriyle ve karşılık beklemeden, insanlığa bir armağan niteliğindedir.",
+      "description_fr": "Ces études et ces livres ont été écrits pour contribuer à la mémoire collective de l’humanité et pour laisser une feuille de route aux générations futures. Mes écrits sont devenus des documents écrits destinés à transmettre le message non seulement d’une période mais aussi de l’éternité. Chaque mot est un don à l’humanité, donné avec dévotion et sans rien attendre en retour.",
+      "description_de": "Diese Studien und Bücher wurden verfasst, um zum kollektiven Gedächtnis der Menschheit beizutragen und künftigen Generationen eine Orientierungskarte zu hinterlassen. Meine Schriften wurden zu schriftlichen Aufzeichnungen, die nicht nur die Botschaft einer Zeit, sondern auch der Ewigkeit transportierten. Jedes Wort ist ein Geschenk an die Menschheit, das mit Hingabe gegeben wird, ohne eine Gegenleistung zu erwarten.",
+      "relativeimagepath": "sunum.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/takdim.pdf",
+      "releasedate": "2024"
+    },
+    {
+      "title": "Kuantum Tevhid (Gerçeklik, Bilinç ve Kozmik Bilgelik)",
+      "categories": [
+        "kuantum",
+        "tasavvuf",
+        "din"
+      ],
+      "language": "TR",
+      "author": "yalkintuncay",
+      "sourcetype": [
+        "digitalcopy",
+        "physicalcopy"
+      ],
+      "description_en": "Quantum Tawhid takes you on a vast exploration from the depths of quantum physics to the mystical depths of Sufism. This book focuses on the understanding of Tawhid on your journey from the most minute details of the universe to the limits of human consciousness, allowing you to discover the fundamental unity of existence and that everything is a manifestation of God.",
+      "description_tr": "Kuantum Tevhid, sizi kuantum fiziğinin derinliklerinden, tasavvufun mistik derinliklerine uzanan geniş bir keşfe çıkarıyor. Bu kitap, evrenin en ince detaylarından, insan bilincinin sınırlarına kadar olan yolculuğunuzda, tevhid anlayışını merkezine alarak, varoluşun temel birliğini ve her şeyin Hakk'ın tecellisi olduğunu keşfetmenizi sağlıyor.",
+      "description_fr": "Quantum Tawhid vous emmène dans une vaste exploration des profondeurs de la physique quantique aux profondeurs mystiques du soufisme. Ce livre, dans votre voyage depuis les plus petits détails de l'univers jusqu'aux limites de la conscience humaine, se concentre sur la compréhension du monothéisme, vous permettant de découvrir l'unité fondamentale de l'existence et que tout est une manifestation de Dieu.",
+      "description_de": "Quantum Tawhid nimmt Sie mit auf eine umfassende Entdeckungsreise von den Tiefen der Quantenphysik bis in die mystischen Tiefen des Sufismus. Dieses Buch begleitet Sie auf Ihrer Reise von den kleinsten Einzelheiten des Universums bis an die Grenzen des menschlichen Bewusstseins und konzentriert sich auf das Verständnis des Monotheismus. So können Sie die grundlegende Einheit der Existenz erkennen und erkennen, dass alles eine Manifestation Gottes ist.",
+      "relativeimagepath": "40.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "preview"
+      ],
+      "buttonlink": "./previews/kuantum-tevhid.pdf",
+      "releasedate": "2024"
+    },
+    {
+      "title": "Quantum Tawheed (Reality, Consciousness and Cosmic Wisdom)",
+      "categories": [
+        "kuantum",
+        "tasavvuf",
+        "din"
+      ],
+      "language": "EN",
+      "author": "yalkintuncay",
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "Quantum Tawhid takes you on a vast exploration from the depths of quantum physics to the mystical depths of Sufism. This book focuses on the understanding of Tawhid on your journey from the most minute details of the universe to the limits of human consciousness, allowing you to discover the fundamental unity of existence and that everything is a manifestation of God.",
+      "description_tr": "Kuantum Tevhid, sizi kuantum fiziğinin derinliklerinden, tasavvufun mistik derinliklerine uzanan geniş bir keşfe çıkarıyor. Bu kitap, evrenin en ince detaylarından, insan bilincinin sınırlarına kadar olan yolculuğunuzda, tevhid anlayışını merkezine alarak, varoluşun temel birliğini ve her şeyin Hakk'ın tecellisi olduğunu keşfetmenizi sağlıyor.",
+      "description_fr": "Quantum Tawhid vous emmène dans une vaste exploration des profondeurs de la physique quantique aux profondeurs mystiques du soufisme. Ce livre, dans votre voyage depuis les plus petits détails de l'univers jusqu'aux limites de la conscience humaine, se concentre sur la compréhension du monothéisme, vous permettant de découvrir l'unité fondamentale de l'existence et que tout est une manifestation de Dieu.",
+      "description_de": "Quantum Tawhid nimmt Sie mit auf eine umfassende Entdeckungsreise von den Tiefen der Quantenphysik bis in die mystischen Tiefen des Sufismus. Dieses Buch begleitet Sie auf Ihrer Reise von den kleinsten Einzelheiten des Universums bis an die Grenzen des menschlichen Bewusstseins und konzentriert sich auf das Verständnis des Monotheismus. So können Sie die grundlegende Einheit der Existenz erkennen und erkennen, dass alles eine Manifestation Gottes ist.",
+      "relativeimagepath": "41.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/QUANTUM TAWHEED.pdf",
+      "releasedate": "2024"
+    },
+    {
+      "title": "Işığın İzinde (Kainatın Sırrı ve İlahi Nurun Yansımaları)",
+      "categories": [
+        "kuantum",
+        "tasavvuf",
+        "din",
+        "metafizik"
+      ],
+      "language": "TR",
+      "author": "yalkintuncay",
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "This book, starting from the history of light, deeply examines its scientific dimensions, its meanings in sacred texts and cosmic functions. It offers a wide perspective from the holographic universe theory to the world of consciousness and perception; from the thin line between existence and non-existence to the new understanding of creation opened by quantum mechanics.",
+      "description_tr": "Bu kitap, ışığın tarihinden başlayarak, bilimsel boyutlarını, kutsal metinlerdeki anlamlarını ve kozmik işlevlerini derinlemesine inceliyor. Holografik evren teorisinden, bilinç ve algı dünyasına; varlık ve yokluk arasındaki ince çizgiden, kuantum mekaniğiyle açılan yeni yaratım anlayışına kadar geniş bir perspektif sunuyor.",
+      "description_fr": "Ce livre commence par l’histoire de la lumière et plonge dans ses dimensions scientifiques, ses significations textuelles sacrées et ses fonctions cosmiques. De la théorie de l’univers holographique au monde de la conscience et de la perception ; Il offre une perspective large, depuis la fine ligne entre l’existence et la non-existence jusqu’à la nouvelle compréhension de la création ouverte par la mécanique quantique.",
+      "description_de": "Dieses Buch beginnt mit der Geschichte des Lichts und befasst sich mit seinen wissenschaftlichen Dimensionen, heiligen Textbedeutungen und kosmischen Funktionen. Von der Theorie des holographischen Universums zur Welt des Bewusstseins und der Wahrnehmung; Es bietet eine breite Perspektive, von der dünnen Linie zwischen Existenz und Nichtexistenz bis hin zum neuen Verständnis der Schöpfung, das die Quantenmechanik ermöglicht.",
+      "relativeimagepath": "light.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/isigin-izinde.pdf",
+      "releasedate": "2024"
+    },
+    {
+      "title": "Kuantum Tasavvuf-1",
+      "categories": [
+        "kuantum",
+        "tasavvuf",
+        "din"
+      ],
+      "language": "TR",
+      "author": "yalkintuncay",
+      "sourcetype": [
+        "digitalcopy",
+        "physicalcopy"
+      ],
+      "description_en": "Now, people are rediscovering the power they have every day and are blending all old and new methods to increase this power even more. Awareness, holographic consciousness, quantum thought techniques, thought signals sent consciously to the subatomic dimension, conscious organization of the universal structure, rabita, dhikr, concepts such as these have started to enter our lives more and more each day.",
+      "description_tr": "Artık insanlar, sahip oldukları gücü her gün yeniden keşfediyor ve bu gücü daha da artırmaya yönelik eski ve yeni tüm metotları harmanlıyor. Farkındalık, holografik şuur, kuantum düşünce teknikleri, atom altı boyuta bilinçli gönderilen düşünce sinyalleri, tümel yapının şuurlu organizesi, rabıta, zikir gibi kavramlar, her geçen gün hayatımıza daha fazla girmeye başladı.",
+      "description_fr": "De nos jours, les gens redécouvrent le pouvoir qu’ils ont au quotidien et combinent toutes les méthodes anciennes et nouvelles pour augmenter encore plus ce pouvoir. Des concepts tels que la conscience, la conscience holographique, les techniques de pensée quantique, les signaux de pensée envoyés consciemment à la dimension subatomique, l'organisation consciente de la structure universelle, la rabita, le dhikr ont commencé à entrer de plus en plus dans nos vies chaque jour.",
+      "description_de": "Heutzutage entdecken die Menschen ihre alltägliche Kraft neu und kombinieren alle alten und neuen Methoden, um diese Kraft noch weiter zu steigern. Konzepte wie Gewahrsein, holographisches Bewusstsein, Quantendenktechniken, bewusst in die subatomare Dimension gesendete Gedankensignale, bewusste Organisation der universellen Struktur, Rabita und Dhikr finden von Tag zu Tag mehr Einzug in unser Leben.",
+      "relativeimagepath": "2.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "preview"
+      ],
+      "buttonlink": "./previews/kuantum-tasavvuf-1.pdf",
+      "releasedate": "2015"
+    },
+    {
+      "title": "Kuantum Tasavvuf-2",
+      "categories": [
+        "kuantum",
+        "tasavvuf",
+        "din"
+      ],
+      "language": "TR",
+      "author": "yalkintuncay",
+      "sourcetype": [
+        "digitalcopy",
+        "physicalcopy"
+      ],
+      "description_en": "Allah Almighty says, \"I was an unknown hidden treasure, I wanted to be known, I created the people (the universe) so that I could be known.\" The endless frequencies of names in the endless ocean of the universe want to be observed in order to pass to the realm of existence... To be painted with Allah's paint. \"Who is more beautiful than the one painted with Allah's paint? And we are His servants.\" (Bakara, 138)",
+      "description_tr": "Allahu Zülcelal ''Bilinmeyen gizli bir hazine idim, bilinmek istedim, bilineyim diye halkı (kâinatı) yarattım.” buyuruyor. Sonsuz kainat okyanusunda bitmek tükenmek bilmeyen esma frekansları, gözlenmeyi diliyor varlık âlemine geçebilmek adına… Boyanmak için Allah'ın boyasına. ''Allah’ın boyası ile boyanandan daha ahsen (güzel) olan kim vardır? Ve biz, O’na kul olanlarız.'' (Bakara,138)",
+      "description_fr": "Allah Tout-Puissant a dit : « J'étais un trésor inconnu et caché, je voulais être connu, j'ai créé la création (l'univers) pour pouvoir être connu. » Il commande. Les fréquences infinies des noms dans l’océan infini de l’univers demandent à être observées afin de passer au royaume de l’existence… Être peint avec la peinture de Dieu. « Qui est plus belle que celle peinte de la couleur d'Allah ? « Et nous sommes Ses serviteurs. » (Baqarah, 138)",
+      "description_de": "Allah der Allmächtige sagte: „Ich war ein unbekannter, verborgener Schatz. Ich wollte erkannt werden. Ich habe die Schöpfung (das Universum) geschaffen, damit man mich erkennen kann.“ Er befiehlt. Die endlosen Frequenzen der Namen im endlosen Ozean des Universums wollen beachtet werden, um in das Reich der Existenz zu gelangen … Mit Gottes Farbe bemalt werden. „Wer ist schöner als diejenige, die mit der Farbe Allahs bemalt ist? Und wir sind Seine Diener.“ (Baqarah, 138)\n\n",
+      "relativeimagepath": "3.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "preview"
+      ],
+      "buttonlink": "./previews/kuantum-tasavvuf-2.pdf",
+      "releasedate": "2021"
+    },
+    {
+      "title": "Be Sırrı - Berzah",
+      "categories": [
+        "din",
+        "metafizik",
+        "tasavvuf"
+      ],
+      "language": "TR",
+      "author": "yalkintuncay",
+      "sourcetype": [
+        "digitalcopy",
+        "physicalcopy"
+      ],
+      "description_en": "The worlds were formed with the journey and manifestations formed from this point and every being found its place in the world with its own identity at its own level. This essential point is what unites the first, the last, the apparent and the hidden. The wise men of insight have observed multiplicity in unity and unity in multiplicity at this point.",
+      "description_tr": "Bu noktadan oluşan seyr ve tecelliler ile âlemler oluşmuş ve her mevcut kendi mertebesinde hüviyetiyle âlemde yerini bulmuştur. Evveli, ahiri, zâhirî ve bâtını birleştiren bu zati noktadır. Basiret ehli arifler bu noktada vahdette kesreti, kesrette ise vahdeti müşahede etmişler.",
+      "description_fr": "Les mondes se sont formés au fil du voyage et des manifestations qui se sont produites à partir de ce point. Chaque être existant trouve sa place dans l’univers avec sa propre identité à son propre niveau. C'est un désastre. C'est ce point essentiel qui unit le premier, le dernier, l'apparent et le caché. À ce stade, les sages dotés de perspicacité ont observé la multiplicité dans l’unité et l’unité dans la multiplicité.",
+      "description_de": "Die Welten wurden durch die Reise und die Manifestationen geformt, die von diesem Punkt an stattfanden. Jedes existierende Wesen findet seinen Platz im Universum mit seiner eigenen Identität auf seiner eigenen Ebene. Es ist ein Chaos. Es ist dieser wesentliche Punkt, der das Erste, das Letzte, das Offensichtliche und das Verborgene vereint. An diesem Punkt haben die weisen Männer mit Einsicht die Vielfalt in der Einheit und die Einheit in der Vielfalt erkannt.",
+      "relativeimagepath": "1.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "preview"
+      ],
+      "buttonlink": "./previews/besirri-berzah.pdf",
+      "releasedate": "2023"
+    },
+    {
+      "title": "Be Secret (Berzakh)",
+      "categories": [
+        "din",
+        "metafizik",
+        "tasavvuf"
+      ],
+      "language": "EN",
+      "author": "yalkintuncay",
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "The worlds were formed with the journey and manifestations formed from this point and every being found its place in the world with its own identity at its own level. This essential point is what unites the first, the last, the apparent and the hidden. The wise men of insight have observed multiplicity in unity and unity in multiplicity at this point.",
+      "description_tr": "Bu noktadan oluşan seyr ve tecelliler ile âlemler oluşmuş ve her mevcut kendi mertebesinde hüviyetiyle âlemde yerini bulmuştur. Evveli, ahiri, zâhirî ve bâtını birleştiren bu zati noktadır. Basiret ehli arifler bu noktada vahdette kesreti, kesrette ise vahdeti müşahede etmişler.",
+      "description_fr": "Les mondes se sont formés au fil du voyage et des manifestations qui se sont produites à partir de ce point. Chaque être existant trouve sa place dans l’univers avec sa propre identité à son propre niveau. C'est un désastre. C'est ce point essentiel qui unit le premier, le dernier, l'apparent et le caché. À ce stade, les sages dotés de perspicacité ont observé la multiplicité dans l’unité et l’unité dans la multiplicité.",
+      "description_de": "Die Welten wurden durch die Reise und die Manifestationen geformt, die von diesem Punkt an stattfanden. Jedes existierende Wesen findet seinen Platz im Universum mit seiner eigenen Identität auf seiner eigenen Ebene. Es ist ein Chaos. Es ist dieser wesentliche Punkt, der das Erste, das Letzte, das Offensichtliche und das Verborgene vereint. An diesem Punkt haben die weisen Männer mit Einsicht die Vielfalt in der Einheit und die Einheit in der Vielfalt erkannt.",
+      "relativeimagepath": "be.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/BE.pdf",
+      "releasedate": "2025"
+    },
+    {
+      "title": "Bundle of Secrets",
+      "categories": [
+        "din",
+        "tasavvuf"
+      ],
+      "language": "EN",
+      "author": "yalkintuncay",
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "This bundle of secrets, which includes sections we have selected for you from our various books, addresses the reader from different perspectives and dimensions. The book aims to melt different topics in one pot and offers the reader a beautiful bunch of treasures.",
+      "description_tr": "Muhtelif kitaplarımızdan sizin için seçtiğimiz bölümleri içeren bu sırlar bohçası, farklı pencere ve boyutlardan okuyucuya seslenmektedir. Kitap birbirinden farklı konuları bir potada eritmeyi amaçlamakta ve okuyucuya güzel bir demet hazine sunmaktadır.",
+      "description_fr": "Ce recueil de secrets, qui comprend des sections que nous avons sélectionnées pour vous dans nos différents livres, s'adresse au lecteur à partir de différentes fenêtres et dimensions. Le livre a pour objectif de réunir différents sujets et offre au lecteur un bel ensemble de trésors.",
+      "description_de": "Dieses Geheimnisse-Bündel, das aus für Sie ausgewählten Ausschnitten unserer verschiedenen Bücher besteht, spricht den Leser aus unterschiedlichen Perspektiven und Dimensionen an. Das Buch zielt darauf ab, verschiedene Themen zusammenzuführen und dem Leser eine schöne Ansammlung von Schätzen zu bieten.\n\n",
+      "relativeimagepath": "50.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/SIRLAR-BOHÇASINDAN.pdf",
+      "releasedate": "2025"
+    },
+    {
+      "title": "Muhyiddin Arabi'yi Anlamak",
+      "categories": [
+        "ibniarabi",
+        "din",
+        "tasavvuf"
+      ],
+      "language": "TR",
+      "author": "yalkintuncay",
+      "sourcetype": [
+        "digitalcopy",
+        "physicalcopy"
+      ],
+      "description_en": "After learning from the Sheikh's own works that his works can only be understood by those who are close to him through spiritual bonds, my heart was satisfied and I requested his Spirituality to establish this closeness. With his prayers and help, I started writing the work. Surely, success and achievement are from Allah. With Allah's permission, I was able to complete this work in 7 parts in a very short time.",
+      "description_tr": "Eserlerinin, ancak kendisine gönül bağıyla yakınlık sağlayanlar tarafından anlaşılabileceğine dair Şeyhin kendi eserlerinde bilgiye sahip olduktan sonra gönlüm mutmain oldu ve onun Ruhaniyetinden bu yakınlığın tesisi için talepte bulundum. O'nun dua ve himmetleriyle eseri yazmaya başladım. Şüphesiz, başarı ve muvaffakiyet Allah'tandır. Allah'ın izniyle çok kısa bir sürede bu eseri 7 bölüm üzere tamamlamak nasip oldu.",
+      "description_fr": "Après avoir appris des propres œuvres du Cheikh que ses œuvres ne peuvent être comprises que par ceux qui sont proches de lui à travers une connexion spirituelle, mon cœur a été rassuré et j'ai demandé sa Spiritualité pour établir cette proximité. Grâce à ses prières et à son aide, j’ai commencé à écrire l’œuvre. Sans aucun doute, le succès et la réussite viennent d’Allah. Avec la permission de Dieu, il a été possible de réaliser cette œuvre en 7 parties en très peu de temps.\n\n",
+      "description_de": "",
+      "relativeimagepath": "4.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "preview"
+      ],
+      "buttonlink": "./previews/muhyiddin-arabi-anlamak.pdf",
+      "releasedate": "2022"
+    },
+    {
+      "title": "Understanding Muhyiddin Arabi",
+      "categories": [
+        "ibniarabi",
+        "din",
+        "tasavvuf"
+      ],
+      "language": "EN",
+      "author": "yalkintuncay",
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "After learning from the Sheikh's own works that his works can only be understood by those who are close to him through spiritual bonds, my heart was satisfied and I requested his Spirituality to establish this closeness. With his prayers and help, I started writing the work. Surely, success and achievement are from Allah. With Allah's permission, I was able to complete this work in 7 parts in a very short time.",
+      "description_tr": "Eserlerinin, ancak kendisine gönül bağıyla yakınlık sağlayanlar tarafından anlaşılabileceğine dair Şeyhin kendi eserlerinde bilgiye sahip olduktan sonra gönlüm mutmain oldu ve onun Ruhaniyetinden bu yakınlığın tesisi için talepte bulundum. O'nun dua ve himmetleriyle eseri yazmaya başladım. Şüphesiz, başarı ve muvaffakiyet Allah'tandır. Allah'ın izniyle çok kısa bir sürede bu eseri 7 bölüm üzere tamamlamak nasip oldu.",
+      "description_fr": "Après avoir appris des propres œuvres du Cheikh que ses œuvres ne peuvent être comprises que par ceux qui sont proches de lui à travers une connexion spirituelle, mon cœur a été rassuré et j'ai demandé sa Spiritualité pour établir cette proximité. Grâce à ses prières et à son aide, j’ai commencé à écrire l’œuvre. Sans aucun doute, le succès et la réussite viennent d’Allah. Avec la permission de Dieu, il a été possible de réaliser cette œuvre en 7 parties en très peu de temps.",
+      "description_de": "Nachdem ich aus den Werken des Scheichs erfahren hatte, dass seine Werke nur von jenen verstanden werden können, die ihm durch eine spirituelle Verbindung nahe stehen, war ich beruhigt und bat ihn um seine Spiritualität, diese Nähe herzustellen. Mit seinen Gebeten und seiner Hilfe begann ich, das Werk zu schreiben. Zweifellos kommen Erfolg und Leistung von Allah. Mit Gottes Erlaubnis war es möglich, dieses Werk in sehr kurzer Zeit in 7 Teilen fertigzustellen.",
+      "relativeimagepath": "42.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/Understanding M. Arabi.pdf",
+      "releasedate": "2024"
+    },
+    {
+      "title": "Hakikat ve Suretler (Muhyiddin Arabi'de Hayal İlmi)",
+      "categories": [
+        "ibniarabi",
+        "din",
+        "tasavvuf",
+        "metafizik"
+      ],
+      "language": "TR",
+      "author": "yalkintuncay",
+      "sourcetype": [
+        "digitalcopy",
+        "physicalcopy"
+      ],
+      "description_en": "The foundation of Muhyiddin Arabi’s metaphysics is based on the concept of imagination. According to him, imagination is the intermediate realm between nothingness and absolute existence. Reaching Allah is only possible by learning the science of imagination. This work is a basic reference source for Muhyiddin Arabi’s metaphysical views…",
+      "description_tr": "Muhyiddin Arabi metafiziğinin temeli, hayal kavramına dayanır. Ona göre hayal, hiçlik ile mutlak vücûd arasındaki berzahtır. Allah’a ulaşmak ise ancak hayal ilmini öğrenmekle mümkündür. Bu eser, Muhyiddin Arabi’nin metafizik görüşlerine dair temel bir başvuru kaynağı niteliğinde…\n\n",
+      "description_fr": "La base de la métaphysique de Muhyiddin Arabi repose sur le concept d’imagination. Selon lui, l’imagination est le royaume intermédiaire entre le néant et l’existence absolue. Atteindre Dieu n’est possible qu’en apprenant la science de l’imagination. Cet ouvrage est une source de référence fondamentale sur les vues métaphysiques de Muhyiddin Arabi...",
+      "description_de": "Die Grundlage der Metaphysik von Muhyiddin Arabi basiert auf dem Konzept der Vorstellungskraft. Ihm zufolge ist die Vorstellungskraft der Zwischenbereich zwischen Nichts und absoluter Existenz. Man kann Gott nur erreichen, indem man die Wissenschaft der Vorstellungskraft erlernt. Dieses Werk ist eine grundlegende Referenzquelle zu den metaphysischen Ansichten von Muhyiddin Arabi ...",
+      "relativeimagepath": "7.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "preview"
+      ],
+      "buttonlink": "./previews/hakikat-ve-suretler.pdf",
+      "releasedate": "2023"
+    },
+    {
+      "title": "A Look At The Sciences and Events in the 20th Century from 800 Years Ago",
+      "categories": [
+        "metafizik",
+        "din",
+        "ibniarabi"
+      ],
+      "language": "EN",
+      "authors": [
+        "ahmetozmerdivanli",
+        "muhyiddinarabi"
+      ],
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "“When that day comes, the gates of the sky will be conquered and opened.” Of course, this opening will not happen in the hereafter. Because there will be no earth and sky in the hereafter, they will be transformed. Again, Allah Almighty says in the 25th verse of Surah Furqan: “When that day comes, the sky and the clouds will split and the angels will descend to the earth.”",
+      "description_tr": "“O gün geldiğinde gökyüzünün kapıları feth olunur, açılır.” Tabi ki bu açılma ahirette olacak değildir. Zira ahirette yer ve gök olmayacaktır, tebdil olacaklardır. Yine Allahü Teala hazretleri Sureyi Furkan’ın 25. ayetinde mealen şöyle buyurur: “O gün geldiğinde sema ve bulutlar şakkolur, yarılır ve melekler yeryüzüne inerler.” ",
+      "description_fr": "« Quand ce jour viendra, les portes du ciel seront conquises et ouvertes. » Bien sûr, cette ouverture n’aura pas lieu dans l’au-delà. Car dans l'au-delà il n'y aura plus de ciel ni de terre, ils seront transformés. Allah Tout-Puissant dit encore dans le verset 25 de la sourate Al-Furqan : « Quand ce jour viendra, le ciel et les nuages ​​s'ouvriront et les anges descendront sur terre. »",
+      "description_de": "",
+      "relativeimagepath": "800years.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/years.pdf",
+      "releasedate": "1980"
+    },
+    {
+      "title": "Muhyiddin Arabi'nin Evradı ve Zikirleri",
+      "categories": [
+        "ibniarabi",
+        "zikir",
+        "din"
+      ],
+      "language": "TR",
+      "author": "muhyiddinarabi",
+      "sourcetype": [
+        "notavailable"
+      ],
+      "description_en": "These awrads (prayers) were compiled by the master of sheikhs, Sheikh al-Akbar, the greatest of the qutbs, the city of saints, Muhammad Muhyiddin Arabi, to be recited continuously on the days and nights of the week. May Allah bless his secret and enlighten him and those who love him. Amen.",
+      "description_tr": "Bu evrad (dualar) haftanın günleri ve gecelerinde devamlı okunmak üzere şeyhlerin efendisi olan Şeyhu’l ekber, kutubların büyüğü, velilerin şehri Muhammed Muhyiddin Arabi tarafından telif edilmiştir. Allah onun sırrını kutsasın onu ve onu sevenleri nurlandırsın. Amin.",
+      "description_fr": "Ces awrads (prières) ont été compilés par le maître des cheikhs, Cheikh al-Akbar, le plus grand des qutbs, la ville des saints, Muhammad Muhyiddin Arabi, pour être lus en continu les jours et les nuits de la semaine. Que Dieu bénisse son secret et l'éclaire, lui et ceux qui l'aiment. Amine.",
+      "description_de": "Diese Awrads (Gebete) wurden vom Meister der Scheichs, Scheich Al-Akbar, dem größten der Qutbs, der Stadt der Heiligen, Muhammad Muhyiddin Arabi, zusammengestellt, um an den Tagen und Nächten der Woche kontinuierlich gelesen zu werden. Möge Gott sein Geheimnis segnen und ihn und diejenigen, die ihn lieben, erleuchten. Amin.",
+      "relativeimagepath": "evrad.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/evrad.pdf",
+      "releasedate": "unknown"
+    },
+    {
+      "title": "Bir Alimin Portresi: Ahmet Özmerdivanlı'yı Anlamak",
+      "categories": [
+        "metafizik",
+        "tasavvuf",
+        "din",
+        "siir"
+      ],
+      "language": "TR",
+      "authors": [
+        "yalkintuncay",
+        "ahmetemirozdemir"
+      ],
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "Scientist, scholar and Sufi. He has worked in the fields of medicine, chemistry and physics, and has developed medical drugs inspired by the Meccan Futuhat. He has established the Historical and Technical Sciences Research Laboratory; and has made significant discoveries in these fields by benefiting from the works of great Islamic scholars. In this study, you will get to know a very special friend of Allah with his not-so-well-known aspects.",
+      "description_tr": "Bilim insanı, alim ve tasavvuf ehli. Tıp, kimya ve fizik alanlarında çalışmalar yapmış, Fütuhat-ı Mekkiyye'den esinlenerek tıbbi ilaçlar geliştirmiştir. Tarihi ve Teknik İlimler Araştırma Laboratuvarı'nı kurmuş; büyük İslam bilginlerinin eserlerinden faydalanarak bu alanlarda önemli buluşlara imza atmıştır. Bu çalışmada, yeterince bilinmeyen yönleriyle çok özel bir Allah dostunu tanıyacaksınız.",
+      "description_fr": "Scientifique, érudit et soufi. Il a travaillé dans les domaines de la médecine, de la chimie et de la physique et a développé des médicaments inspirés du Futuhat mecquois. Il a fondé le Laboratoire de Recherche en Sciences Historiques et Techniques ; Il a utilisé les travaux de grands savants musulmans et a fait d’importantes découvertes dans ces domaines. Dans cette étude, vous apprendrez à connaître un ami très spécial d’Allah avec ses aspects peu connus.",
+      "description_de": "Wissenschaftler, Gelehrter und Sufi. Er arbeitete in den Bereichen Medizin, Chemie und Physik und entwickelte von der mekkanischen Futuhat inspirierte Medikamente. Er gründete das Forschungslabor für Geschichts- und Technikwissenschaften. Er nutzte die Arbeiten großer islamischer Gelehrter und machte auf diesen Gebieten wichtige Entdeckungen. In dieser Studie lernen Sie einen ganz besonderen Freund Allahs mit seinen wenig bekannten Aspekten kennen.",
+      "relativeimagepath": "80.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/AO.pdf",
+      "releasedate": "2025"
+    },
+    {
+      "title": "PORTRAIT OF A SCHOLAR: UNDERSTANDING AHMET ÖZMERDİVANLI",
+      "categories": [
+        "metafizik",
+        "tasavvuf",
+        "din"
+      ],
+      "language": "EN",
+      "authors": [
+        "yalkintuncay",
+        "ahmetemirozdemir"
+      ],
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "Scientist, scholar and Sufi. He has worked in the fields of medicine, chemistry and physics, and has developed medical drugs inspired by the Meccan Futuhat. He has established the Historical and Technical Sciences Research Laboratory; and has made significant discoveries in these fields by benefiting from the works of great Islamic scholars. In this study, you will get to know a very special friend of Allah with his not-so-well-known aspects.",
+      "description_tr": "Bilim insanı, alim ve tasavvuf ehli. Tıp, kimya ve fizik alanlarında çalışmalar yapmış, Fütuhat-ı Mekkiyye'den esinlenerek tıbbi ilaçlar geliştirmiştir. Tarihi ve Teknik İlimler Araştırma Laboratuvarı'nı kurmuş; büyük İslam bilginlerinin eserlerinden faydalanarak bu alanlarda önemli buluşlara imza atmıştır. Bu çalışmada, yeterince bilinmeyen yönleriyle çok özel bir Allah dostunu tanıyacaksınız.",
+      "description_fr": "Scientifique, érudit et soufi. Il a travaillé dans les domaines de la médecine, de la chimie et de la physique et a développé des médicaments inspirés du Futuhat mecquois. Il a fondé le Laboratoire de Recherche en Sciences Historiques et Techniques ; Il a utilisé les travaux de grands savants musulmans et a fait d’importantes découvertes dans ces domaines. Dans cette étude, vous apprendrez à connaître un ami très spécial d’Allah avec ses aspects peu connus.",
+      "description_de": "Wissenschaftler, Gelehrter und Sufi. Er arbeitete in den Bereichen Medizin, Chemie und Physik und entwickelte von der mekkanischen Futuhat inspirierte Medikamente. Er gründete das Forschungslabor für Geschichts- und Technikwissenschaften. Er nutzte die Arbeiten großer islamischer Gelehrter und machte auf diesen Gebieten wichtige Entdeckungen. In dieser Studie lernen Sie einen ganz besonderen Freund Allahs mit seinen wenig bekannten Aspekten kennen.",
+      "relativeimagepath": "81.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/aoeng.pdf",
+      "releasedate": "2025"
+    },
+    {
+      "title": "PORTRÄT EINES WISSENSCHAFTLERS: AHMET ÖZMERDİVANLI VERSTEHEN",
+      "categories": [
+        "metafizik",
+        "tasavvuf",
+        "din"
+      ],
+      "language": "DE",
+      "authors": [
+        "yalkintuncay",
+        "ahmetemirozdemir"
+      ],
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "Scientist, scholar and Sufi. He has worked in the fields of medicine, chemistry and physics, and has developed medical drugs inspired by the Meccan Futuhat. He has established the Historical and Technical Sciences Research Laboratory; and has made significant discoveries in these fields by benefiting from the works of great Islamic scholars. In this study, you will get to know a very special friend of Allah with his not-so-well-known aspects.",
+      "description_tr": "Bilim insanı, alim ve tasavvuf ehli. Tıp, kimya ve fizik alanlarında çalışmalar yapmış, Fütuhat-ı Mekkiyye'den esinlenerek tıbbi ilaçlar geliştirmiştir. Tarihi ve Teknik İlimler Araştırma Laboratuvarı'nı kurmuş; büyük İslam bilginlerinin eserlerinden faydalanarak bu alanlarda önemli buluşlara imza atmıştır. Bu çalışmada, yeterince bilinmeyen yönleriyle çok özel bir Allah dostunu tanıyacaksınız.\n\n",
+      "description_fr": "Scientifique, érudit et soufi. Il a travaillé dans les domaines de la médecine, de la chimie et de la physique et a développé des médicaments inspirés du Futuhat mecquois. Il a fondé le Laboratoire de Recherche en Sciences Historiques et Techniques ; Il a utilisé les travaux de grands savants musulmans et a fait d’importantes découvertes dans ces domaines. Dans cette étude, vous apprendrez à connaître un ami très spécial d’Allah avec ses aspects peu connus.\n\n",
+      "description_de": "Wissenschaftler, Gelehrter und Sufi. Er arbeitete in den Bereichen Medizin, Chemie und Physik und entwickelte von der mekkanischen Futuhat inspirierte Medikamente. Er gründete das Forschungslabor für Geschichts- und Technikwissenschaften. Er nutzte die Arbeiten großer islamischer Gelehrter und machte auf diesen Gebieten wichtige Entdeckungen. In dieser Studie lernen Sie einen ganz besonderen Freund Allahs mit seinen wenig bekannten Aspekten kennen.\n\n",
+      "relativeimagepath": "83.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/aoal.pdf",
+      "releasedate": "2025"
+    },
+    {
+      "title": "Tevhid Dersleri (ŞİFALANMA ve Korunma)",
+      "categories": [
+        "din",
+        "tasavvuf",
+        "zikir",
+        "sifa"
+      ],
+      "language": "TR",
+      "author": "yalkintuncay",
+      "sourcetype": [
+        "digitalcopy",
+        "physicalcopy"
+      ],
+      "description_en": "In this work, which we can call the meeting and reckoning of a person searching for himself, you will learn the stages of the soul, the true meaning of Tawhid, the methods of purifying the soul, and which treatment methods should be applied; by implementing the meaning of Tawhid into your life, you will witness experiences and miracles special to you.",
+      "description_tr": "Kendini arayan insanın kendi ile buluşması ve hesaplaşması diyebileceğimiz bu eserde, nefsin mertebelerini, tevhidin hakiki manasını, nefs tezkiyesinin metotlarını, hangi tedavi yöntemlerinin uygulanması gerektiğini öğrenecek; tevhidin manasını yaşamınıza geçirerek, size özel deneyim ve mucizelere şahit olacaksınız.",
+      "description_fr": "Dans cet ouvrage, que nous pouvons appeler la rencontre et le jugement d'une personne en quête de soi, vous apprendrez les étapes de l'âme, le véritable sens du monothéisme, les méthodes de purification de l'âme et les méthodes de traitement à appliquer ; En mettant en œuvre le sens du monothéisme dans votre vie, vous serez témoin d’expériences et de miracles qui vous sont propres.",
+      "description_de": "In diesem Werk, das wir als Begegnung und Abrechnung eines Menschen auf der Suche nach sich selbst bezeichnen können, erfahren Sie die Stadien der Seele, die wahre Bedeutung des Monotheismus, die Methoden zur Reinigung der Seele und welche Behandlungsmethoden angewendet werden sollten. Indem Sie die Bedeutung des Monotheismus in Ihr Leben integrieren, werden Sie Erfahrungen und Wunder erleben, die für Sie etwas Besonderes sind.",
+      "relativeimagepath": "20.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/TEVHİD DERSLERİ.pdf",
+      "releasedate": "2023"
+    },
+    {
+      "title": "Bütüncül ŞİFA (Bio-Terör ve Holistik Farkındalık)",
+      "categories": [
+        "sifa"
+      ],
+      "language": "TR",
+      "author": "yalkintuncay",
+      "sourcetype": [
+        "digitalcopy",
+        "physicalcopy"
+      ],
+      "description_en": "Welcome to a new world perception. In this new world, time does not only work forward and linearly, space is relative and shaped according to our perception limits. In this world, there are holistic approaches, not individual ones. The healing of the whole, not individual organs, is in question, just like the relationship between the individual and society. There is a sentence of ‘What’s it to me’, but ‘What can I do’.",
+      "description_tr": "Yeni bir dünya algısına hoş geldiniz. Bu yeni dünyada zaman sadece ileriye ve doğrusal işlemiyor, mekan ise göreceli ve algı sınırlarımıza bağlı olarak biçimleniyor. Bu dünyada tek tek değil, bütünsel yaklaşımlar var. Tek tek organların değil, bütünün şifalanması söz konusu, tıpkı birey ve toplum ilişkisi gibi. ‘Bana ne’ cümlesi değil, ‘Ne yapabilirim’ cümlesi var. \n\n",
+      "description_fr": "Bienvenue dans une nouvelle perception du monde. Dans ce nouveau monde, le temps ne s’écoule pas seulement de manière linéaire et progressive, mais l’espace est relatif et prend forme en fonction des limites de notre perception. Il existe dans ce monde des approches holistiques, pas des approches individuelles. Il ne s’agit pas de guérir des organes individuels, mais de l’ensemble, tout comme de la relation entre l’individu et la société. Ce n’est pas une phrase du genre « Qu’est-ce que cela peut me faire ? », c’est une phrase du genre « Que puis-je faire ? ».",
+      "description_de": "Willkommen zu einer neuen Wahrnehmung der Welt. In dieser neuen Welt verläuft die Zeit nicht nur vorwärts und linear, sondern der Raum ist relativ und nimmt abhängig von unseren Wahrnehmungsgrenzen Gestalt an. Es gibt auf dieser Welt ganzheitliche Ansätze, keine individuellen. Dabei geht es nicht um die Heilung einzelner Organe, sondern um die des Ganzen, ebenso wie um das Verhältnis des Einzelnen zur Gesellschaft. Es ist kein Satz vom Typ „Was geht mich das an“, sondern ein Satz vom Typ „Was kann ich tun“.",
+      "relativeimagepath": "6.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/butuncul-sifa.pdf",
+      "releasedate": "2019"
+    },
+    {
+      "title": "Manevi Korunma ve Şifalanma Programı",
+      "categories": [
+        "sifa",
+        "zikir"
+      ],
+      "language": "TR",
+      "author": "yalkintuncay",
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "This study is a modest suggestion package, a prescription that we have prepared based on our experiences and studies. Those who are searching for purification, mental detox, enlightenment, self-purification and similar definitions can apply our study in 7 phases in 21-day periods.",
+      "description_tr": "Bu çalışmamız, tecrübe ve incelemelerimize dayanarak hazırladığımız nacizane bir öneri paketi, bir reçete hükmündedir. Arınma, zihinsel detoks, aydınlanma, nefs tezkiyesi ve benzeri tanımlamalar altında bir arayışında olanlar, çalışmamızı 21 günlük periyodlar halinde 7 faz olarak tatbik edebilirler.",
+      "description_fr": "Cette étude est un modeste ensemble de suggestions, une prescription que nous avons préparée sur la base de notre expérience et de nos examens. Ceux qui recherchent quelque chose sous les définitions de purification, de désintoxication mentale, d’illumination, d’auto-purification et similaires peuvent appliquer notre travail en 7 phases sur des périodes de 21 jours.",
+      "description_de": "Bei dieser Studie handelt es sich um ein bescheidenes Paket an Vorschlägen, ein Rezept, das wir auf der Grundlage unserer Erfahrungen und Untersuchungen erstellt haben. Wer auf der Suche nach etwas im Sinne von Entschlackung, mentaler Entgiftung, Erleuchtung, Selbstreinigung und ähnlichem ist, kann unsere Arbeit in 7 Phasen im 21-Tages-Rhythmus anwenden.",
+      "relativeimagepath": "56.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/KORUNMA-VE-ŞİFALANMA-PROGRAMI_1.pdf",
+      "releasedate": "2023"
+    },
+    {
+      "title": "Spiritual Protection and Healing Program",
+      "categories": [
+        "sifa",
+        "zikir"
+      ],
+      "language": "EN",
+      "author": "yalkintuncay",
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "This study is a modest suggestion package, a prescription that we have prepared based on our experiences and studies. Those who are searching for purification, mental detox, enlightenment, self-purification and similar definitions can apply our study in 7 phases in 21-day periods.",
+      "description_tr": "Bu çalışmamız, tecrübe ve incelemelerimize dayanarak hazırladığımız nacizane bir öneri paketi, bir reçete hükmündedir. Arınma, zihinsel detoks, aydınlanma, nefs tezkiyesi ve benzeri tanımlamalar altında bir arayışında olanlar, çalışmamızı 21 günlük periyodlar halinde 7 faz olarak tatbik edebilirler.",
+      "description_fr": "Cette étude est un modeste ensemble de suggestions, une prescription que nous avons préparée sur la base de notre expérience et de nos examens. Ceux qui recherchent quelque chose sous les définitions de purification, de désintoxication mentale, d’illumination, d’auto-purification et similaires peuvent appliquer notre travail en 7 phases sur des périodes de 21 jours.",
+      "description_de": "Bei dieser Studie handelt es sich um ein bescheidenes Paket an Vorschlägen, ein Rezept, das wir auf der Grundlage unserer Erfahrungen und Untersuchungen erstellt haben. Wer auf der Suche nach etwas im Sinne von Entschlackung, mentaler Entgiftung, Erleuchtung, Selbstreinigung und ähnlichem ist, kann unsere Arbeit in 7 Phasen im 21-Tages-Rhythmus anwenden.",
+      "relativeimagepath": "57.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/ing.ko.pdf",
+      "releasedate": "2024"
+    },
+    {
+      "title": "ŞİFA İçin Esma Uygulamaları",
+      "categories": [
+        "sifa",
+        "zikir"
+      ],
+      "language": "TR",
+      "author": "yalkintuncay",
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "This study includes alternative suggestions and practices applied in addition to medical measures and remedies for various illnesses. It does not undertake any guarantee in terms of positive results. However, with Allah's permission; all works done with sincere and clean intentions can be a means for our healing with Allah's mercy.\n\n",
+      "description_tr": "Bu çalışma; muhtelif rahatsızlıklarda, tıbbi önlem ve çarelere ilave olarak tatbik edilmiş alternatif öneri ve uygulamaları içermektedir. Olumlu sonuçlar bakımından herhangi bir garantiyi taahhüt etmez. Lakin Allah'ın izniyle; halisane ve temiz niyetlerle yapılacak tüm çalışmalar Allah'ın merhametiyle şifalanmamıza vesile olabilir.",
+      "description_fr": "Cette étude ; Il comprend des suggestions et des pratiques alternatives appliquées en plus des précautions médicales et des remèdes contre diverses maladies. Elle ne donne aucune garantie quant aux résultats positifs. Mais avec la permission d’Allah ; Tous les efforts faits avec des intentions sincères et pures peuvent être un moyen de guérison pour nous grâce à la miséricorde d’Allah.",
+      "description_de": "Diese Studie; Es umfasst alternative Vorschläge und Praktiken, die zusätzlich zu medizinischen Vorsichtsmaßnahmen und Heilmitteln für verschiedene Beschwerden angewendet werden. Eine Garantie für positive Ergebnisse wird nicht übernommen. Aber mit Allahs Erlaubnis; Alle Bemühungen, die mit aufrichtigen und reinen Absichten unternommen werden, können durch die Gnade Allahs für uns ein Mittel der Heilung sein.",
+      "relativeimagepath": "76.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/Şifa-Esmalar.pdf",
+      "releasedate": "2023"
+    },
+    {
+      "title": "Ruha Huzur Veren Dualar",
+      "categories": [
+        "zikir"
+      ],
+      "language": "TR",
+      "author": "muhammedkonyevi",
+      "sourcetype": [
+        "recommended"
+      ],
+      "description_en": "In the end times, great care should be taken in praying, especially because of the emptiness that occurs in people due to the spiritual damage caused by the environment. We should read these prayers whenever we have the opportunity, especially at the time of dawn, when prayers are accepted, between the call to prayer and the iqama, and after prayers.\n\n",
+      "description_tr": "Ahir zamanda çevrenin vermiş olduğu manevi zararlardan dolayı özellikle insanda meydana gelen boşluk sebebiyle, dua etme konusunda çok itina gösterilmelidir. Bu duaları fırsat buldukça , özellikle duaların kabul edildiği; seher vaktinde, ezan ile kamet arasında ve namazlardan sonra okumalıyız.",
+      "description_fr": "À la fin des temps, il faut faire très attention à la prière, surtout en raison du vide qui se produit chez les êtres humains en raison des dommages spirituels causés par l’environnement. Ces prières sont offertes chaque fois que possible, surtout lorsque les prières sont exaucées ; Nous devons le réciter à l’aube, entre l’appel à la prière et le qamat, et après les prières.",
+      "description_de": "In der Endzeit muss beim Beten große Vorsicht walten, insbesondere wegen der Leere, die im Menschen aufgrund der von der Umwelt verursachten spirituellen Schäden entstanden ist. Diese Gebete werden gesprochen, wann immer sich die Gelegenheit bietet, insbesondere wenn Gebete angenommen werden. Im Morgengrauen der Ruf zum Gebet und die Iqama Wir sollten es zwischen den Gebeten und nach den Gebeten lesen.",
+      "relativeimagepath": "dua.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/dua.pdf",
+      "releasedate": "unknown"
+    },
+    {
+      "title": "Hipnoz & Hipnoterapi (Açıklamalı Terimler Sözlüğü)",
+      "categories": [
+        "hipnoz",
+        "sozluk"
+      ],
+      "language": "TR",
+      "author": "yalkintuncay",
+      "sourcetype": [
+        "digitalcopy",
+        "physicalcopy"
+      ],
+      "description_en": "Our study, which covers the basic concepts and applications in the field of hypnosis and hypnotherapy, aims to be a comprehensive resource for both beginners and experienced professionals. It also benefits from other therapy methods associated with this field. Important concepts and applications of alternative therapies such as EFT and NLP can create synergistic effects when used together with hypnotherapy and support the therapy process.",
+      "description_tr": "Hipnoz ve hipnoterapi alanındaki temel kavram ve uygulamaları ele alan çalışmamız;  hem başlangıç düzeyindeki meraklılara hem de deneyimli profesyonellere kapsamlı bir kaynak olmayı amaçlamaktadır. Aynı zamanda bu alanla ilişkilendirilen diğer terapi yöntemlerinden de yararlanmaktadır. EFT, NLP gibi alternatif terapilere ait önemli kavram ve uygulamalar hipnoterapiyle birlikte kullanıldığında sinerjik etkiler yaratabilir ve terapi sürecini destekler. ",
+      "description_fr": "Notre étude couvre les concepts de base et les applications dans le domaine de l'hypnose et de l'hypnothérapie ; Il vise à être une ressource complète aussi bien pour l’amateur débutant que pour le professionnel chevronné. Il utilise également d’autres méthodes thérapeutiques associées à ce domaine. Des concepts et pratiques importants de thérapies alternatives telles que l’EFT et la PNL peuvent créer des effets synergiques et soutenir le processus thérapeutique lorsqu’ils sont utilisés avec l’hypnothérapie.",
+      "description_de": "Unser Studium umfasst die grundlegenden Konzepte und Anwendungen im Bereich der Hypnose und Hypnotherapie; Es soll sowohl für den Anfänger als auch für den erfahrenen Profi eine umfassende Ressource sein. Darüber hinaus kommen auch weitere Therapieverfahren aus diesem Bereich zum Einsatz. Wichtige Konzepte und Praktiken alternativer Therapien wie EFT und NLP können in Kombination mit Hypnotherapie synergetische Effekte erzielen und den Therapieprozess unterstützen.",
+      "relativeimagepath": "0.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "preview"
+      ],
+      "buttonlink": "./previews/hipnoz-ve-hipnoterapi.pdf",
+      "releasedate": "2024"
+    },
+    {
+      "title": "MAĞARA (KEHF) SURESİ Bilinçaltı ve Hipnoz Ayetleri",
+      "categories": [
+        "hipnoz",
+        "din",
+        "metafizik"
+      ],
+      "language": "TR",
+      "author": "yalkintuncay",
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "The Cave explores the journey of man into his inner caves and the transformative power of this journey. The story of the “Cave Companions” told in the Surah Al-Kahf is not only a historical narrative, but also a guide to the spiritual depths of man. Deciphering the hypnotic and psychotherapeutic messages of this story aimed at the subconscious will offer new paths for individual enlightenment and spiritual development.",
+      "description_tr": "Kehf, insanın kendi iç mağaralarına yaptığı yolculuğu ve bu yolculuğun dönüşüm gücünü araştırıyor. Kehf Suresi’nde anlatılan “Mağara Arkadaşları” kıssası, sadece tarihi bir anlatı değil, aynı zamanda insanın ruhsal derinliklerine dair bir rehber niteliği taşıyor. Bu kıssanın bilinçaltına yönelik hipnotik ve psikoterapötik mesajlarını çözümlemek, bireysel aydınlanma ve ruhsal gelişim için yeni yollar sunacaktır.",
+      "description_fr": "Kehf explore le voyage de l’homme dans ses grottes intérieures et le pouvoir transformateur de ce voyage. L’histoire des « Compagnons de la grotte » racontée dans la sourate Al-Kahf n’est pas seulement un récit historique, mais aussi un guide vers les profondeurs spirituelles de l’homme. Décrypter les messages hypnotiques et psychothérapeutiques de cette histoire pour le subconscient offrira de nouvelles voies d’illumination individuelle et de développement spirituel.",
+      "description_de": "Kehf erforscht die Reise des Menschen in seine inneren Höhlen und die transformative Kraft dieser Reise. Die in der Sure Al-Kahf erzählte Geschichte der „Höhlengenossen“ ist nicht nur eine historische Erzählung, sondern auch ein Leitfaden in die spirituellen Tiefen des Menschen. Das Entschlüsseln der hypnotischen und psychotherapeutischen Botschaften dieser Geschichte für das Unterbewusstsein bietet neue Wege zur individuellen Erleuchtung und spirituellen Entwicklung.",
+      "relativeimagepath": "Kehf.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/KEHF.pdf",
+      "releasedate": "2024"
+    },
+    {
+      "title": "The CAVE Subconscious and Hypnosis Verses",
+      "categories": [
+        "hipnoz",
+        "din",
+        "metafizik"
+      ],
+      "language": "EN",
+      "author": "yalkintuncay",
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "The Cave explores the journey of man into his inner caves and the transformative power of this journey. The story of the “Cave Companions” told in the Surah Al-Kahf is not only a historical narrative, but also a guide to the spiritual depths of man. Deciphering the hypnotic and psychotherapeutic messages of this story aimed at the subconscious will offer new paths for individual enlightenment and spiritual development.",
+      "description_tr": "Kehf, insanın kendi iç mağaralarına yaptığı yolculuğu ve bu yolculuğun dönüşüm gücünü araştırıyor. Kehf Suresi’nde anlatılan “Mağara Arkadaşları” kıssası, sadece tarihi bir anlatı değil, aynı zamanda insanın ruhsal derinliklerine dair bir rehber niteliği taşıyor. Bu kıssanın bilinçaltına yönelik hipnotik ve psikoterapötik mesajlarını çözümlemek, bireysel aydınlanma ve ruhsal gelişim için yeni yollar sunacaktır.",
+      "description_fr": "Kehf explore le voyage de l’homme dans ses grottes intérieures et le pouvoir transformateur de ce voyage. L’histoire des « Compagnons de la grotte » racontée dans la sourate Al-Kahf n’est pas seulement un récit historique, mais aussi un guide vers les profondeurs spirituelles de l’homme. Décrypter les messages hypnotiques et psychothérapeutiques de cette histoire pour le subconscient offrira de nouvelles voies d’illumination individuelle et de développement spirituel.\n\n",
+      "description_de": "Kehf erforscht die Reise des Menschen in seine inneren Höhlen und die transformative Kraft dieser Reise. Die in der Sure Al-Kahf erzählte Geschichte der „Höhlengenossen“ ist nicht nur eine historische Erzählung, sondern auch ein Leitfaden in die spirituellen Tiefen des Menschen. Das Entschlüsseln der hypnotischen und psychotherapeutischen Botschaften dieser Geschichte für das Unterbewusstsein bietet neue Wege zur individuellen Erleuchtung und spirituellen Entwicklung.",
+      "relativeimagepath": "cave.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/CAVE.pdf",
+      "releasedate": "2024"
+    },
+    {
+      "title": "Yıldız İlmi (Örneklerle Astroloji Dersleri)",
+      "categories": [
+        "astroloji"
+      ],
+      "language": "TR",
+      "author": "yalkintuncay",
+      "sourcetype": [
+        "digitalcopy",
+        "physicalcopy"
+      ],
+      "description_en": "Astrology (Star Science) is the metaphysics of astronomy. It shows us how everything is intertwined and in communication with each other in a holistic approach. In this book, where real examples are given, you will witness how this magnificent mechanism presented to us works, both with the data of modern science and from a mystical perspective.",
+      "description_tr": "Astroloji (Yıldız İlmi), astronominin metafiziğidir. Bütünsel bir yaklaşım içinde her şeyin birbiriyle nasıl iç içe ve iletişim halinde olduğunu gösterir bizlere. Gerçek örneklerin verildiği bu kitapta, bizlere sunulan bu muhteşem mekanizmanın nasıl işlediğine hem modern ilmin verileriyle hem de tasavvufi bir bakış açısıyla şahit olacaksınız.",
+      "description_fr": "L'astrologie (science des étoiles) est la métaphysique de l'astronomie. Il nous montre comment tout est interconnecté et communique les uns avec les autres dans une approche holistique. Dans ce livre, où des exemples réels sont donnés, vous serez témoin du fonctionnement de ce magnifique mécanisme qui nous est présenté, à la fois avec les données de la science moderne et d'un point de vue soufi.\n\n",
+      "description_de": "Astrologie (Sternenkunde) ist die Metaphysik der Astronomie. Es zeigt uns, wie alles miteinander verbunden ist und in einem ganzheitlichen Ansatz miteinander kommuniziert. In diesem Buch werden anhand realer Beispiele gezeigt, wie dieser großartige Mechanismus funktioniert, und zwar sowohl mit den Daten der modernen Wissenschaft als auch aus der Perspektive der Sufis.",
+      "relativeimagepath": "5.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "preview"
+      ],
+      "buttonlink": "./previews/YILDIZ.pdf",
+      "releasedate": "2023"
+    },
+    {
+      "title": "Astroloji Mucizesi Ve İslam",
+      "categories": [
+        "astroloji",
+        "din"
+      ],
+      "language": "TR",
+      "author": "yalkintuncay",
+      "sourcetype": [
+        "physicalcopy"
+      ],
+      "description_en": "The famous tafsir scholar Hamdi Yazır of Elmalılı said that the division of the zodiac belt and until Hazrat Idris (pbuh), who is known as the founder of the science of the heavens and that the knowledge of the science of horoscopes was given to the Prophet Idris. To bring to earth the knowledge of the heavens, not from the pure human knowledge of the science of the stars\nFrom the Prophet Idris to Saturn, or from Hermes (Trismegistus) It is believed to be due to revelation. ",
+      "description_tr": "Ünlü tefsir âlimi Elmalılı Hamdi Yazır, burçlar kuşağının bölünmesinin ve adlandırılmasının, gökler ilminin kurucusu olarak tanınan Hz. İdris’e (as) kadar uzandığını, İdris Peygamber’e burçlar ilminin bilgisinin verildiğini belirtmektedir. Yıldız ilminin saf insan bilgisinden değil, yeryüzüne göklerin bilgisini getirmek üzere Satürn’e giden İdris Peygamber’den veya Hermes’e (Trismegistus) indirilen vahiyden kaynaklandığına inanılır. ",
+      "description_fr": "Le célèbre érudit du tafsir Hamdi Yazır d’Elmalılı a dit que la division de la ceinture zodiacale et jusqu’à Hazrat Idris (psl), qui est connu comme le fondateur de la science des cieux et que la connaissance de la science des horoscopes a été donnée au prophète Idris. Pour apporter sur la terre la connaissance des cieux, non pas de la pure connaissance humaine de la science des étoiles Du prophète Idris à Saturne, ou d’Hermès (Trismégiste) On pense que cela est dû à la révélation. ",
+      "description_de": "Der berühmte Tafsir-Gelehrte Hamdi Yazır von Elmalılı sagte, dass die Einteilung des Tierkreisgürtels und bis zu Hadhrat Idris (s.a.), der als Begründer der Wissenschaft des Himmels bekannt ist und dass das Wissen über die Wissenschaft der Horoskope dem Propheten Idris gegeben wurde. Um das Wissen des Himmels auf die Erde zu bringen, nicht aus dem rein menschlichen Wissen der Wissenschaft der Sterne Vom Propheten Idris bis zum Saturn oder von Hermes (Trismegistos) Es wird angenommen, dass es auf Offenbarung zurückzuführen ist. ",
+      "relativeimagepath": "75.jpg",
+      "buttontypehtml": "unavailable-button",
+      "buttoncontents": "none",
+      "buttonlink": "#",
+      "releasedate": "2005"
+    },
+    {
+      "title": "Kuantum Rüya (Bab-ı Nevm)",
+      "categories": [
+        "metafizik"
+      ],
+      "language": "TR",
+      "author": "yalkintuncay",
+      "sourcetype": [
+        "digitalcopy",
+        "physicalcopy"
+      ],
+      "description_en": "Dreams in history, dreams according to religious sources, dreams in psychology, art, literature and movies, metaphysical dreams, dream control and dream intervention, healing with dreams and subconscious cleansing, quantum consciousness, scientific studies, guiding beings, protectors, guiding dreams and all the things you are curious about are in this book.",
+      "description_tr": "Tarihte rüyalar, dini kaynaklara göre rüyalar, psikolojide, sanat edebiyat ve filmlerde rüyalar, metafizik rüyalar, rüya kontrolü ve rüyaya müdahale, rüyalarla şifalanma ve bilinçaltı temizlik,  kuantum bilinç, bilimsel çalışmalar, rehber varlıklar, koruyucular, rehber rüyalar ve benzeri konulardaki tüm merak ettikleriniz bu kitapta.",
+      "description_fr": "Les rêves dans l'histoire, les rêves selon les sources religieuses, les rêves en psychologie, l'art, la littérature et le cinéma, les rêves métaphysiques, le contrôle des rêves et l'intervention sur les rêves, la guérison par les rêves et le nettoyage du subconscient, la conscience quantique, les études scientifiques, les êtres guides, les gardiens, les rêves guides et toutes vos curiosités sur des sujets similaires. dans ce livre.",
+      "description_de": "Träume in der Geschichte, Träume nach religiösen Quellen, Träume in Psychologie, Kunst, Literatur und Filmen, metaphysische Träume, Traumkontrolle und Traumintervention, Heilung mit Träumen und Reinigung des Unterbewusstseins, Quantenbewusstsein, wissenschaftliche Studien, Leitwesen, Wächter, Leitträume und Alle Ihre Neugier zu ähnlichen Themen in diesem Buch.",
+      "relativeimagepath": "8.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "preview"
+      ],
+      "buttonlink": "./previews/kuantum-ruya.pdf",
+      "releasedate": "2021"
+    },
+    {
+      "title": "Fakirlerin Fakiri (Şiirler 1988-2001)",
+      "categories": [
+        "siir"
+      ],
+      "language": "TR",
+      "author": "yalkintuncay",
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "This work of ours includes 35 poems compiled from the long stops of my journey of Sufism and \"knowing myself\". Each poem carries the trace of a different search, questioning and a subtle vibration about my own world hidden in the depths of time and my soul.",
+      "description_tr": "Bu çalışmamız, tasavvuf ve “kendimi bilme” yolculuğumun uzun soluklu duraklarından derlenmiş 35 şiirimi içeriyor. Her bir şiir, zamanın ve ruhumun derinliklerinde saklı farklı bir arayışın, sorgulamanın ve kendi dünyama dair ince bir titreşimin izini taşıyor. ",
+      "description_fr": "Cet ouvrage comprend 35 poèmes compilés à partir des longues étapes de mon voyage vers le soufisme et la « connaissance de moi-même ». Chaque poème porte la trace d’une recherche différente, d’un questionnement et d’une vibration subtile sur mon propre monde, caché dans les profondeurs du temps et de mon âme.",
+      "description_de": "Dieses Werk umfasst 35 Gedichte, die aus den langen Stationen meiner Reise des Sufismus und der „Selbsterkenntnis“ zusammengestellt wurden. Jedes Gedicht trägt die Spur einer anderen Suche, einer anderen Fragestellung und einer subtilen Schwingung über meine eigene Welt in sich, verborgen in den Tiefen der Zeit und meiner Seele.",
+      "relativeimagepath": "55.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/şiirler.pdf",
+      "releasedate": "2024"
+    },
+    {
+      "title": "Allah'a Dost Olmak",
+      "categories": [
+        "din"
+      ],
+      "language": "TR",
+      "author": "yalkintuncay",
+      "sourcetype": [
+        "digitalcopy",
+        "physicalcopy"
+      ],
+      "description_en": "Our Prophet (PBUH) emphasized the importance of being a person of service by saying, “The best of people are those who are beneficial to others.” Being a person of service also requires having a cause. This cause is to live Islam in its best form and to be a means for it to be lived. This is possible by enjoining good and forbidding evil.",
+      "description_tr": "Peygamber Efendimiz (SAV) “İnsanların hayırlısı, insanlara faydalı olandır.” buyurarak, hizmet ehli olmanın önemine dikkat çekmiştir. Hizmet ehli olmak aynı zamanda bir davaya da sahip olmayı gerektirir. Bu dava islamı en güzel hali ile yaşamak ve yaşanmasına da vesile olmaktır. Bu ise insanlara iyiliği emredip, kötülüklerden sakındırmakla mümkündür.",
+      "description_fr": "Notre Prophète (saw) a dit : « Les meilleurs des gens sont ceux qui sont utiles aux autres. » En disant cela, il a attiré l’attention sur l’importance d’être une personne de service. Être une personne de service nécessite également d’avoir une cause. Cette cause est de vivre l’Islam dans sa plus belle forme et d’être un moyen pour qu’il soit vécu. Cela est possible en ordonnant aux gens le bien et en leur interdisant le mal.\n\n",
+      "description_de": "Unser Prophet (Friede sei mit ihm) sagte: „Die besten Menschen sind jene, die anderen von Nutzen sind.“ Mit dieser Aussage lenkte er die Aufmerksamkeit auf die Bedeutung dienstbereiter Menschen. Um ein dienstbereiter Mensch zu sein, muss man auch ein Anliegen haben. Dieses Anliegen besteht darin, den Islam in seiner schönsten Form zu leben und ein Mittel dafür zu sein, ihn zu leben. Dies ist möglich, indem man den Menschen das Gute gebietet und ihnen das Böse verbietet.",
+      "relativeimagepath": "22.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/allaha-dost-olmak.pdf",
+      "releasedate": "2016"
+    },
+    {
+      "title": "REJET À LA RÉINCARNATION",
+      "categories": [
+        "metafizik",
+        "astroloji"
+      ],
+      "language": "FR",
+      "author": "yalkintuncay",
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "It is a very comprehensive rejection of the belief in reincarnation; From psychology to astrology, from quantum physics to sacred texts, evaluations are made from a wide perspective and examples.",
+      "description_tr": "Reenkarnasyon inancına yapılan çok kapsamlı bir reddiye çalışması olup; psikolojiden, astrolojiye, kuantum fiziğinden kutsal metinlere kadar geniş bir bakış açısıyla ve örneklerle değerlendirme yapılmaktadır.",
+      "description_fr": "Il s’agit d’un rejet très complet de la croyance en la réincarnation ; De la psychologie à l’astrologie, de la physique quantique aux textes sacrés, les évaluations sont faites à partir d’une large perspective et d’exemples.",
+      "description_de": "Es ist eine sehr umfassende Absage an den Glauben an die Reinkarnation; Von der Psychologie bis zur Astrologie, von der Quantenphysik bis zu heiligen Texten werden Bewertungen aus einer weiten Perspektive und anhand von Beispielen vorgenommen.",
+      "relativeimagepath": "72.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/REDDE.pdf",
+      "releasedate": "1999"
+    },
+    {
+      "title": "E-SİR Madde (Wertschätzung – Geheimsubstanz)",
+      "categories": [
+        "metafizik",
+        "kuantum"
+      ],
+      "language": "DE",
+      "author": "yalkintuncay",
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "The ether is not only a physical environment, but is considered as a \"primordial substance\" that forms the basic energy structure of the universe. This substance is conscious and has a structure that can fully perform its duties, which requires it to be in a heavenly structure and nature. The ether, which belongs to the realm of Barzakh, takes the form appropriate to the structure of each realm and fulfills its duties appropriate to that structure.\n\n",
+      "description_tr": "Esir, yalnızca fiziksel bir ortam değil, evrenin temel enerji yapısını oluşturan bir \"ilk madde\" olarak düşünülmektedir. Bu madde şuurlu ve görevlerin tam ikame edebilecek yapıdadır ki onun melk yapıda ve doğada olmasını gerektirir. Berzah alemine ait olan esir, her alemin yapısına uygun şekli alır ve o yapıya uygun görevlerini yerine getirir.",
+      "description_fr": "L'éther est considéré non seulement comme un milieu physique mais comme une « substance primordiale » qui forme la structure énergétique fondamentale de l'univers. Cette substance est consciente et possède une structure qui lui permet d'accomplir pleinement ses fonctions, ce qui nécessite qu'elle soit de nature et de structure matérielles. L'éther appartenant au royaume de Barzakh prend la forme appropriée à la structure de chaque royaume et remplit les devoirs appropriés à cette structure.",
+      "description_de": "Der Äther wird nicht nur als physikalisches Medium betrachtet, sondern als eine „Ursubstanz“, die die grundlegende Energiestruktur des Universums bildet. Diese Substanz ist bewusst und verfügt über eine Struktur, die ihre Aufgaben vollständig erfüllen kann. Dies setzt voraus, dass sie materieller Natur und Struktur ist. Der Äther, der zum Reich von Barzakh gehört, nimmt die der Struktur jedes Reichs entsprechende Form an und erfüllt die dieser Struktur entsprechenden Aufgaben.",
+      "relativeimagepath": "74.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/sir.pdf",
+      "releasedate": "2025"
+    },
+    {
+      "title": "KENDİNİ OKU!",
+      "categories": [
+        "tasavvuf",
+        "sozluk"
+      ],
+      "language": "TR",
+      "author": "yalkintuncay",
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "Our Sufism journey that started in the 80s has brought us to the present day. We have combined what we have read and learned, from psychology to alternative medicine, from Sufism to metaphysics, from astrology to quantum, with our own structure and briefly evaluated them.",
+      "description_tr": "80'li yıllarda başlayan tasavvuf yolculuğumuz bizi bugünlere taşıdı. Psikolojiden alternatif tıbba, tasavvuftan metafiziğe, astrolojiden kuantuma kadar okuduklarımızı, öğrendiklerimizi kendi bünyemizle harmanlayıp kısa kısa değerlendirdik.",
+      "description_fr": "Notre voyage vers le soufisme, qui a commencé dans les années 80, nous a amené jusqu’à aujourd’hui. Nous avons combiné ce que nous avons lu et appris, de la psychologie à la médecine alternative, du soufisme à la métaphysique, de l’astrologie au quantique, avec notre propre structure et les avons brièvement évalués.",
+      "description_de": "Unsere Reise des Sufismus, die in den 80er Jahren begann, hat uns bis zum heutigen Tag geführt. Wir haben das, was wir gelesen und gelernt haben – von der Psychologie bis zur Alternativmedizin, vom Sufismus bis zur Metaphysik, von der Astrologie bis zur Quantenlehre – mit unserer eigenen Struktur kombiniert und kurz ausgewertet.",
+      "relativeimagepath": "73.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/oku.pdf",
+      "releasedate": "2020"
+    },
+    {
+      "title": "Tasavvuf Terimleri Sözlüğü",
+      "categories": [
+        "tasavvuf",
+        "sozluk"
+      ],
+      "language": "TR",
+      "author": "yalkintuncay",
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "This work is prepared as a guide to understanding the rich and multi-layered language of Sufism. The aim of this book is to clearly present the meanings of terms, concepts and idioms frequently encountered in Sufi literature and to enable readers to participate in this deep spiritual journey more consciously.",
+      "description_tr": "Bu eser, tasavvufun zengin ve çok katmanlı dilini anlamaya yönelik bir kılavuz olarak hazırlanmıştır. Bu kitabın amacı, tasavvufi literatürde sıkça karşılaşılan terimlerin, kavramların ve deyimlerin anlamlarını açık bir şekilde sunmak ve okuyucuların bu derin manevi yolculuğa daha bilinçli bir şekilde katılmalarını sağlamaktır.",
+      "description_fr": "Cet ouvrage a été préparé comme un guide pour comprendre le langage riche et multicouche du soufisme. L’objectif de ce livre est de présenter clairement la signification des termes, concepts et idiomes fréquemment rencontrés dans la littérature soufie et de permettre aux lecteurs de participer plus consciemment à ce profond voyage spirituel.",
+      "description_de": "Dieses Werk wurde als Leitfaden zum Verständnis der reichen und vielschichtigen Sprache des Sufismus erstellt. Das Ziel dieses Buches besteht darin, die Bedeutung der in der Sufi-Literatur häufig vorkommenden Begriffe, Konzepte und Redewendungen klar darzustellen und den Lesern eine bewusstere Teilnahme an dieser tiefen spirituellen Reise zu ermöglichen.",
+      "relativeimagepath": "43.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/Tasavvuf-Terimleri.pdf",
+      "releasedate": "2024"
+    },
+    {
+      "title": "Kuantum Fiziği Temel Kavramlar Sözlüğü",
+      "categories": [
+        "kuantum",
+        "sozluk"
+      ],
+      "language": "TR",
+      "author": "yalkintuncay",
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "In this dictionary, which includes the main terms used in quantum physics, you will also find scientists who have made important contributions to quantum physics. This short, simple and concise work is a resource that anyone interested in the subject can benefit from.",
+      "description_tr": "Kuantum fiziğinde kullanılan temel kavram ve terimlerin yer aldığı bu sözlükte, kuantum fiziğine önemli katkıları bulunan bilim adamlarını da bulacaksınız. Kısa, sade ve özlü bu çalışma, konuya ilgi duyan herkesin yararlanabileceği bir kaynaktır.",
+      "description_fr": "Dans ce dictionnaire, qui comprend les principaux termes utilisés en physique quantique, vous trouverez également des scientifiques qui ont apporté d'importantes contributions à la physique quantique. Cette étude courte, simple et concise est une ressource dont toute personne intéressée par le sujet peut bénéficier.",
+      "description_de": "In diesem Wörterbuch, das die wichtigsten Begriffe der Quantenphysik enthält, finden Sie auch Wissenschaftler, die wichtige Beiträge zur Quantenphysik geleistet haben. Diese kurze, einfache und prägnante Studie ist eine Ressource, von der jeder profitieren kann, der sich für das Thema interessiert.",
+      "relativeimagepath": "kuantum.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/kuantum.pdf",
+      "releasedate": "2025"
+    },
+    {
+      "title": "Şeytan Hakkında",
+      "categories": [
+        "metafizik",
+        "din"
+      ],
+      "language": "TR",
+      "author": "yalkintuncay",
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "This book is a guide for the individual to know himself and develop spiritual protection methods, beyond understanding the tricks of Satan. Examples taken from the Holy Quran and the Sunnah are combined with the author's short but deep analyses, aiming to make the reader aware of the effects of Satan and to take precautions to get rid of these effects.",
+      "description_tr": "Bu kitap, şeytanın hilelerini anlamanın ötesinde, bireyin kendisini tanıması ve ruhsal koruma yollarını geliştirmesi için bir rehber niteliğindedir. Kur'an-ı Kerim ve Sünnet-i Seniyye'den alınan örnekler, yazarın kısa ancak derin analizleriyle birleştirilerek, okuyucunun şeytanın etkilerini fark etmesini ve bu etkilerden kurtulmak için önlemler alabilmesini amaçlamaktadır.",
+      "description_fr": "Ce livre n’est pas seulement un guide pour comprendre les ruses du diable, mais aussi un guide permettant aux individus de se connaître et de développer des méthodes de protection spirituelle. Des exemples tirés du Saint Coran et de la Sunnah sont combinés avec les analyses courtes mais approfondies de l'auteur, visant à sensibiliser le lecteur aux effets de Satan et à prendre des précautions pour s'en débarrasser.",
+      "description_de": "Dieses Buch ist nicht nur ein Leitfaden zum Verständnis der Tricks des Teufels, sondern auch ein Leitfaden für den Einzelnen, um sich selbst kennenzulernen und Methoden zum spirituellen Schutz zu entwickeln. Beispiele aus dem Heiligen Koran und der Sunna werden mit den kurzen, aber gründlichen Analysen des Autors kombiniert. Ihr Ziel besteht darin, dem Leser die Auswirkungen Satans bewusst zu machen und ihn dazu zu bewegen, Vorkehrungen zu treffen, um diese Auswirkungen loszuwerden.",
+      "relativeimagepath": "S.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/şey.pdf",
+      "releasedate": "2025"
+    }
+  ]
+}
