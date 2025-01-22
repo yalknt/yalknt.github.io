@@ -1045,12 +1045,78 @@
       "description_tr": "Bu kitap, şeytanın hilelerini anlamanın ötesinde, bireyin kendisini tanıması ve ruhsal koruma yollarını geliştirmesi için bir rehber niteliğindedir. Kur'an-ı Kerim ve Sünnet-i Seniyye'den alınan örnekler, yazarın kısa ancak derin analizleriyle birleştirilerek, okuyucunun şeytanın etkilerini fark etmesini ve bu etkilerden kurtulmak için önlemler alabilmesini amaçlamaktadır.",
       "description_fr": "Ce livre n’est pas seulement un guide pour comprendre les ruses du diable, mais aussi un guide permettant aux individus de se connaître et de développer des méthodes de protection spirituelle. Des exemples tirés du Saint Coran et de la Sunnah sont combinés avec les analyses courtes mais approfondies de l'auteur, visant à sensibiliser le lecteur aux effets de Satan et à prendre des précautions pour s'en débarrasser.",
       "description_de": "Dieses Buch ist nicht nur ein Leitfaden zum Verständnis der Tricks des Teufels, sondern auch ein Leitfaden für den Einzelnen, um sich selbst kennenzulernen und Methoden zum spirituellen Schutz zu entwickeln. Beispiele aus dem Heiligen Koran und der Sunna werden mit den kurzen, aber gründlichen Analysen des Autors kombiniert. Ihr Ziel besteht darin, dem Leser die Auswirkungen Satans bewusst zu machen und ihn dazu zu bewegen, Vorkehrungen zu treffen, um diese Auswirkungen loszuwerden.",
-      "relativeimagepath": "./thumbnails/S.jpg",
+      "relativeimagepath": "./thumbnails/SAtr.jpg",
       "buttontypehtml": "download-button",
       "buttoncontents": [
         "read"
       ],
       "buttonlink": "./previews/şey.pdf",
+      "releasedate": "2025"
+    },
+        {
+      "title": "ABOUT SATAN",
+      "categories": [
+        "metafizik",
+        "din"
+      ],
+      "language": "EN",
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "This book is a guide for the individual to know himself and develop spiritual protection methods, beyond understanding the tricks of Satan. Examples taken from the Holy Quran and the Sunnah are combined with the author's short but deep analyses, aiming to make the reader aware of the effects of Satan and to take precautions to get rid of these effects.",
+      "description_tr": "Bu kitap, şeytanın hilelerini anlamanın ötesinde, bireyin kendisini tanıması ve ruhsal koruma yollarını geliştirmesi için bir rehber niteliğindedir. Kur'an-ı Kerim ve Sünnet-i Seniyye'den alınan örnekler, yazarın kısa ancak derin analizleriyle birleştirilerek, okuyucunun şeytanın etkilerini fark etmesini ve bu etkilerden kurtulmak için önlemler alabilmesini amaçlamaktadır.",
+      "description_fr": "Ce livre n’est pas seulement un guide pour comprendre les ruses du diable, mais aussi un guide permettant aux individus de se connaître et de développer des méthodes de protection spirituelle. Des exemples tirés du Saint Coran et de la Sunnah sont combinés avec les analyses courtes mais approfondies de l'auteur, visant à sensibiliser le lecteur aux effets de Satan et à prendre des précautions pour s'en débarrasser.",
+      "description_de": "Dieses Buch ist nicht nur ein Leitfaden zum Verständnis der Tricks des Teufels, sondern auch ein Leitfaden für den Einzelnen, um sich selbst kennenzulernen und Methoden zum spirituellen Schutz zu entwickeln. Beispiele aus dem Heiligen Koran und der Sunna werden mit den kurzen, aber gründlichen Analysen des Autors kombiniert. Ihr Ziel besteht darin, dem Leser die Auswirkungen Satans bewusst zu machen und ihn dazu zu bewegen, Vorkehrungen zu treffen, um diese Auswirkungen loszuwerden.",
+      "relativeimagepath": "./thumbnails/SAen.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/SAen.pdf",
+      "releasedate": "2025"
+    },
+        {
+      "title": "ÜBER DATAN",
+      "categories": [
+        "metafizik",
+        "din"
+      ],
+      "language": "DE",
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "This book is a guide for the individual to know himself and develop spiritual protection methods, beyond understanding the tricks of Satan. Examples taken from the Holy Quran and the Sunnah are combined with the author's short but deep analyses, aiming to make the reader aware of the effects of Satan and to take precautions to get rid of these effects.",
+      "description_tr": "Bu kitap, şeytanın hilelerini anlamanın ötesinde, bireyin kendisini tanıması ve ruhsal koruma yollarını geliştirmesi için bir rehber niteliğindedir. Kur'an-ı Kerim ve Sünnet-i Seniyye'den alınan örnekler, yazarın kısa ancak derin analizleriyle birleştirilerek, okuyucunun şeytanın etkilerini fark etmesini ve bu etkilerden kurtulmak için önlemler alabilmesini amaçlamaktadır.",
+      "description_fr": "Ce livre n’est pas seulement un guide pour comprendre les ruses du diable, mais aussi un guide permettant aux individus de se connaître et de développer des méthodes de protection spirituelle. Des exemples tirés du Saint Coran et de la Sunnah sont combinés avec les analyses courtes mais approfondies de l'auteur, visant à sensibiliser le lecteur aux effets de Satan et à prendre des précautions pour s'en débarrasser.",
+      "description_de": "Dieses Buch ist nicht nur ein Leitfaden zum Verständnis der Tricks des Teufels, sondern auch ein Leitfaden für den Einzelnen, um sich selbst kennenzulernen und Methoden zum spirituellen Schutz zu entwickeln. Beispiele aus dem Heiligen Koran und der Sunna werden mit den kurzen, aber gründlichen Analysen des Autors kombiniert. Ihr Ziel besteht darin, dem Leser die Auswirkungen Satans bewusst zu machen und ihn dazu zu bewegen, Vorkehrungen zu treffen, um diese Auswirkungen loszuwerden.",
+      "relativeimagepath": "./thumbnails/SAde.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/SAde.pdf",
+      "releasedate": "2025"
+    },
+        {
+      "title": "À PROPOS DU DIABLE",
+      "categories": [
+        "metafizik",
+        "din"
+      ],
+      "language": "FR",
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "This book is a guide for the individual to know himself and develop spiritual protection methods, beyond understanding the tricks of Satan. Examples taken from the Holy Quran and the Sunnah are combined with the author's short but deep analyses, aiming to make the reader aware of the effects of Satan and to take precautions to get rid of these effects.",
+      "description_tr": "Bu kitap, şeytanın hilelerini anlamanın ötesinde, bireyin kendisini tanıması ve ruhsal koruma yollarını geliştirmesi için bir rehber niteliğindedir. Kur'an-ı Kerim ve Sünnet-i Seniyye'den alınan örnekler, yazarın kısa ancak derin analizleriyle birleştirilerek, okuyucunun şeytanın etkilerini fark etmesini ve bu etkilerden kurtulmak için önlemler alabilmesini amaçlamaktadır.",
+      "description_fr": "Ce livre n’est pas seulement un guide pour comprendre les ruses du diable, mais aussi un guide permettant aux individus de se connaître et de développer des méthodes de protection spirituelle. Des exemples tirés du Saint Coran et de la Sunnah sont combinés avec les analyses courtes mais approfondies de l'auteur, visant à sensibiliser le lecteur aux effets de Satan et à prendre des précautions pour s'en débarrasser.",
+      "description_de": "Dieses Buch ist nicht nur ein Leitfaden zum Verständnis der Tricks des Teufels, sondern auch ein Leitfaden für den Einzelnen, um sich selbst kennenzulernen und Methoden zum spirituellen Schutz zu entwickeln. Beispiele aus dem Heiligen Koran und der Sunna werden mit den kurzen, aber gründlichen Analysen des Autors kombiniert. Ihr Ziel besteht darin, dem Leser die Auswirkungen Satans bewusst zu machen und ihn dazu zu bewegen, Vorkehrungen zu treffen, um diese Auswirkungen loszuwerden.",
+      "relativeimagepath": "./thumbnails/SAfr.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/SAfr.pdf",
       "releasedate": "2025"
     }
   ]
