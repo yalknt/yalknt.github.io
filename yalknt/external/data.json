@@ -47,7 +47,7 @@
   ],
   "books": [
     {
-      "title": "Karşılama ve Sunum",
+      "title": "WELCOME/ACCUEILLIR/WILLKOMMEN/KARŞILAMA",
       "categories": [
         "giris",
         "kuantum",
@@ -69,19 +69,18 @@
         "FR"
       ],
       "sourcetype": [
-        "digitalcopy",
-        "physicalcopy"
+        "digitalcopy"
       ],
       "description_en": "These works and books were written to contribute to the collective memory of humanity and to leave a roadmap for future generations. My writings have become written records to carry the message of not only a period but also eternity. Every word is a gift to humanity, with devotion and without expecting anything in return.",
       "description_tr": "Bu çalışma ve kitaplar, insanlığın ortak hafızasına bir katkı sunmak ve gelecek nesillere bir yol haritası bırakmak adına kaleme alındı. Yazdıklarım, sadece bir dönemin değil, aynı zamanda sonsuzluğun mesajını taşımak üzere yazılı kayıtlara dönüştü. Her kelime, özveriyle ve karşılık beklemeden, insanlığa bir armağan niteliğindedir.",
       "description_fr": "Ces études et ces livres ont été écrits pour contribuer à la mémoire collective de l’humanité et pour laisser une feuille de route aux générations futures. Mes écrits sont devenus des documents écrits destinés à transmettre le message non seulement d’une période mais aussi de l’éternité. Chaque mot est un don à l’humanité, donné avec dévotion et sans rien attendre en retour.",
       "description_de": "Diese Studien und Bücher wurden verfasst, um zum kollektiven Gedächtnis der Menschheit beizutragen und künftigen Generationen eine Orientierungskarte zu hinterlassen. Meine Schriften wurden zu schriftlichen Aufzeichnungen, die nicht nur die Botschaft einer Zeit, sondern auch der Ewigkeit transportierten. Jedes Wort ist ein Geschenk an die Menschheit, das mit Hingabe gegeben wird, ohne eine Gegenleistung zu erwarten.",
-      "relativeimagepath": "./thumbnails/sunum.jpg",
+      "relativeimagepath": "./thumbnails/Welcome.jpg",
       "buttontypehtml": "download-button",
       "buttoncontents": [
         "read"
       ],
-      "buttonlink": "./previews/takdim.pdf",
+      "buttonlink": "./previews/Welcome.pdf",
       "releasedate": "2025"
     },
     {
