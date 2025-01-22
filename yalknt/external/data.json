@@ -787,7 +787,9 @@
       "description_de": "Der berühmte Tafsir-Gelehrte Hamdi Yazır von Elmalılı sagte, dass die Einteilung des Tierkreisgürtels und bis zu Hadhrat Idris (s.a.), der als Begründer der Wissenschaft des Himmels bekannt ist und dass das Wissen über die Wissenschaft der Horoskope dem Propheten Idris gegeben wurde. Um das Wissen des Himmels auf die Erde zu bringen, nicht aus dem rein menschlichen Wissen der Wissenschaft der Sterne Vom Propheten Idris bis zum Saturn oder von Hermes (Trismegistos) Es wird angenommen, dass es auf Offenbarung zurückzuführen ist. ",
       "relativeimagepath": "./thumbnails/75.jpg",
       "buttontypehtml": "unavailable-button",
-      "buttoncontents": "preview",
+      "buttoncontents": [
+        "preview"
+      ],
       "buttonlink": "./previews/YILDIZ.pdf",
       "releasedate": "2005"
     },
@@ -806,7 +808,9 @@
       "description_de": "Der berühmte Tafsir-Gelehrte Hamdi Yazır von Elmalılı sagte, dass die Einteilung des Tierkreisgürtels und bis zu Hadhrat Idris (s.a.), der als Begründer der Wissenschaft des Himmels bekannt ist und dass das Wissen über die Wissenschaft der Horoskope dem Propheten Idris gegeben wurde. Um das Wissen des Himmels auf die Erde zu bringen, nicht aus dem rein menschlichen Wissen der Wissenschaft der Sterne Vom Propheten Idris bis zum Saturn oder von Hermes (Trismegistos) Es wird angenommen, dass es auf Offenbarung zurückzuführen ist. ",
       "relativeimagepath": "./thumbnails/Aen.jpg",
       "buttontypehtml": "unavailable-button",
-      "buttoncontents": "read",
+      "buttoncontents": [
+        "preview"
+      ],
       "buttonlink": "./previews/Sen.pdf",
       "releasedate": "2005"
     },
@@ -825,7 +829,9 @@
       "description_de": "Der berühmte Tafsir-Gelehrte Hamdi Yazır von Elmalılı sagte, dass die Einteilung des Tierkreisgürtels und bis zu Hadhrat Idris (s.a.), der als Begründer der Wissenschaft des Himmels bekannt ist und dass das Wissen über die Wissenschaft der Horoskope dem Propheten Idris gegeben wurde. Um das Wissen des Himmels auf die Erde zu bringen, nicht aus dem rein menschlichen Wissen der Wissenschaft der Sterne Vom Propheten Idris bis zum Saturn oder von Hermes (Trismegistos) Es wird angenommen, dass es auf Offenbarung zurückzuführen ist. ",
       "relativeimagepath": "./thumbnails/Ade.jpg",
       "buttontypehtml": "unavailable-button",
-      "buttoncontents": "read",
+      "buttoncontents": [
+        "preview"
+      ],
       "buttonlink": "./previews/Sde.pdf",
       "releasedate": "2005"
     },
@@ -844,7 +850,9 @@
       "description_de": "Der berühmte Tafsir-Gelehrte Hamdi Yazır von Elmalılı sagte, dass die Einteilung des Tierkreisgürtels und bis zu Hadhrat Idris (s.a.), der als Begründer der Wissenschaft des Himmels bekannt ist und dass das Wissen über die Wissenschaft der Horoskope dem Propheten Idris gegeben wurde. Um das Wissen des Himmels auf die Erde zu bringen, nicht aus dem rein menschlichen Wissen der Wissenschaft der Sterne Vom Propheten Idris bis zum Saturn oder von Hermes (Trismegistos) Es wird angenommen, dass es auf Offenbarung zurückzuführen ist. ",
       "relativeimagepath": "./thumbnails/Ade.jpg",
       "buttontypehtml": "unavailable-button",
-      "buttoncontents": "read",
+      "buttoncontents": [
+        "preview"
+      ],
       "buttonlink": "./previews/Sfr.pdf",
       "releasedate": "2005"
     },
