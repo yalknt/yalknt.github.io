@@ -809,13 +809,13 @@
       "relativeimagepath": "./thumbnails/Aen.jpg",
       "buttontypehtml": "unavailable-button",
       "buttoncontents": [
-        "preview"
+        "read"
       ],
       "buttonlink": "./previews/Sen.pdf",
       "releasedate": "2005"
     },
         {
-      "title": "Astrologie",
+      "title": "ASTROLOGİE",
       "categories": [
         "astroloji"
       ],
@@ -830,7 +830,7 @@
       "relativeimagepath": "./thumbnails/Ade.jpg",
       "buttontypehtml": "unavailable-button",
       "buttoncontents": [
-        "preview"
+        "read"
       ],
       "buttonlink": "./previews/Sde.pdf",
       "releasedate": "2005"
@@ -851,7 +851,7 @@
       "relativeimagepath": "./thumbnails/Afr.jpg",
       "buttontypehtml": "unavailable-button",
       "buttoncontents": [
-        "preview"
+        "read"
       ],
       "buttonlink": "./previews/Sfr.pdf",
       "releasedate": "2005"
