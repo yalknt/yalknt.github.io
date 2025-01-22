@@ -379,7 +379,53 @@
       "buttoncontents": [
         "read"
       ],
-      "buttonlink": "./previews/Understanding M. Arabi.pdf",
+      "buttonlink": "./previews/M. Arabiyi Anlamak.pdf",
+      "releasedate": "2024"
+    },
+        {
+      "title": "COMPRENDRE MUHYIDDIN IBN ARABI",
+      "categories": [
+        "ibniarabi",
+        "din",
+        "tasavvuf"
+      ],
+      "language": "FR",
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "After learning from the Sheikh's own works that his works can only be understood by those who are close to him through spiritual bonds, my heart was satisfied and I requested his Spirituality to establish this closeness. With his prayers and help, I started writing the work. Surely, success and achievement are from Allah. With Allah's permission, I was able to complete this work in 7 parts in a very short time.",
+      "description_tr": "Eserlerinin, ancak kendisine gönül bağıyla yakınlık sağlayanlar tarafından anlaşılabileceğine dair Şeyhin kendi eserlerinde bilgiye sahip olduktan sonra gönlüm mutmain oldu ve onun Ruhaniyetinden bu yakınlığın tesisi için talepte bulundum. O'nun dua ve himmetleriyle eseri yazmaya başladım. Şüphesiz, başarı ve muvaffakiyet Allah'tandır. Allah'ın izniyle çok kısa bir sürede bu eseri 7 bölüm üzere tamamlamak nasip oldu.",
+      "description_fr": "Après avoir appris des propres œuvres du Cheikh que ses œuvres ne peuvent être comprises que par ceux qui sont proches de lui à travers une connexion spirituelle, mon cœur a été rassuré et j'ai demandé sa Spiritualité pour établir cette proximité. Grâce à ses prières et à son aide, j’ai commencé à écrire l’œuvre. Sans aucun doute, le succès et la réussite viennent d’Allah. Avec la permission de Dieu, il a été possible de réaliser cette œuvre en 7 parties en très peu de temps.",
+      "description_de": "Nachdem ich aus den Werken des Scheichs erfahren hatte, dass seine Werke nur von jenen verstanden werden können, die ihm durch eine spirituelle Verbindung nahe stehen, war ich beruhigt und bat ihn um seine Spiritualität, diese Nähe herzustellen. Mit seinen Gebeten und seiner Hilfe begann ich, das Werk zu schreiben. Zweifellos kommen Erfolg und Leistung von Allah. Mit Gottes Erlaubnis war es möglich, dieses Werk in sehr kurzer Zeit in 7 Teilen fertigzustellen.",
+      "relativeimagepath": "./thumbnails/MAfr.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/MAfr.pdf",
+      "releasedate": "2024"
+    },
+        {
+      "title": "MUHYIDDIN IBN ARABI VERSTEHEN",
+      "categories": [
+        "ibniarabi",
+        "din",
+        "tasavvuf"
+      ],
+      "language": "DE",
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "After learning from the Sheikh's own works that his works can only be understood by those who are close to him through spiritual bonds, my heart was satisfied and I requested his Spirituality to establish this closeness. With his prayers and help, I started writing the work. Surely, success and achievement are from Allah. With Allah's permission, I was able to complete this work in 7 parts in a very short time.",
+      "description_tr": "Eserlerinin, ancak kendisine gönül bağıyla yakınlık sağlayanlar tarafından anlaşılabileceğine dair Şeyhin kendi eserlerinde bilgiye sahip olduktan sonra gönlüm mutmain oldu ve onun Ruhaniyetinden bu yakınlığın tesisi için talepte bulundum. O'nun dua ve himmetleriyle eseri yazmaya başladım. Şüphesiz, başarı ve muvaffakiyet Allah'tandır. Allah'ın izniyle çok kısa bir sürede bu eseri 7 bölüm üzere tamamlamak nasip oldu.",
+      "description_fr": "Après avoir appris des propres œuvres du Cheikh que ses œuvres ne peuvent être comprises que par ceux qui sont proches de lui à travers une connexion spirituelle, mon cœur a été rassuré et j'ai demandé sa Spiritualité pour établir cette proximité. Grâce à ses prières et à son aide, j’ai commencé à écrire l’œuvre. Sans aucun doute, le succès et la réussite viennent d’Allah. Avec la permission de Dieu, il a été possible de réaliser cette œuvre en 7 parties en très peu de temps.",
+      "description_de": "Nachdem ich aus den Werken des Scheichs erfahren hatte, dass seine Werke nur von jenen verstanden werden können, die ihm durch eine spirituelle Verbindung nahe stehen, war ich beruhigt und bat ihn um seine Spiritualität, diese Nähe herzustellen. Mit seinen Gebeten und seiner Hilfe begann ich, das Werk zu schreiben. Zweifellos kommen Erfolg und Leistung von Allah. Mit Gottes Erlaubnis war es möglich, dieses Werk in sehr kurzer Zeit in 7 Teilen fertigzustellen.",
+      "relativeimagepath": "./thumbnails/MAde.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/MAde.pdf",
       "releasedate": "2024"
     },
     {
