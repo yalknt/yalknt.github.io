@@ -192,7 +192,7 @@
       "buttoncontents": [
         "read"
       ],
-      "buttonlink": "./previews/light1.pdf",
+      "buttonlink": "./previews/isigin-izinde.pdf",
       "releasedate": "2024"
     },
         {
@@ -637,27 +637,6 @@
       "releasedate": "2023"
     },
     {
-      "title": "Ruha Huzur Veren Dualar",
-      "categories": [
-        "zikir"
-      ],
-      "language": "TR",
-      "sourcetype": [
-        "recommended"
-      ],
-      "description_en": "In the end times, great care should be taken in praying, especially because of the emptiness that occurs in people due to the spiritual damage caused by the environment. We should read these prayers whenever we have the opportunity, especially at the time of dawn, when prayers are accepted, between the call to prayer and the iqama, and after prayers.\n\n",
-      "description_tr": "Ahir zamanda çevrenin vermiş olduğu manevi zararlardan dolayı özellikle insanda meydana gelen boşluk sebebiyle, dua etme konusunda çok itina gösterilmelidir. Bu duaları fırsat buldukça , özellikle duaların kabul edildiği; seher vaktinde, ezan ile kamet arasında ve namazlardan sonra okumalıyız.",
-      "description_fr": "À la fin des temps, il faut faire très attention à la prière, surtout en raison du vide qui se produit chez les êtres humains en raison des dommages spirituels causés par l’environnement. Ces prières sont offertes chaque fois que possible, surtout lorsque les prières sont exaucées ; Nous devons le réciter à l’aube, entre l’appel à la prière et le qamat, et après les prières.",
-      "description_de": "In der Endzeit muss beim Beten große Vorsicht walten, insbesondere wegen der Leere, die im Menschen aufgrund der von der Umwelt verursachten spirituellen Schäden entstanden ist. Diese Gebete werden gesprochen, wann immer sich die Gelegenheit bietet, insbesondere wenn Gebete angenommen werden. Im Morgengrauen der Ruf zum Gebet und die Iqama Wir sollten es zwischen den Gebeten und nach den Gebeten lesen.",
-      "relativeimagepath": "./thumbnails/dua.jpg",
-      "buttontypehtml": "download-button",
-      "buttoncontents": [
-        "read"
-      ],
-      "buttonlink": "./previews/dua.pdf",
-      "releasedate": "2019"
-    },
-    {
       "title": "Hipnoz & Hipnoterapi (Açıklamalı Terimler Sözlüğü)",
       "categories": [
         "hipnoz",
@@ -831,6 +810,69 @@
         "read"
       ],
       "buttonlink": "./previews/allaha-dost-olmak.pdf",
+      "releasedate": "2016"
+    },
+        {
+      "title": "BEING A FRIEND TO ALLAH",
+      "categories": [
+        "din"
+      ],
+      "language": "EN",
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "Our Prophet (PBUH) emphasized the importance of being a person of service by saying, “The best of people are those who are beneficial to others.” Being a person of service also requires having a cause. This cause is to live Islam in its best form and to be a means for it to be lived. This is possible by enjoining good and forbidding evil.",
+      "description_tr": "Peygamber Efendimiz (SAV) “İnsanların hayırlısı, insanlara faydalı olandır.” buyurarak, hizmet ehli olmanın önemine dikkat çekmiştir. Hizmet ehli olmak aynı zamanda bir davaya da sahip olmayı gerektirir. Bu dava islamı en güzel hali ile yaşamak ve yaşanmasına da vesile olmaktır. Bu ise insanlara iyiliği emredip, kötülüklerden sakındırmakla mümkündür.",
+      "description_fr": "Notre Prophète (saw) a dit : « Les meilleurs des gens sont ceux qui sont utiles aux autres. » En disant cela, il a attiré l’attention sur l’importance d’être une personne de service. Être une personne de service nécessite également d’avoir une cause. Cette cause est de vivre l’Islam dans sa plus belle forme et d’être un moyen pour qu’il soit vécu. Cela est possible en ordonnant aux gens le bien et en leur interdisant le mal.\n\n",
+      "description_de": "Unser Prophet (Friede sei mit ihm) sagte: „Die besten Menschen sind jene, die anderen von Nutzen sind.“ Mit dieser Aussage lenkte er die Aufmerksamkeit auf die Bedeutung dienstbereiter Menschen. Um ein dienstbereiter Mensch zu sein, muss man auch ein Anliegen haben. Dieses Anliegen besteht darin, den Islam in seiner schönsten Form zu leben und ein Mittel dafür zu sein, ihn zu leben. Dies ist möglich, indem man den Menschen das Gute gebietet und ihnen das Böse verbietet.",
+      "relativeimagepath": "./thumbnails/ADOen.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/ADOen.pdf",
+      "releasedate": "2016"
+    },
+        {
+      "title": "ÊTRE UN AMI DE DIEU",
+      "categories": [
+        "din"
+      ],
+      "language": "FR",
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "Our Prophet (PBUH) emphasized the importance of being a person of service by saying, “The best of people are those who are beneficial to others.” Being a person of service also requires having a cause. This cause is to live Islam in its best form and to be a means for it to be lived. This is possible by enjoining good and forbidding evil.",
+      "description_tr": "Peygamber Efendimiz (SAV) “İnsanların hayırlısı, insanlara faydalı olandır.” buyurarak, hizmet ehli olmanın önemine dikkat çekmiştir. Hizmet ehli olmak aynı zamanda bir davaya da sahip olmayı gerektirir. Bu dava islamı en güzel hali ile yaşamak ve yaşanmasına da vesile olmaktır. Bu ise insanlara iyiliği emredip, kötülüklerden sakındırmakla mümkündür.",
+      "description_fr": "Notre Prophète (saw) a dit : « Les meilleurs des gens sont ceux qui sont utiles aux autres. » En disant cela, il a attiré l’attention sur l’importance d’être une personne de service. Être une personne de service nécessite également d’avoir une cause. Cette cause est de vivre l’Islam dans sa plus belle forme et d’être un moyen pour qu’il soit vécu. Cela est possible en ordonnant aux gens le bien et en leur interdisant le mal.\n\n",
+      "description_de": "Unser Prophet (Friede sei mit ihm) sagte: „Die besten Menschen sind jene, die anderen von Nutzen sind.“ Mit dieser Aussage lenkte er die Aufmerksamkeit auf die Bedeutung dienstbereiter Menschen. Um ein dienstbereiter Mensch zu sein, muss man auch ein Anliegen haben. Dieses Anliegen besteht darin, den Islam in seiner schönsten Form zu leben und ein Mittel dafür zu sein, ihn zu leben. Dies ist möglich, indem man den Menschen das Gute gebietet und ihnen das Böse verbietet.",
+      "relativeimagepath": "./thumbnails/ADOfr.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/ADOfr.pdf",
+      "releasedate": "2016"
+    },
+        {
+      "title": "EIN FREUND GOTTES SEIN",
+      "categories": [
+        "din"
+      ],
+      "language": "DE",
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "Our Prophet (PBUH) emphasized the importance of being a person of service by saying, “The best of people are those who are beneficial to others.” Being a person of service also requires having a cause. This cause is to live Islam in its best form and to be a means for it to be lived. This is possible by enjoining good and forbidding evil.",
+      "description_tr": "Peygamber Efendimiz (SAV) “İnsanların hayırlısı, insanlara faydalı olandır.” buyurarak, hizmet ehli olmanın önemine dikkat çekmiştir. Hizmet ehli olmak aynı zamanda bir davaya da sahip olmayı gerektirir. Bu dava islamı en güzel hali ile yaşamak ve yaşanmasına da vesile olmaktır. Bu ise insanlara iyiliği emredip, kötülüklerden sakındırmakla mümkündür.",
+      "description_fr": "Notre Prophète (saw) a dit : « Les meilleurs des gens sont ceux qui sont utiles aux autres. » En disant cela, il a attiré l’attention sur l’importance d’être une personne de service. Être une personne de service nécessite également d’avoir une cause. Cette cause est de vivre l’Islam dans sa plus belle forme et d’être un moyen pour qu’il soit vécu. Cela est possible en ordonnant aux gens le bien et en leur interdisant le mal.\n\n",
+      "description_de": "Unser Prophet (Friede sei mit ihm) sagte: „Die besten Menschen sind jene, die anderen von Nutzen sind.“ Mit dieser Aussage lenkte er die Aufmerksamkeit auf die Bedeutung dienstbereiter Menschen. Um ein dienstbereiter Mensch zu sein, muss man auch ein Anliegen haben. Dieses Anliegen besteht darin, den Islam in seiner schönsten Form zu leben und ein Mittel dafür zu sein, ihn zu leben. Dies ist möglich, indem man den Menschen das Gute gebietet und ihnen das Böse verbietet.",
+      "relativeimagepath": "./thumbnails/ADOde.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/ADOde.pdf",
       "releasedate": "2016"
     },
     {
