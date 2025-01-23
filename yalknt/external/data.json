@@ -218,6 +218,52 @@
       "buttonlink": "./previews/light2.pdf",
       "releasedate": "2024"
     },
+            {
+      "title": "SUR LA PISTE DE LA LUMIÈRE (Le secret de l'univers et les reflets de la lumière divine)",
+      "categories": [
+        "kuantum",
+        "tasavvuf",
+        "metafizik"
+      ],
+      "language": "FR",
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "This book, starting from the history of light, deeply examines its scientific dimensions, its meanings in sacred texts and cosmic functions. It offers a wide perspective from the holographic universe theory to the world of consciousness and perception; from the thin line between existence and non-existence to the new understanding of creation opened by quantum mechanics.",
+      "description_tr": "Bu kitap, ışığın tarihinden başlayarak, bilimsel boyutlarını, kutsal metinlerdeki anlamlarını ve kozmik işlevlerini derinlemesine inceliyor. Holografik evren teorisinden, bilinç ve algı dünyasına; varlık ve yokluk arasındaki ince çizgiden, kuantum mekaniğiyle açılan yeni yaratım anlayışına kadar geniş bir perspektif sunuyor.",
+      "description_fr": "Ce livre commence par l’histoire de la lumière et plonge dans ses dimensions scientifiques, ses significations textuelles sacrées et ses fonctions cosmiques. De la théorie de l’univers holographique au monde de la conscience et de la perception ; Il offre une perspective large, depuis la fine ligne entre l’existence et la non-existence jusqu’à la nouvelle compréhension de la création ouverte par la mécanique quantique.",
+      "description_de": "Dieses Buch beginnt mit der Geschichte des Lichts und befasst sich mit seinen wissenschaftlichen Dimensionen, heiligen Textbedeutungen und kosmischen Funktionen. Von der Theorie des holographischen Universums zur Welt des Bewusstseins und der Wahrnehmung; Es bietet eine breite Perspektive, von der dünnen Linie zwischen Existenz und Nichtexistenz bis hin zum neuen Verständnis der Schöpfung, das die Quantenmechanik ermöglicht.",
+      "relativeimagepath": "./thumbnails/Lightfr.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/lightfr.pdf",
+      "releasedate": "2024"
+    },
+            {
+      "title": "Dem Licht auf der Spur (Das Geheimnis des Universums und Reflexionen des göttlichen Lichts)",
+      "categories": [
+        "kuantum",
+        "tasavvuf",
+        "metafizik"
+      ],
+      "language": "DE",
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "This book, starting from the history of light, deeply examines its scientific dimensions, its meanings in sacred texts and cosmic functions. It offers a wide perspective from the holographic universe theory to the world of consciousness and perception; from the thin line between existence and non-existence to the new understanding of creation opened by quantum mechanics.",
+      "description_tr": "Bu kitap, ışığın tarihinden başlayarak, bilimsel boyutlarını, kutsal metinlerdeki anlamlarını ve kozmik işlevlerini derinlemesine inceliyor. Holografik evren teorisinden, bilinç ve algı dünyasına; varlık ve yokluk arasındaki ince çizgiden, kuantum mekaniğiyle açılan yeni yaratım anlayışına kadar geniş bir perspektif sunuyor.",
+      "description_fr": "Ce livre commence par l’histoire de la lumière et plonge dans ses dimensions scientifiques, ses significations textuelles sacrées et ses fonctions cosmiques. De la théorie de l’univers holographique au monde de la conscience et de la perception ; Il offre une perspective large, depuis la fine ligne entre l’existence et la non-existence jusqu’à la nouvelle compréhension de la création ouverte par la mécanique quantique.",
+      "description_de": "Dieses Buch beginnt mit der Geschichte des Lichts und befasst sich mit seinen wissenschaftlichen Dimensionen, heiligen Textbedeutungen und kosmischen Funktionen. Von der Theorie des holographischen Universums zur Welt des Bewusstseins und der Wahrnehmung; Es bietet eine breite Perspektive, von der dünnen Linie zwischen Existenz und Nichtexistenz bis hin zum neuen Verständnis der Schöpfung, das die Quantenmechanik ermöglicht.",
+      "relativeimagepath": "./thumbnails/Lightde.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/Lightde.pdf",
+      "releasedate": "2024"
+    },
     {
       "title": "Kuantum Tasavvuf-1",
       "categories": [
