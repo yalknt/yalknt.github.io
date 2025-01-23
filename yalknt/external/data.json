@@ -566,29 +566,6 @@
       "releasedate": "1980"
     },
     {
-      "title": "Muhyiddin Arabi'nin Evradı ve Zikirleri",
-      "categories": [
-        "ibniarabi",
-        "zikir",
-        "din"
-      ],
-      "language": "TR",
-      "sourcetype": [
-        "notavailable"
-      ],
-      "description_en": "These awrads (prayers) were compiled by the master of sheikhs, Sheikh al-Akbar, the greatest of the qutbs, the city of saints, Muhammad Muhyiddin Arabi, to be recited continuously on the days and nights of the week. May Allah bless his secret and enlighten him and those who love him. Amen.",
-      "description_tr": "Bu evrad (dualar) haftanın günleri ve gecelerinde devamlı okunmak üzere şeyhlerin efendisi olan Şeyhu’l ekber, kutubların büyüğü, velilerin şehri Muhammed Muhyiddin Arabi tarafından telif edilmiştir. Allah onun sırrını kutsasın onu ve onu sevenleri nurlandırsın. Amin.",
-      "description_fr": "Ces awrads (prières) ont été compilés par le maître des cheikhs, Cheikh al-Akbar, le plus grand des qutbs, la ville des saints, Muhammad Muhyiddin Arabi, pour être lus en continu les jours et les nuits de la semaine. Que Dieu bénisse son secret et l'éclaire, lui et ceux qui l'aiment. Amine.",
-      "description_de": "Diese Awrads (Gebete) wurden vom Meister der Scheichs, Scheich Al-Akbar, dem größten der Qutbs, der Stadt der Heiligen, Muhammad Muhyiddin Arabi, zusammengestellt, um an den Tagen und Nächten der Woche kontinuierlich gelesen zu werden. Möge Gott sein Geheimnis segnen und ihn und diejenigen, die ihn lieben, erleuchten. Amin.",
-      "relativeimagepath": "./thumbnails/evrad.jpg",
-      "buttontypehtml": "download-button",
-      "buttoncontents": [
-        "read"
-      ],
-      "buttonlink": "./previews/evrad.pdf",
-      "releasedate": "2010"
-    },
-    {
       "title": "Bir Alimin Portresi: Ahmet Özmerdivanlı'yı Anlamak",
       "categories": [
         "metafizik",
