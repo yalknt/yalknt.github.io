@@ -267,7 +267,7 @@
       "releasedate": "2021"
     },
     {
-      "title": "Be Sırrı - Berzah",
+      "title": "BE SIRRI Berzah",
       "categories": [
         "din",
         "metafizik",
@@ -291,9 +291,8 @@
       "releasedate": "2023"
     },
     {
-      "title": "Be Secret (Berzakh)",
+      "title": "B SECRET Berzakh",
       "categories": [
-        "din",
         "metafizik",
         "tasavvuf"
       ],
@@ -310,7 +309,7 @@
       "buttoncontents": [
         "read"
       ],
-      "buttonlink": "./previews/BE.pdf",
+      "buttonlink": "./previews/B.pdf",
       "releasedate": "2025"
     },
     {
