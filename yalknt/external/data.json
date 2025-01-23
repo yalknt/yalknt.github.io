@@ -568,6 +568,29 @@
       "buttonlink": "./previews/aoal.pdf",
       "releasedate": "2025"
     },
+        {
+      "title": "PORTRAIT D'UN ÉTUDIANT : COMPRENDRE AHMET ÖZMERDİVANLI",
+      "categories": [
+        "metafizik",
+        "tasavvuf",
+        "din"
+      ],
+      "language": "FR",
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "Scientist, scholar and Sufi. He has worked in the fields of medicine, chemistry and physics, and has developed medical drugs inspired by the Meccan Futuhat. He has established the Historical and Technical Sciences Research Laboratory; and has made significant discoveries in these fields by benefiting from the works of great Islamic scholars. In this study, you will get to know a very special friend of Allah with his not-so-well-known aspects.",
+      "description_tr": "Bilim insanı, alim ve tasavvuf ehli. Tıp, kimya ve fizik alanlarında çalışmalar yapmış, Fütuhat-ı Mekkiyye'den esinlenerek tıbbi ilaçlar geliştirmiştir. Tarihi ve Teknik İlimler Araştırma Laboratuvarı'nı kurmuş; büyük İslam bilginlerinin eserlerinden faydalanarak bu alanlarda önemli buluşlara imza atmıştır. Bu çalışmada, yeterince bilinmeyen yönleriyle çok özel bir Allah dostunu tanıyacaksınız.\n\n",
+      "description_fr": "Scientifique, érudit et soufi. Il a travaillé dans les domaines de la médecine, de la chimie et de la physique et a développé des médicaments inspirés du Futuhat mecquois. Il a fondé le Laboratoire de Recherche en Sciences Historiques et Techniques ; Il a utilisé les travaux de grands savants musulmans et a fait d’importantes découvertes dans ces domaines. Dans cette étude, vous apprendrez à connaître un ami très spécial d’Allah avec ses aspects peu connus.\n\n",
+      "description_de": "Wissenschaftler, Gelehrter und Sufi. Er arbeitete in den Bereichen Medizin, Chemie und Physik und entwickelte von der mekkanischen Futuhat inspirierte Medikamente. Er gründete das Forschungslabor für Geschichts- und Technikwissenschaften. Er nutzte die Arbeiten großer islamischer Gelehrter und machte auf diesen Gebieten wichtige Entdeckungen. In dieser Studie lernen Sie einen ganz besonderen Freund Allahs mit seinen wenig bekannten Aspekten kennen.\n\n",
+      "relativeimagepath": "./thumbnails/AOfr.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/Ofr.pdf",
+      "releasedate": "2025"
+    },
     {
       "title": "Tevhid Dersleri (ŞİFALANMA ve Korunma)",
       "categories": [
