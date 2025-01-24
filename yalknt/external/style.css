@@ -1,94 +1,18 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
     background-color: #f4f4f9;
     display: flex;
     flex-direction: row;
+    overflow-x: hidden;
     transition: background-color 0.3s, color 0.3s;
-}
-#category-label, #year-label, #source-label, #language-label {
-    margin-bottom: -5px;
-}
-.social-media {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-.social-media button {
-    font-size: 24px; /* Adjust button size */
-    padding: 8px 12px; /* Adjust padding */
-    border-radius: 5px;
-}
-#apply-filters {
-    margin-top: 5px;
-}
-#pfp {
-    border-radius: 16px;
-    text-align: center;
-    align-self: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 12px;
-    margin-bottom: 8px;
 }
 body.dark-mode {
     background-color: #121212;
     color: #e0e0e0;
 }
-.sidebar {
-    width: 200px;
-    height: 92%;
-    position: fixed;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    padding: 15px;
-    border-radius: 8px;
-    overflow-y:auto;
-}
-body.dark-mode .sidebar {
-    background-color: #1f1f1f;
-    border-color: #444;
-}
-.sidebar h3 {
-    margin-top: 0;
-}
-.sidebar label {
-    display: block;
-    margin-bottom: 10px;
-}
-.content {
-    flex: 1;
-    padding: 15px;
-    margin-left: 230px;
-}
-.book {
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 25px;
-    margin-top: -15px;
-    margin-bottom: 30px;
-    background-color: #fff;
-    transition: background-color 0.3s, border-color 0.3s;
-}
-body.dark-mode .book {
-    background-color: #1f1f1f;
-    border-color: #444;
-}
-.book img {
-    max-width: 250px;
-    border-radius: 8px;
-    margin-right: 15px;
-}
 
-.book-header {
-    display: flex;
-    align-items: center;
-}
-.book-content {
-    margin-left: 15px;
-}
 .button {
     margin-top: 10px;
     padding: 10px 10px;
@@ -102,6 +26,65 @@ body.dark-mode .book {
 .button:hover {
     background-color: #0056b3;
 }
+
+/* Sidebar */
+.sidebar {
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 0px;
+    overflow-y: auto;
+    transition: transform 0.3s ease;
+}
+body.dark-mode .sidebar {
+    background-color: #1f1f1f;
+    border-color: #444;
+}
+.sidebar.hidden {
+    transform: translateX(-100%);
+}
+.sidebar input, .sidebar select, .sidebar button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #000;
+    transition: 0.3s;
+}
+body.dark-mode .sidebar input, body.dark-mode .sidebar select {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+    border-color: #444;
+}
+.sidebar button {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.sidebar button:hover {
+    background-color: #0056b3;
+}
+
+/* Content */
+.content {
+    flex: 1;
+    padding: 0px;
+    margin-left: 230px;
+    transition: margin-left 0.3s;
+}
+.sidebar.hidden ~ .content {
+    margin-left: 10px;
+}
+
+/* Top Controls */
 .top-right-controls {
     position: fixed;
     top: 10px;
@@ -110,87 +93,101 @@ body.dark-mode .book {
     align-items: center;
     gap: 10px;
     z-index: 1000;
+    margin-top: 20px;
+}
+.toggle-sidebar {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+    border-color: #444;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #444;
+    margin-right: 20px;
 }
 
-#language-selector {
-    margin-top: 20px;
-    padding: 14px;
+#dark-mode-toggle, #language-selector, #toggle-sidebar {
+    padding: 10px;
     border-radius: 8px;
     border: 1px solid #ccc;
     background-color: #fff;
     color: #000;
     cursor: pointer;
-    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
-
-body.dark-mode #language-selector {
+body.dark-mode #dark-mode-toggle, body.dark-mode #language-selector {
     background-color: #1f1f1f;
     color: #e0e0e0;
     border-color: #444;
 }
-
-#dark-mode-toggle {
-    margin-top: 20px;
-    margin-right: 35px;
-    width: 50px;
-    height: 50px;
-    padding: 10px;
-    border: none;
-    border-radius: 12px;
-    cursor: pointer;
-    background-color: #1f1f1f;
+#dark-mode-toggle:hover, #language-selector:hover, #toggle-sidebar:hover {
+    background-color: #0056b3;
     color: #fff;
-    font-size: 20px;
+}
+
+/* Book Cards */
+.book {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    display: flex; /* Use flex layout */
+    flex-direction: row; /* Default layout (image next to text) */
+    transition: 0.3s;
+}
+
+body.dark-mode .book {
+    background-color: #1f1f1f;
+    border-color: #444;
+}
+
+.book img {
+    max-width: 250px;
+    border-radius: 8px;
+    margin-right: 15px;
+    display: block; /* Ensures image behaves like a block element */
+}
+
+.book-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Social Media */
+.social-media {
     display: flex;
     justify-content: center;
-    align-items: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    transition: background-color 0.3s;
+    gap: 10px;
+}
+.social-media button {
+    font-size: 18px;
+    padding: 8px 10px;
+    border-radius: 5px;
 }
 
-#copyright-popup {
-background: rgba(10, 10, 10, 0.8);
-color: #fff;
-padding: 10px;
-border-radius: 8px;
-font-size: 14px;
-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
-transition: box-shadow 0.3s;
+/* Responsive Layout */
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+    
+    .book {
+        flex-direction: column; /* Stack the content vertically on mobile */
+        align-items: center; /* Center the content */
+        display: flex; /* Ensure it's a flex container */
     }
 
-
-#dark-mode-toggle:hover {
-    background-color: #0056b3;
-}
-    .sidebar input, .sidebar select, .sidebar button {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    background-color: #fff;
-    color: #000;
-    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    .book img {
+        margin-right: 0; /* Remove right margin */
+        max-width: 125px;
+    }
 }
 
-body.dark-mode .sidebar input,
-body.dark-mode .sidebar select {
-    background-color: #1f1f1f;
-    color: #e0e0e0;
-    border-color: #444;
-}
-
-.sidebar button {
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
-body.dark-mode .sidebar button {
-    background-color: #0056b3;
-}
-
-.sidebar button:hover {
-    background-color: #0056b3;
+@media (min-width: 768px) {
+    .sidebar {
+        width: 200px;
+    }
+    .content {
+        margin-left: 230px;
+    }
 }
