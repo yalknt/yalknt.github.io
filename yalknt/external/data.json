@@ -1095,6 +1095,72 @@
       "buttonlink": "./previews/REDDE.pdf",
       "releasedate": "1999"
     },
+        {
+      "title": "REENKARNASYON İNANCINA REDDİYE",
+      "categories": [
+        "metafizik",
+        "astroloji"
+      ],
+      "language": "TR",
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "It is a very comprehensive rejection of the belief in reincarnation; From psychology to astrology, from quantum physics to sacred texts, evaluations are made from a wide perspective and examples.",
+      "description_tr": "Reenkarnasyon inancına yapılan çok kapsamlı bir reddiye çalışması olup; psikolojiden, astrolojiye, kuantum fiziğinden kutsal metinlere kadar geniş bir bakış açısıyla ve örneklerle değerlendirme yapılmaktadır.",
+      "description_fr": "Il s’agit d’un rejet très complet de la croyance en la réincarnation ; De la psychologie à l’astrologie, de la physique quantique aux textes sacrés, les évaluations sont faites à partir d’une large perspective et d’exemples.",
+      "description_de": "Es ist eine sehr umfassende Absage an den Glauben an die Reinkarnation; Von der Psychologie bis zur Astrologie, von der Quantenphysik bis zu heiligen Texten werden Bewertungen aus einer weiten Perspektive und anhand von Beispielen vorgenommen.",
+      "relativeimagepath": "./thumbnails/reddiye.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/reddiye.pdf",
+      "releasedate": "1999"
+    },
+        {
+      "title": "REJECTION OF REINCARNATION BELIEF",
+      "categories": [
+        "metafizik",
+        "astroloji"
+      ],
+      "language": "EN",
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "It is a very comprehensive rejection of the belief in reincarnation; From psychology to astrology, from quantum physics to sacred texts, evaluations are made from a wide perspective and examples.",
+      "description_tr": "Reenkarnasyon inancına yapılan çok kapsamlı bir reddiye çalışması olup; psikolojiden, astrolojiye, kuantum fiziğinden kutsal metinlere kadar geniş bir bakış açısıyla ve örneklerle değerlendirme yapılmaktadır.",
+      "description_fr": "Il s’agit d’un rejet très complet de la croyance en la réincarnation ; De la psychologie à l’astrologie, de la physique quantique aux textes sacrés, les évaluations sont faites à partir d’une large perspective et d’exemples.",
+      "description_de": "Es ist eine sehr umfassende Absage an den Glauben an die Reinkarnation; Von der Psychologie bis zur Astrologie, von der Quantenphysik bis zu heiligen Texten werden Bewertungen aus einer weiten Perspektive und anhand von Beispielen vorgenommen.",
+      "relativeimagepath": "./thumbnails/reen.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/reen.pdf",
+      "releasedate": "1999"
+    },
+        {
+      "title": "Ablehnung des Glaubens an die Reinkarnation",
+      "categories": [
+        "metafizik",
+        "astroloji"
+      ],
+      "language": "DE",
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "It is a very comprehensive rejection of the belief in reincarnation; From psychology to astrology, from quantum physics to sacred texts, evaluations are made from a wide perspective and examples.",
+      "description_tr": "Reenkarnasyon inancına yapılan çok kapsamlı bir reddiye çalışması olup; psikolojiden, astrolojiye, kuantum fiziğinden kutsal metinlere kadar geniş bir bakış açısıyla ve örneklerle değerlendirme yapılmaktadır.",
+      "description_fr": "Il s’agit d’un rejet très complet de la croyance en la réincarnation ; De la psychologie à l’astrologie, de la physique quantique aux textes sacrés, les évaluations sont faites à partir d’une large perspective et d’exemples.",
+      "description_de": "Es ist eine sehr umfassende Absage an den Glauben an die Reinkarnation; Von der Psychologie bis zur Astrologie, von der Quantenphysik bis zu heiligen Texten werden Bewertungen aus einer weiten Perspektive und anhand von Beispielen vorgenommen.",
+      "relativeimagepath": "./thumbnails/redde.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/redde.pdf",
+      "releasedate": "1999"
+    },
     {
       "title": "E-SİR Madde (Wertschätzung – Geheimsubstanz)",
       "categories": [
