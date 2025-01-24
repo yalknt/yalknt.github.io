@@ -15,14 +15,14 @@
             <option value="de">Deutsch</option>
             <option value="fr">Français</option>
         </select>
-        <button id="dark-mode-toggle">🌙</button>
+    <button id="dark-mode-toggle">🌙</button>
+    <button class="toggle-sidebar">☰ Menu</button>
     </div>
-    
     <div class="sidebar">
         <h2 id="pfp" class="profile-header">Yalkın Tuncay</h2>
         <img id="pfp" width="135" src="./external/pfp.jpeg" alt="Profile Picture">
         <p id="pfp" data-translate="tl-about">Araştırmacı yazar.</p>
-        <p id="pfp" class="copyright" data-translate="tl-copyright" style="color:red;">©Telif hakkı saklıdır. Kopyalanamaz veya çoğaltılamaz. (Kitapların Yayın Hakları saklıdır.)</p>
+        <p id="pfp" class="copyright" data-translate="tl-copyright" style="color:red;">©Kitapların Yayın Hakları saklıdır.</p>
         <p id="pfp" class="email"><a href="mailto:yalknt@gmail.com?subject=Contact">yalknt@gmail.com</a></p>
         <p id="pfp" style="margin-top: -6px;" class="website"><a href="https://www.kitapyurdu.com/yazar/yalkin-tuncay/180461.html">kitapyurdu.com/yalkntuncay</a></p>
 
@@ -85,8 +85,8 @@
                     <i class="fab fa-twitter"></i>
                 </button>
             </a>
-        </div>
-        
+        </div>    
+    </div>
     </div>
     <div class="content">
         <div id="book-list"></div>
@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const translationData = {
     "tr": {
     "tl-about": "Araştırmacı yazar.",
-    "tl-copyright": "©Telif hakkı saklıdır. Kopyalanamaz veya çoğaltılamaz. (Kitapların Yayın Hakları saklıdır.)",
+    "tl-copyright": "©Kitapların Yayın Hakları saklıdır.",
     "tl-hepsi": "Hepsi",
     "tl-giris": "Giriş",
     "tl-kuantum": "Kuantum",
@@ -127,7 +127,7 @@ document.addEventListener("DOMContentLoaded", () => {
   },
   "en": {
     "tl-about": "Researcher-writer.",
-    "tl-copyright": "©Copyright reserved. It cannot be copied or reproduced. (The publishing rights of the books are reserved.)",
+    "tl-copyright": "©The books' publishing rights are reserved.",
     "tl-hepsi": "All",
     "tl-giris": "Introduction",
     "tl-kuantum": "Quantum",
@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", () => {
   },
   "fr": {
     "tl-about": "Auteur-chercheur.",
-    "tl-copyright": "©Droits d'auteur réservés. Il ne peut pas être copié ou reproduit. (Les droits d'édition des livres sont réservés.)",
+    "tl-copyright": "©Les droits de publication des livres sont réservés.",
     "tl-hepsi": "Tous",
     "tl-giris": "Introduction",
     "tl-kuantum": "Quantique",
@@ -172,8 +172,8 @@ document.addEventListener("DOMContentLoaded", () => {
     "tl-preview": "Aperçu",
     "tl-reldate": "Année de publication",
     "tl-apply-filters": "Appliquer les filtres",
-    "tl-category": "Catégorie (Catégorie de livre)",
-    "tl-language": "Langue (Langue du livre)",
+    "tl-category": "Catégorie de livre",
+    "tl-language": "Langue du livre",
     "tl-source-type": "Type de source (Livre imprimé/numérique)",
     "tl-reldate": "Date de sortie",
     "tl-print": "Imprimé",
@@ -181,7 +181,7 @@ document.addEventListener("DOMContentLoaded", () => {
   },
   "de": {
     "tl-about": "Forscher-Schriftsteller.",
-    "tl-copyright": "©Urheberrechtlich geschützt. Es darf nicht kopiert oder reproduziert werden. (Die Veröffentlichungsrechte der Bücher sind vorbehalten.)",
+    "tl-copyright": "©Die Veröffentlichungsrechte der Bücher sind vorbehalten.",
     "tl-hepsi": "Alle",
     "tl-giris": "Einleitung",
     "tl-kuantum": "Quanten",
@@ -199,8 +199,8 @@ document.addEventListener("DOMContentLoaded", () => {
     "tl-preview": "Vorschau",
     "tl-reldate": "Erscheinungsjahr",
     "tl-apply-filters": "Filter anwenden",
-    "tl-category": "Kategorie (Buchkategorie)",
-    "tl-language": "Sprache (Buchsprache)",
+    "tl-category": "Buchkategorie",
+    "tl-language": "Buchsprache",
     "tl-source-type": "Quellentyp (Druck/Digitalbuch)",
     "tl-reldate": "Erscheinungsdatum",
     "tl-print": "Druck",
@@ -342,4 +342,11 @@ function applyTranslations() {
     });
 });
 
+    const toggleButton = document.querySelector('.toggle-sidebar');
+    const sidebar = document.querySelector('.sidebar');
+
+    toggleButton.addEventListener('click', () => {
+        sidebar.classList.toggle('visible');
+        sidebar.classList.toggle('hidden');
+    });
     </script>
