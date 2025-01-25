@@ -683,7 +683,7 @@
       "releasedate": "2023"
     },
     {
-      "title": "Bütüncül ŞİFA (Bio-Terör ve Holistik Farkındalık)",
+      "title": "BÜTÜNCÜL ŞİFA (Bio-Terör ve Holistik Farkındalık)",
       "categories": [
         "sifa"
       ],
@@ -699,7 +699,7 @@
       "relativeimagepath": "./thumbnails/6.jpg",
       "buttontypehtml": "download-button",
       "buttoncontents": [
-        "read"
+        "preview"
       ],
       "buttonlink": "./previews/butuncul-sifa.pdf",
       "releasedate": "2019"
