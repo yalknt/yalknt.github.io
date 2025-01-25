@@ -3,790 +3,393 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kitaplar</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./external/style.css">
+    <link href="./external/awesome.css" rel="stylesheet">
+    <title>Yalkın Tuncay</title>
 </head>
 <body>
-    <button id="dark-mode-toggle" onclick="toggleDarkMode()">🌙</button>
-    
-    <div id="loading-screen">
-        <div class="spinner"></div>
-        <p class="loading-text">Sayfa Yükleniyor...</p>
+    <div class="top-right-controls">
+        <select id="language-selector">
+            <option value="tr">Türkçe</option>
+            <option value="en">English</option>
+            <option value="de">Deutsch</option>
+            <option value="fr">Français</option>
+        </select>
+    <button id="dark-mode-toggle">🌙</button>
+    <button class="toggle-sidebar">☰</button>
     </div>
+    <div class="sidebar">
+        <h2 id="pfp" class="profile-header">Yalkın Tuncay</h2>
+        <img id="pfp-img" width="135" src="./external/pfp.jpeg" alt="Profile Picture">
+        <p id="pfp" data-translate="tl-about">Araştırmacı yazar.</p>
+        <p id="pfp" class="copyright" data-translate="tl-copyright" style="color:red;">©Kitapların Yayın Hakları saklıdır.</p>
+        <p id="pfp" class="email"><a href="mailto:yalknt@gmail.com?subject=Contact">yalknt@gmail.com</a></p>
+        <p id="pfp" style="margin-top: -6px;" class="website"><a href="https://www.kitapyurdu.com/yazar/yalkin-tuncay/180461.html">kitapyurdu.com/yalkntuncay</a></p>
 
-    <div id="page-content">
-        <div class="popup">
-            <p>©Copyright reserved. It cannot be copied or reproduced. (Kitapların Yayın Hakları saklıdır.) İletişim: yalknt@gmail.com</p>
-        </div>
-
-        <div class="container">
-
-
-             <div class="book">
-                <img src="Welcome.jpg" alt="Book 1">
-                <div class="title"><br>WELCOME/ACCUEILLIR WILLKOMMEN/KARŞILAMA Yalkın Tuncay</div>
-                <div class="price"></div>
-                <button class="download-button" onclick="window.location.href='./previews/Welcome.pdf';">Read/Oku/Lire/Lesen</button>
-                </div>
-
-            
-            <div class="book">
-                <img src="40.jpg" alt="Kuantum Tevhid">
-                <div class="title">Kuantum Tevhid (Gerçeklik, Bilinç ve Kozmik Bilgelik)</div>
-                <div class="price"></div>
-                <button class="download-button" onclick="window.location.href='./previews/kuantum-tevhid.pdf';">Önizleme</button>
-            </div>
-
-            <div class="book">
-                <img src="Qen.jpg" alt="Quantum Tawheed">
-                <div class="title">Quantum Tawheed<br>(Reality,Consciousness and Cosmic Wisdom)</br><br></div>
-                <div class="price"></div>
-                <button class="download-button" onclick="window.location.href='./previews/QUANTUM TAWHEED.pdf';">Read</button>
-            </div>
-
-            <div class="book">
-                <img src="Qde.jpg" alt="Quantum Tawheed">
-                <div class="title">Quanten-Einzigartigkeit (Realität, Bewusstsein und kosmische Weisheit)</br><br></div>
-                <div class="price"></div>
-                <button class="download-button" onclick="window.location.href='./previews/Qde.pdf';">Lesen</button>
-            </div>
-
-
-            <div class="book">
-                <img src="Qfr.jpg" alt="Quantum Tawheed">
-                <div class="title">UNICITÉ QUANTIQUE Réalité, Conscience et Sagesse Cosmique</br><br></div>
-                <div class="price"></div>
-                <button class="download-button" onclick="window.location.href='./previews/Qfr.pdf';">Lire</button>
-            </div>
-            <div class="book">
-                <img src="light1.jpg" alt="Book 1">
-                <div class="title">IŞIĞIN İZİNDE Kainatın Sırrı ve İlahi Nurun Yansımaları</div>
-                <div class="price"></div>
-                <button class="download-button" onclick="window.location.href='./previews/isigin-izinde.pdf';">Oku</button>
-            </div>
-
-            <div class="book">
-                <img src="light2.jpg" alt="Book 1">
-                <div class="title">IN SEARCH OF THE LIGHT The Secret of the Universe and Reflections of Divine Light</div>
-                <div class="price"></div>
-                <button class="download-button" onclick="window.location.href='./previews/Light.pdf';">Read</button>
-            </div>
-
-            
-            <div class="book">
-            <img src="2.jpg" alt="Book 1">
-            <div class="title">Kuantum Tasavvuf-1</div>
-            <div class="price"></div>
-            <button class="download-button" onclick="window.location.href='./previews/kuantum-tasavvuf-1.pdf';">Önizleme</button>
-        </div>
-
-        <div class="book">
-            <img src="3.jpg" alt="Book 1">
-            <div class="title">Kuantum Tasavvuf-2</div>
-            <div class="price"></div>
-            <button class="download-button" onclick="window.location.href='./previews/kuantum-tasavvuf-2.pdf';">Önizleme</button>
-        </div>
-
-             <div class="book">
-            <img src="1.jpg" alt="Book 1">
-            <div class="title">Be Sırrı - Berzah</div>
-            <div class="price"></div>
-            <button class="download-button" onclick="window.location.href='./previews/besirri-berzah.pdf';">Önizleme</button>
-        </div>
-
-
-                 <div class="book">
-                <img src="be.jpg" alt="Book 1">
-                <div class="title"><br>Be Secret (Berzakh)</div>
-                <div class="price"></div>
-                <button class="download-button" onclick="window.location.href='./previews/BE.pdf';">Read</button>
-                </div>
-
-               <div class="book">
-                <img src="50.jpg" alt="Book 1">
-                <div class="title"><br>Bundle of Secrets</div>
-                <div class="price"></div>
-                <button class="download-button" onclick="window.location.href='./previews/SIRLAR-BOHÇASINDAN.pdf';">Read</button>
-            </div>
-            
-            <div class="book">
-            <img src="4.jpg" alt="Book 1">
-            <div class="title">Muhyiddin Arabi'yi Anlamak</div>
-            <div class="price"></div>
-            <button class="download-button" onclick="window.location.href='./previews/muhyiddin-arabi-anlamak.pdf';">Önizleme</button>
-             </div>
-            
-                <div class="book">
-                <img src="42.jpg" alt="Book 1">
-                <div class="title"><br>Understanding Muhyiddin Arabi</div>
-                <div class="price"></div>
-                <button class="download-button" onclick="window.location.href='./previews/Understanding M. Arabi.pdf';">Read</button>
-            </div>
-
-             <div class="book">
-            <img src="7.jpg" alt="Book 1">
-            <div class="title">Hakikat ve Suretler (Muhyiddin Arabi'de Hayal İlmi)</div>
-            <div class="price"></div>
-            <button class="download-button" onclick="window.location.href='./previews/hakikat-ve-suretler.pdf';">Önizleme</button>
-        </div>
-
-            <div class="book">
-                <img src="800years.jpg" alt="Book 1">
-                <div class="title"><br>A Look At The Sciences and Events in the 20th Century from 800 Years Ago</div>
-                <div class="price"></div>
-                <button class="download-button" onclick="window.location.href='./previews/years.pdf';">Read</button>
-            </div>
-
-             <div class="book">
-                <img src="evrad.jpg" alt="Book 1">
-                <div class="title"><br>Muhyiddin Arabi'nin Evradı ve Zikirleri</div>
-                <div class="price"></div>
-                <button class="download-button" onclick="window.location.href='./previews/evrad.pdf';">Oku</button>
-            </div>
-
-            <div class="book">
-                <img src="80.jpg" alt="Quantum Tawheed">
-                <div class="title">Bir Alimin Portresi: Ahmet Özmerdivanlı'yı Anlamak</br><br></div>
-                <div class="price"></div>
-                <button class="download-button" onclick="window.location.href='./previews/AO.pdf';">Oku</button>
-            </div>
-
-            <div class="book">
-                <img src="81.jpg" alt="Quantum Tawheed">
-                <div class="title">PORTRAIT OF A SCHOLAR: UNDERSTANDING AHMET ÖZMERDİVANLI</br><br></div>
-                <div class="price"></div>
-                <button class="download-button" onclick="window.location.href='./previews/aoeng.pdf';">Read</button>
-            </div>
-
-          <div class="book">
-                <img src="83.jpg" alt="Quantum Tawheed">
-                <div class="title">PORTRÄT EINES WISSENSCHAFTLERS: AHMET ÖZMERDİVANLI VERSTEHEN</br><br></div>
-                <div class="price"></div>
-                <button class="download-button" onclick="window.location.href='./previews/aoal.pdf';">Lesen</button>
-            </div>
-                   
-
-<div class="book">
-            <img src="20.jpg" alt="Book 1">
-            <div class="title">Tevhid Dersleri (ŞİFALANMA ve Korunma)</div>
-            <div class="price"></div>
-            <button class="download-button" onclick="window.location.href='./previews/TEVHİD DERSLERİ.pdf';">Oku</button>
-        </div>
-
-            <div class="book">
-            <img src="6.jpg" alt="Book 1">
-            <div class="title">Bütüncül ŞİFA (Bio-Terör ve Holistik Farkındalık)</div>
-            <div class="price"></div>
-            <button class="download-button" onclick="window.location.href='./previews/butuncul-sifa.pdf';">Önizleme</button>
-        </div>
-
-            <div class="book">
-                <img src="56.jpg" alt="Book 1">
-                <div class="title"><br>Manevi Korunma ve Şifalanma Programı</div>
-                <div class="price"></div>
-                <button class="download-button" onclick="window.location.href='./previews/KORUNMA-VE-ŞİFALANMA-PROGRAMI_1.pdf';">Oku</button>
-            </div>
-
-                 <div class="book">
-                <img src="57.jpg" alt="Book 1">
-                <div class="title"><br>Spiritual Protection and Healing Program</div>
-                <div class="price"></div>
-                <button class="download-button" onclick="window.location.href='./previews/ing.ko.pdf';">Read</button>
-            </div>
-            
-            <div class="book">
-                <img src="76.jpg" alt="Book 1">
-                <div class="title"><br>ŞİFA İçin Esma Uygulamaları</div>
-                <div class="price"></div>
-                <button class="download-button" onclick="window.location.href='./previews/Şifa-Esmalar.pdf';">Oku</button>
-            </div>
-
-<div class="book">
-                <img src="dua.jpg" alt="Book 1">
-                <div class="title"><br>Ruha Huzur Veren Dualar</div>
-                <div class="price"></div>
-                <button class="download-button" onclick="window.location.href='./previews/dua.pdf';">Oku</button>
-            </div>
-
-            
-  <div class="book">
-                <img src="0.jpg" alt="Hipnoz & Hipnoterapi">
-                <div class="title">Hipnoz & Hipnoterapi (Açıklamalı Terimler Sözlüğü)</div>
-                <div class="price"></div><br>
-                <button class="download-button" onclick="window.location.href='./previews/hipnoz-ve-hipnoterapi.pdf';">Önizleme</button>
-            </div>
-
-                                
-             <div class="book">
-                <img src="kehf.jpg" alt="Book 1">
-                <div class="title">MAĞARA (KEHF) SURESİ<br>Bilinçaltı ve Hipnoz Ayetleri</div>
-                <div class="price"></div>
-                <button class="download-button" onclick="window.location.href='./previews/KEHF.pdf';">Oku</button>
-            </div>
-
-            <div class="book">
-                <img src="cave.jpg" alt="Book 1">
-                <div class="title">The CAVE<br>Subconscious and Hypnosis Verses</div>
-                <div class="price"></div>
-                <button class="download-button" onclick="window.location.href='./previews/CAVE.pdf';">Read</button>
-            </div>
-                          
-                                           
-        <div class="book">
-            <img src="5.jpg" alt="Book 1">
-            <div class="title">Yıldız İlmi (Örneklerle Astroloji Dersleri)</div>
-            <div class="price"></div>
-            <button class="download-button" onclick="window.location.href='./previews/YILDIZ.pdf';">Önizleme</button>
-             </div>
-
-<div class="book">
-            <img src="75.jpg" alt="Book 1">
-            <div class="title">Astroloji Mucizesi Ve İslam</div>
-            <div class="price"></div>
-            <button class="unavailable-button"></button>
-        </div>
-            
-                       
-            
-               
-        <div class="book">
-            <img src="8.jpg" alt="Book 1">
-            <div class="title">Kuantum Rüya (Bab-ı Nevm)</div>
-            <div class="price"></div>
-            <button class="download-button" onclick="window.location.href='./previews/kuantum-ruya.pdf';">Önizleme</button>
-        </div>
-       
-        
-
-             <div class="book">
-                <img src="55.jpg" alt="Book 1">
-                <div class="title"><br>Fakirlerin Fakiri (Şiirler 1988-2001)</div>
-                <div class="price"></div>
-                <button class="download-button" onclick="window.location.href='./previews/şiirler.pdf';">Oku</button>
-            </div>
-            
-               
-             
-            <div class="book">
-            <img src="22.jpg" alt="Book 1">
-            <div class="title"><br>Allah'a Dost Olmak</div>
-            <div class="price"></div>
-            <button class="download-button" onclick="window.location.href='./previews/allaha-dost-olmak.pdf';">Oku</button>
-              </div>
-
-             <div class="book">
-            <img src="ADOen.jpg" alt="Book 1">
-            <div class="title"><br>BEING A FRIEND TO ALLAH</div>
-            <div class="price"></div>
-            <button class="download-button" onclick="window.location.href='./previews/ADOen.pdf';">Read</button>
-              </div>
-
-            <div class="book">
-            <img src="ADOde.jpg" alt="Book 1">
-            <div class="title"><br>EIN FREUND GOTTES SEIN</div>
-            <div class="price"></div>
-            <button class="download-button" onclick="window.location.href='./previews/ADOde.pdf';">Lesen</button>
-              </div>
-
-
-              <div class="book">
-            <img src="ADOfr.jpg" alt="Book 1">
-            <div class="title"><br>ÊTRE UN AMI DE DIEU</div>
-            <div class="price"></div>
-            <button class="download-button" onclick="window.location.href='./previews/ADOfr.pdf';">Lire</button>
-              </div>
-
-            
-                      
-             <div class="book">
-                <img src="72.jpg" alt="Book 1">
-                <div class="title"><br>REJET À LA RÉINCARNATION</div>
-                <div class="price"></div>
-                <button class="download-button" onclick="window.location.href='./previews/REDDE.pdf';">Lire</button>
-            </div>
-
-                                   
-           
-
-            <div class="book">
-                <img src="74.jpg" alt="Book 1">
-                <div class="title"><br>E-SİR Madde (Wertschätzung – Geheimsubstanz)</div>
-                <div class="price"></div>
-                <button class="download-button" onclick="window.location.href='./previews/sir.pdf';">Lesen</button>
-            </div>
-
-                 <div class="book">
-                <img src="S.jpg" alt="Kuantum Tevhid">
-                <div class="title">Şeytan Hakkında</div>
-                <div class="price"></div>
-                <button class="download-button" onclick="window.location.href='./previews/şey.pdf';">Oku</button>
-            </div>
-       
-                         
-             <div class="book">
-                <img src="73.jpg" alt="Book 1">
-                <div class="title"><br>KENDİNİ OKU!</div>
-                <div class="price"></div>
-                <button class="download-button" onclick="window.location.href='./previews/oku.pdf';">Oku</button>
-            </div>
-
-   <div class="book">
-                <img src="43.jpg" alt="Book 1">
-                <div class="title"><br>Tasavvuf Terimleri Sözlüğü</div>
-                <div class="price"></div>
-                <button class="download-button" onclick="window.location.href='./previews/Tasavvuf-Terimleri.pdf';">Oku</button>
-            </div>
-            
- <div class="book">
-                <img src="kuantum.jpg" alt="Book 1">
-                <div class="title"><br>Kuantum Fiziği Temel Kavramlar Sözlüğü</div>
-                <div class="price"></div>
-                <button class="download-button" onclick="window.location.href='./previews/kuantum.pdf';">Oku</button>
-            </div>
-
-            
-            
-            </div>
+        <label style="margin-bottom: -8px;">
+            <span data-translate="tl-category">Kitap Kategorisi:</span>
+            <select id="category-filter">
+                <option data-translate="tl-hepsi" value="">Hepsi</option>
+                <option data-translate="tl-giris" value="giris">Giriş</option>
+                <option data-translate="tl-kuantum" value="kuantum">Kuantum</option>
+                <option data-translate="tl-tasavvuf" value="tasavvuf">Tasavvuf</option>
+                <option data-translate="tl-ibniarabi" value="ibniarabi">İbn-i Arabi</option>
+                <option data-translate="tl-sifa" value="sifa">Şifa</option>
+                <option data-translate="tl-hipnoz" value="hipnoz">Hipnoz</option>
+                <option data-translate="tl-astroloji" value="astroloji">Astroloji</option>
+                <option data-translate="tl-metafizik" value="metafizik">Metafizik</option>
+                <option data-translate="tl-din" value="din">Din</option>
+                <option data-translate="tl-zikir" value="zikir">Zikir</option>
+                <option data-translate="tl-sozluk" value="sozluk">Sözlük</option>
+                <option data-translate="tl-siir" value="siir">Şiir</option>
+            </select>
+        </label>
+        <label style="margin-bottom: -8px;">
+            <span data-translate="tl-language">Kitap Dili:</span>
+            <select id="language-filter">
+                <option data-translate="tl-hepsi" value="">Hepsi</option>
+                <option value="TR">Turkish</option>
+                <option value="EN">English</option>
+                <option value="DE">German</option>
+                <option value="FR">French</option>
+            </select>
+        </label>
+        <label style="margin-bottom: -8px;">
+            <span data-translate="tl-source-type">Tür (Baskı/E-Kitap):</span>
+            <select id="source-filter">
+                <option data-translate="tl-hepsi" value="">Hepsi</option>
+                <option data-translate="tl-print" value="physicalcopy">Baskı</option>
+                <option data-translate="tl-ebook" value="digitalcopy">E-Kitap</option>
+            </select>
+        </label>
+        <label style="margin-bottom: -8px;">
+            <span data-translate="tl-reldate">Çıkış Tarihi:</span>
+            <select id="year-filter">
+                <option data-translate="tl-hepsi" value="">Hepsi</option>
+            </select>
+        </label>
+        <button id="apply-filters" data-translate="tl-apply-filters">Apply Filters</button>
+        <div class="social-media" style="margin-top: 20px; text-align: center; display: flex; justify-content: center;">
+            <a href="https://www.facebook.com/profile.php?id=61564216347498" target="_blank" style="margin: 0 10px;">
+                <button style="color: #3b5998; font-size: 24px; padding: 8px 12px; border-radius: 5px; background-color: rgba(255, 255, 255, 0);">
+                    <i class="fab fa-facebook"></i>
+                </button>
+            </a>
+            <a href="https://www.instagram.com/yalkintuncay/" target="_blank" style="margin: 0 10px;">
+                <button style="color: #e1306c; font-size: 24px; padding: 8px 12px; border-radius: 5px; background-color: rgba(255, 255, 255, 0);">
+                    <i class="fab fa-instagram"></i>
+                </button>
+            </a>
+            <a href="https://x.com/yalkntn" target="_blank" style="margin: 0 10px;">
+                <button style="color: #1da1f2; font-size: 24px; padding: 8px 12px; border-radius: 5px; background-color: rgba(255, 255, 255, 0);">
+                    <i class="fab fa-twitter"></i>
+                </button>
+            </a>
+        </div>  
+        <div id="output"></div>
+        <script type="text/javascript" src="https://www.free-counters.org/count/ffpb"></script><br>
+ <a href='https://www.easybooking.eu/produkte/julia-hotelsoftware'>Hotelprogramm Buchungen</a> <script type='text/javascript' src='https://www.whomania.com/ctr?id=a742f2ccc8bdc6983cf5a8e2315b224f636b4557'></script>  
     </div>
-    
-    <script src="script.js"></script>
-    <script type="text/javascript" src="https://www.free-counters.org/count/ffpb"></script><br>
- <a href='https://www.easybooking.eu/produkte/julia-hotelsoftware'>Hotelprogramm Buchungen</a> <script type='text/javascript' src='https://www.whomania.com/ctr?id=a742f2ccc8bdc6983cf5a8e2315b224f636b4557'></script>
+    </div>
+    <div class="content">
+        <div id="book-list"></div>
+    </div>
 </body>
 </html>
 
-<style>
-    /* General Styles */
-body {
-    background-color: #f8f9fa;
-    color: #333;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow-x: hidden;
+    <script>
+document.addEventListener("DOMContentLoaded", () => {
+    let selectedLanguage = "tr"; // Default language
+    const translationData = {
+    "tr": {
+    "tl-about": "Araştırmacı yazar.",
+    "tl-copyright": "©Kitapların Yayın Hakları saklıdır.",
+    "tl-hepsi": "Hepsi",
+    "tl-giris": "Giriş",
+    "tl-kuantum": "Kuantum",
+    "tl-tasavvuf": "Tasavvuf",
+    "tl-ibniarabi": "İbn-i Arabi",
+    "tl-sifa": "Şifa",
+    "tl-hipnoz": "Hipnoz",
+    "tl-astroloji": "Astroloji",
+    "tl-metafizik": "Metafizik",
+    "tl-din": "Din",
+    "tl-zikir": "Zikir",
+    "tl-sozluk": "Sözlük",
+    "tl-siir": "Şiir",
+    "tl-read": "Oku",
+    "tl-preview": "Önizleme",
+    "tl-reldate": "Yayın Yılı",
+    "tl-apply-filters": "Filtreleri Uygula",
+    "tl-category": "Kitap Kategorisi",
+    "tl-language": "Kitap Dili",
+    "tl-source-type": "Tür (Baskı/E-Kitap)",
+    "tl-reldate": "Çıkış Tarihi",
+    "tl-print": "Baskı",
+    "tl-ebook": "E-Kitap"
+  },
+  "en": {
+    "tl-about": "Researcher-writer.",
+    "tl-copyright": "©The books' publishing rights are reserved.",
+    "tl-hepsi": "All",
+    "tl-giris": "Introduction",
+    "tl-kuantum": "Quantum",
+    "tl-tasavvuf": "Sufism",
+    "tl-ibniarabi": "Ibn Arabi",
+    "tl-sifa": "Healing",
+    "tl-hipnoz": "Hypnosis",
+    "tl-astroloji": "Astrology",
+    "tl-metafizik": "Metaphysics",
+    "tl-din": "Religion",
+    "tl-zikir": "Remembrance",
+    "tl-sozluk": "Dictionary",
+    "tl-siir": "Poetry",
+    "tl-read": "Read",
+    "tl-preview": "Preview",
+    "tl-reldate": "Release Year",
+    "tl-apply-filters": "Apply Filters",
+    "tl-category": "Category",
+    "tl-language": "Language",
+    "tl-source-type": "Source Type (Print/Digital)",
+    "tl-reldate": "Release Date",
+    "tl-print": "Print",
+    "tl-ebook": "E-Book"
+  },
+  "fr": {
+    "tl-about": "Auteur-chercheur.",
+    "tl-copyright": "©Les droits de publication des livres sont réservés.",
+    "tl-hepsi": "Tous",
+    "tl-giris": "Introduction",
+    "tl-kuantum": "Quantique",
+    "tl-tasavvuf": "Soufisme",
+    "tl-ibniarabi": "Ibn Arabi",
+    "tl-sifa": "Guérison",
+    "tl-hipnoz": "Hypnose",
+    "tl-astroloji": "Astrologie",
+    "tl-metafizik": "Métaphysique",
+    "tl-din": "Religion",
+    "tl-zikir": "Souvenir",
+    "tl-sozluk": "Dictionnaire",
+    "tl-siir": "Poésie",
+    "tl-read": "Lire",
+    "tl-preview": "Aperçu",
+    "tl-reldate": "Année de publication",
+    "tl-apply-filters": "Appliquer les filtres",
+    "tl-category": "Catégorie de livre",
+    "tl-language": "Langue du livre",
+    "tl-source-type": "Type de source (Livre imprimé/numérique)",
+    "tl-reldate": "Date de sortie",
+    "tl-print": "Imprimé",
+    "tl-ebook": "Livre numérique"
+  },
+  "de": {
+    "tl-about": "Forscher-Schriftsteller.",
+    "tl-copyright": "©Die Veröffentlichungsrechte der Bücher sind vorbehalten.",
+    "tl-hepsi": "Alle",
+    "tl-giris": "Einleitung",
+    "tl-kuantum": "Quanten",
+    "tl-tasavvuf": "Sufismus",
+    "tl-ibniarabi": "Ibn Arabi",
+    "tl-sifa": "Heilung",
+    "tl-hipnoz": "Hypnose",
+    "tl-astroloji": "Astrologie",
+    "tl-metafizik": "Metaphysik",
+    "tl-din": "Religion",
+    "tl-zikir": "Erinnerung",
+    "tl-sozluk": "Wörterbuch",
+    "tl-siir": "Poesie",
+    "tl-read": "Lesen",
+    "tl-preview": "Vorschau",
+    "tl-reldate": "Erscheinungsjahr",
+    "tl-apply-filters": "Filter anwenden",
+    "tl-category": "Buchkategorie",
+    "tl-language": "Buchsprache",
+    "tl-source-type": "Quellentyp (Druck/Digitalbuch)",
+    "tl-reldate": "Erscheinungsdatum",
+    "tl-print": "Druck",
+    "tl-ebook": "E-Buch"
+  }
+};
+
+function applyTranslations() {
+    const elementsToTranslate = document.querySelectorAll("[data-translate]");
+    elementsToTranslate.forEach((element) => {
+        const key = element.getAttribute("data-translate");
+        const translation = translationData[selectedLanguage]?.[key];
+        if (translation) {
+            element.textContent = translation;
+        } else {
+            console.warn(`Translation missing for key: "${key}" in language: "${selectedLanguage}"`);
+        }
+    });
 }
 
-/* Download Button Styling */
-.download-button {
-    background-color: #f3f3f3;
-    color: #000;
-    border: none;
-    border-radius: 6px;
-    padding: 10px 15px;
-    font-size: 14px;
-    cursor: pointer;
-    transition: background-color 0.3s, box-shadow 0.3s;
-    margin-top: 10px;
-    width: 100%; /* Full width for uniformity */
+
+    // Dark mode toggle
+    function toggleDarkMode() {
+        const isDarkMode = document.body.classList.toggle("dark-mode");
+        localStorage.setItem("darkMode", isDarkMode ? "enabled" : "disabled");
+        document.getElementById("dark-mode-toggle").textContent = isDarkMode ? "☀️" : "🌙";
+    }
+
+    document.getElementById("dark-mode-toggle").addEventListener("click", toggleDarkMode);
+
+    // Preserve dark mode state
+    if (localStorage.getItem("darkMode") === "enabled") {
+        document.body.classList.add("dark-mode");
+        document.getElementById("dark-mode-toggle").textContent = "☀️";
+    }
+
+    // Language selector
+    const languageSelector = document.getElementById("language-selector");
+    languageSelector.addEventListener("change", (event) => {
+        selectedLanguage = event.target.value;
+        localStorage.setItem("selectedLanguage", selectedLanguage);
+        applyTranslations();
+        if (metadata.books) {
+            renderBooks(metadata.books); // Re-render books when language changes
+        }
+    });
+
+    // Preserve language selection
+    const savedLanguage = localStorage.getItem("selectedLanguage");
+    if (savedLanguage) {
+        selectedLanguage = savedLanguage;
+        languageSelector.value = selectedLanguage;
+    }
+
+    // Load book metadata
+    fetch("./external/data.json")
+        .then((response) => response.json())
+        .then((data) => {
+            metadata = data; // Save metadata globally
+            populateFilters(data.books);
+            renderBooks(data.books);
+        })
+        .catch((error) => console.error("Error loading metadata:", error));
+
+    // Populate filters
+    function populateFilters(books) {
+        const yearFilter = document.getElementById("year-filter");
+        const releaseYears = [...new Set(books.map((book) => book.releasedate))].sort();
+        releaseYears.forEach((year) => {
+            const option = document.createElement("option");
+            option.value = year;
+            option.textContent = year;
+            yearFilter.appendChild(option);
+        });
+    }
+
+    function renderBooks(books) {
+    const bookList = document.getElementById("book-list");
+    bookList.innerHTML = ""; // Clear current book list
+
+    books.forEach((book) => {
+        const bookDiv = document.createElement("div");
+        bookDiv.className = "book2";
+        const descriptionKey = `description_${selectedLanguage}`;
+
+        const sources = book.sourcetype
+    .map((type) =>
+        type === "physicalcopy"
+            ? translationData[selectedLanguage]?.["physicalcopy"] || "Print"
+            : translationData[selectedLanguage]?.["digitalcopy"] || "E-Book"
+    )
+    .join(", ");
+    bookDiv.innerHTML = `
+    <div class="book">
+        <img src="${book.relativeimagepath}" alt="${book.title}" class="book-image" />
+        <div class="book-content">
+            <h2>${book.title}</h2>
+            <p><strong>Categories:</strong> ${
+                book.categories.map(
+                    (cat) => translationData[selectedLanguage]?.[cat] || cat
+                ).join(", ")
+            }</p>
+            <p><strong>Languages:</strong> ${
+                book.languages?.join(", ") || book.language
+            }</p>
+            <p><strong>Release Date:</strong> ${book.releasedate}</p>
+            <p><strong>Source Type:</strong> ${sources}</p>
+            <p><strong>Description:</strong> ${
+                book[descriptionKey] || "No description available in this language."
+            }</p>
+            <a class="button" href="${book.buttonlink}">
+                ${translationData[selectedLanguage]?.[book.buttoncontents[0]] || book.buttoncontents[0]}
+            </a>
+        </div>
+    </div>
+`;
+
+        bookList.appendChild(bookDiv);
+    });
 }
 
-.download-button:hover {
-    background-color: #007bff66; /* Darker blue on hover */
-    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
-}
+    // Apply filters
+    document.getElementById("apply-filters").addEventListener("click", () => {
+        const categoryFilter = document.getElementById("category-filter").value;
+        const languageFilter = document.getElementById("language-filter").value;
+        const sourceFilter = document.getElementById("source-filter").value;
+        const yearFilter = document.getElementById("year-filter").value;
 
+        const filteredBooks = metadata.books.filter((book) => {
+            const matchesCategory = !categoryFilter || book.categories.includes(categoryFilter);
+            const matchesLanguage = !languageFilter || (book.languages || [book.language]).includes(languageFilter);
+            const matchesSource = !sourceFilter || book.sourcetype.includes(sourceFilter);
+            const matchesYear = !yearFilter || book.releasedate === yearFilter;
 
-/* Loading Screen */
-#loading-screen {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(248, 249, 250, 0.95);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #007bff;
-    font-size: 18px;
-    font-weight: bold;
-    z-index: 9999;
-}
+            return matchesCategory && matchesLanguage && matchesSource && matchesYear;
+        });
 
-.spinner {
-    border: 6px solid #e0e0e0;
-    border-top: 6px solid #007bff;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    animation: spin 1s linear infinite;
-    margin-bottom: 15px;
-}
+        renderBooks(filteredBooks);
+    });
+});
 
-.loading-text {
-    color: #007bff;
-}
+    const toggleButton = document.querySelector('.toggle-sidebar');
+    const sidebar = document.querySelector('.sidebar');
 
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
+    toggleButton.addEventListener('click', () => {
+        sidebar.classList.toggle('visible');
+        sidebar.classList.toggle('hidden');
+    });
 
+    // Run this script on page load
+    window.addEventListener('DOMContentLoaded', () => {
+      // Get the SVG element
+      const svg = document.getElementById('besucherzaehler2');
 
-/* Popup for Email Info */
-.popup {
-    position: fixed;
-    bottom: 0;               /* Align to the bottom of the screen */
-    left: 0;                 /* Align to the left edge */
-    width: 100%;             /* Cover the entire width of the screen */
-    background-color: #ffffff;
-    border-radius: 10px 10px 0 0; /* Rounded corners only at the top */
-    box-shadow: 0 -4px 10px rgba(0, 123, 255, 0.3); /* Shadow above the popup */
-    color: #007bff;
-    padding: 25px;
-    font-size: 20px;
-    z-index: 1000;
-    text-align: center;      /* Center-align text */
-}
+      // Get all the <text> elements within the SVG
+      const texts = svg.querySelectorAll('text');
 
+      // Extract the text content and format it, excluding unwanted text
+      let outputText = '<h3 id="outputtext">Visitor Counter:</h3><ul>';
+      texts.forEach(text => {
+        // Get the content of the <text> element
+        let content = text.innerHTML;
 
-/* Book Container */
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
-    max-width: 1200px;
-}
+        // Remove any anchor (<a>) tag content
+        content = content.replace(/<a[^>]*>([^<]+)<\/a>/g, ''); // Regex to remove <a> tags
 
-/* Individual Book Styling */
-.book {
-    background-color: #ffffff;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 15px;
-    text-align: center;
-    padding: 20px;
-    width: 180px;
-    transition: box-shadow 0.3s, transform 0.3s;
-}
+        // If the content is not empty, add it to the output
+        if (content.trim() !== '') {
+          outputText += `<li>${content.trim()}</li>`;
+        }
+      });
+      outputText += '</ul>';
 
-.book:hover {
-    box-shadow: 0 4px 20px rgba(0, 123, 255, 0.4);
-    transform: scale(1.05);
-}
+      // Display the extracted text in the output div
+      const outputDiv = document.getElementById('output');
+      outputDiv.innerHTML = outputText;
+    });
 
-.book img {
-    width: 100%;
-    border-radius: 8px;
-}
-
-.title {
-    font-size: 16px;
-    font-weight: bold;
-    color: #333;
-    margin: 10px 0;
-}
-
-.price {
-    font-size: 14px;
-    color: #555;
-}
-
-/* Spinner Animation */
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
-
-/* General Styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow-x: hidden;
-    transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
-}
-
-/* Light Mode Colors */
-body.light-mode {
-    background-color: #f8f9fa;
-    color: #333;
-}
-
-body.light-mode .book {
-    background-color: #ffffff;
-}
-
-body.light-mode .download-button {
-    background-color: #f3f3f3;
-    color: #000;
-}
-
-/* Dark Mode Colors */
-body.dark-mode {
-    background-color: #333;
-    color: #f8f9fa;
-}
-
-body.dark-mode .book {
-    background-color: #444;
-    color: #f8f9fa;
-}
-
-body.dark-mode .download-button {
-    background-color: #555;
-    color: #fff;
-}
-
-/* Dark Mode Toggle Button */
-#dark-mode-toggle {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 14px;
-    z-index: 1001;
-    transition: background-color 0.3s;
-}
-
-#dark-mode-toggle:hover {
-    background-color: #0056b3;
-}
-
-/* General Styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow-x: hidden;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-/* Light Mode Colors */
-body.light-mode {
-    background-color: #ffffff; /* Material light background */
-    color: #1e1e1e;            /* Material light text color */
-}
-
-body.light-mode .book {
-    background-color: #f5f5f5; /* Material light card background */
-    color: #1e1e1e;
-}
-
-body.light-mode .download-button {
-    background-color: #e0e0e0; /* Material light button background */
-    color: #1e1e1e;
-}
-
-/* Dark Mode Colors */
-body.dark-mode {
-    background-color: #121212; /* Material dark background */
-    color: #e0e0e0;            /* Material dark text color */
-}
-
-body.dark-mode .book {
-    background-color: #1f1f1f; /* Material dark card background */
-    color: #e0e0e0;
-}
-
-body.dark-mode .download-button {
-    background-color: #2a2a2a; /* Material dark button background */
-    color: #ffffff;
-}
-
-/* Download Button Styling */
-.download-button {
-    border: none;
-    border-radius: 6px;
-    padding: 10px 15px;
-    font-size: 14px;
-    cursor: pointer;
-    transition: background-color 0.3s, box-shadow 0.3s;
-    margin-top: 10px;
-    width: 100%;
-}
-
-.download-button:hover {
-    background-color: #6200ee; /* Material accent color */
-    color: #ffffff;
-    box-shadow: 0 4px 10px rgba(98, 0, 238, 0.3);
-}
-
-/* Loading Screen */
-#loading-screen {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.9);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #6200ee; /* Material accent color */
-    font-size: 18px;
-    font-weight: bold;
-    z-index: 9999;
-}
-
-body.dark-mode #loading-screen {
-    background-color: rgba(18, 18, 18, 0.9); /* Dark background overlay */
-}
-
-.spinner {
-    border: 6px solid #bdbdbd;
-    border-top: 6px solid #6200ee;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    animation: spin 1s linear infinite;
-    margin-bottom: 15px;
-}
-
-.loading-text {
-    color: #6200ee;
-}
-
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
-
-/* Popup for Email Info */
-.popup {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #ffffff;
-    border-radius: 10px 10px 0 0;
-    box-shadow: 0 -4px 10px rgba(98, 0, 238, 0.3);
-    color: #6200ee;
-    padding: 25px;
-    font-size: 20px;
-    z-index: 1000;
-    text-align: center;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-body.dark-mode .popup {
-    background-color: #121212;
-    color: #bb86fc; /* Material purple for dark mode text */
-    box-shadow: 0 -4px 10px rgba(187, 134, 252, 0.3);
-}
-
-/* Dark Mode Toggle Button */
-#dark-mode-toggle {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    background-color: #6200ee;
-    color: #ffffff;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 14px;
-    z-index: 1001;
-    transition: background-color 0.3s;
-}
-
-#dark-mode-toggle:hover {
-    background-color: #3700b3; /* Darker purple for hover */
-}
-
-/* Book Container */
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
-    max-width: 1200px;
-}
-
-/* Individual Book Styling */
-.book {
-    background-color: #f5f5f5;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 15px;
-    text-align: center;
-    padding: 20px;
-    width: 180px;
-    transition: box-shadow 0.3s, transform 0.3s;
-}
-
-body.dark-mode .book {
-    background-color: #1f1f1f;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.book:hover {
-    box-shadow: 0 4px 20px rgba(98, 0, 238, 0.4);
-    transform: scale(1.05);
-}
-
-.book img {
-    width: 100%;
-    border-radius: 8px;
-}
-
-.title {
-    font-size: 16px;
-    font-weight: bold;
-    color: #333;
-    margin: 10px 0;
-}
-
-body.dark-mode .title {
-    color: #e0e0e0;
-}
-
-.price {
-    font-size: 14px;
-    color: #666;
-}
-
-body.dark-mode .price {
-    color: #bbbbbb;
-}
-
-/* Light Mode */
-.unavailable-button {
-    background-color: #f3f3f3;
-    color: #666;
-    border: none;
-    border-radius: 6px;
-    padding: 10px 15px;
-    font-size: 14px;
-    cursor: not-allowed;
-    margin-top: 10px;
-    width: 100%;
-    transition: background-color 0.3s, box-shadow 0.3s;
-}
-
-.unavailable-button:hover {
-    background-color: #ff4d4d; /* Light red hover effect */
-    color: #ffffff;
-    box-shadow: 0 4px 10px rgba(255, 77, 77, 0.3);
-}
-
-/* Dark Mode */
-body.dark-mode .unavailable-button {
-    background-color: #2a2a2a; /* Dark grey background */
-    color: #bbbbbb;            /* Light grey text color */
-}
-
-body.dark-mode .unavailable-button:hover {
-    background-color: #cf6679; /* Material dark theme's error color */
-    color: #ffffff;
-    box-shadow: 0 4px 10px rgba(207, 102, 121, 0.3); /* Dark red shadow */
-}
-</style>
+    // Wait until the DOM content is fully loaded
+    window.addEventListener('DOMContentLoaded', () => {
+      // Find the unwanted <a> tag by its href attribute
+      const unwantedLink = document.querySelector('a[href="https://www.easybooking.eu/produkte/julia-hotelsoftware"]');
+      
+      // If the unwanted <a> tag exists, set its visibility to hidden without affecting its space
+      if (unwantedLink) {
+        unwantedLink.style.visibility = 'hidden';  // Hides the element without affecting its layout
+      }
+    });
+    </script>
