@@ -1,35 +1,66 @@
 /* General Styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    background-color: #f4f4f9;
-    display: flex;
-    flex-direction: row;
-    overflow-x: hidden;
-    transition: background-color 0.3s, color 0.3s;
+* {
+    box-sizing: border-box;
 }
+
+/* Scrollbar Styles with Transparent Background for Chrome */
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+/* Transparent Scrollbar Track */
+::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0); /* Transparent */
+    appearance: none; /* Disable native styles */
+}
+
+/* Scrollbar Thumb */
+::-webkit-scrollbar-thumb {
+    background-color: #444; /* Gray thumb */
+    border-radius: 5px; /* Optional for rounded thumb */
+}
+
+/* Scrollbar Thumb Hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Slightly lighter gray on hover */
+}
+
+/* General body and html styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    transition: background-color 0.3s, color 0s;
+}
+
+/* Dark Mode Styling */
 body.dark-mode {
     background-color: #121212;
     color: #e0e0e0;
 }
 
+/* Buttons */
 .button {
     margin-top: 10px;
-    padding: 10px 10px;
+    padding: 10px;
     color: #fff;
     background-color: #007BFF;
     border: none;
     border-radius: 5px;
     text-decoration: none;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
+
 .button:hover {
     background-color: #0056b3;
 }
 
 /* Sidebar */
 .sidebar {
-    width: 200px;
+    width: 235px;
     height: 100%;
     position: fixed;
     top: 0;
@@ -37,17 +68,20 @@ body.dark-mode {
     background-color: #fff;
     border: 1px solid #ccc;
     padding: 15px;
-    border-radius: 0px;
     overflow-y: auto;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, width 0.3s ease, height 0.3s ease;
+    z-index: 1000;
 }
+
 body.dark-mode .sidebar {
     background-color: #1f1f1f;
     border-color: #444;
 }
+
 .sidebar.hidden {
     transform: translateX(-100%);
 }
+
 .sidebar input, .sidebar select, .sidebar button {
     width: 100%;
     padding: 8px;
@@ -58,17 +92,20 @@ body.dark-mode .sidebar {
     color: #000;
     transition: 0.3s;
 }
+
 body.dark-mode .sidebar input, body.dark-mode .sidebar select {
     background-color: #1f1f1f;
     color: #e0e0e0;
     border-color: #444;
 }
+
 .sidebar button {
     background-color: #444;
     color: #fff;
     border: none;
     cursor: pointer;
 }
+
 .sidebar button:hover {
     background-color: #0056b3;
 }
@@ -76,10 +113,11 @@ body.dark-mode .sidebar input, body.dark-mode .sidebar select {
 /* Content */
 .content {
     flex: 1;
-    padding: 0px;
+    padding: 0;
     margin-left: 230px;
     transition: margin-left 0.3s;
 }
+
 .sidebar.hidden ~ .content {
     margin-left: 10px;
 }
@@ -92,19 +130,33 @@ body.dark-mode .sidebar input, body.dark-mode .sidebar select {
     display: flex;
     align-items: center;
     gap: 10px;
-    z-index: 1000;
+    z-index: 2000;
     margin-top: 20px;
 }
+
 .toggle-sidebar {
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode .toggle-sidebar {
     background-color: #1f1f1f;
     color: #e0e0e0;
     border-color: #444;
-    padding: 10px;
-    border-radius: 8px;
-    border: 1px solid #444;
-    margin-right: 20px;
 }
 
+.toggle-sidebar:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+/* Dark Mode Toggle */
 #dark-mode-toggle, #language-selector, #toggle-sidebar {
     padding: 10px;
     border-radius: 8px;
@@ -113,11 +165,13 @@ body.dark-mode .sidebar input, body.dark-mode .sidebar select {
     color: #000;
     cursor: pointer;
 }
+
 body.dark-mode #dark-mode-toggle, body.dark-mode #language-selector {
     background-color: #1f1f1f;
     color: #e0e0e0;
     border-color: #444;
 }
+
 #dark-mode-toggle:hover, #language-selector:hover, #toggle-sidebar:hover {
     background-color: #0056b3;
     color: #fff;
@@ -125,13 +179,15 @@ body.dark-mode #dark-mode-toggle, body.dark-mode #language-selector {
 
 /* Book Cards */
 .book {
-    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0px;
+    padding: 0px;
+    margin: 15px;
+    margin-bottom: 25px;
     border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 15px;
     background-color: #fff;
-    display: flex; /* Use flex layout */
-    flex-direction: row; /* Default layout (image next to text) */
     transition: 0.3s;
 }
 
@@ -144,7 +200,7 @@ body.dark-mode .book {
     max-width: 250px;
     border-radius: 8px;
     margin-right: 15px;
-    display: block; /* Ensures image behaves like a block element */
+    display: block;
 }
 
 .book-header {
@@ -153,12 +209,47 @@ body.dark-mode .book {
     gap: 15px;
 }
 
+.hidden {
+    display: none;
+}
+
 /* Social Media */
 .social-media {
     display: flex;
     justify-content: center;
     gap: 10px;
 }
+
+#besucherzaehler2 {
+    display: none; /* Hide the SVG */
+}
+
+#outputtext {
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#output {
+    margin-top: -10px;
+    padding-top: 10px;
+    margin-bottom: -15px;
+    padding-bottom: -15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    font-family: Roboto, sans-serif;
+    color: #000;
+    border-radius: 10px;
+}
+
+body.dark-mode #output {
+    background-color: #1f1f1f; /* Dark background for dark mode */
+    color: #e0e0e0; /* Light text color for dark mode */
+    border-color: #444; /* Border color matching dark theme */
+}
+
 .social-media button {
     font-size: 18px;
     padding: 8px 10px;
@@ -170,24 +261,44 @@ body.dark-mode .book {
     body {
         flex-direction: column;
     }
-    
+
     .book {
-        flex-direction: column; /* Stack the content vertically on mobile */
-        align-items: center; /* Center the content */
-        display: flex; /* Ensure it's a flex container */
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     .book img {
-        margin-right: 0; /* Remove right margin */
-        max-width: 125px;
+        margin-right: 0;
+        margin-bottom: 10px;
+        max-width: 175px;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: 100%;
     }
 }
 
-@media (min-width: 768px) {
-    .sidebar {
-        width: 200px;
+@media (max-width: 512px) {
+    .book img {
+        margin-bottom: 15px;
+        max-width: 125px;
     }
-    .content {
-        margin-left: 230px;
+
+    .social-media {
+        gap: 0;
+    }
+
+    .social-media button {
+        font-size: 5px;
+        margin-right: -8px;
+        border-radius: 0;
+    }
+}
+
+@media (max-width: 384px) {
+    #pfp {
+        width: 120px;
     }
 }
