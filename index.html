@@ -327,6 +327,7 @@ function applyTranslations() {
 
     // Apply filters
     document.getElementById("apply-filters").addEventListener("click", () => {
+        sidebar.classList.toggle('hidden');
         const categoryFilter = document.getElementById("category-filter").value;
         const languageFilter = document.getElementById("language-filter").value;
         const sourceFilter = document.getElementById("source-filter").value;
