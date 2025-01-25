@@ -16,11 +16,11 @@
             <option value="fr">Français</option>
         </select>
     <button id="dark-mode-toggle">🌙</button>
-    <button class="toggle-sidebar">☰ Menu</button>
+    <button class="toggle-sidebar">☰</button>
     </div>
     <div class="sidebar">
         <h2 id="pfp" class="profile-header">Yalkın Tuncay</h2>
-        <img id="pfp" width="135" src="./external/pfp.jpeg" alt="Profile Picture">
+        <img id="pfp-img" width="135" src="./external/pfp.jpeg" alt="Profile Picture">
         <p id="pfp" data-translate="tl-about">Araştırmacı yazar.</p>
         <p id="pfp" class="copyright" data-translate="tl-copyright" style="color:red;">©Kitapların Yayın Hakları saklıdır.</p>
         <p id="pfp" class="email"><a href="mailto:yalknt@gmail.com?subject=Contact">yalknt@gmail.com</a></p>
@@ -85,7 +85,10 @@
                     <i class="fab fa-twitter"></i>
                 </button>
             </a>
-        </div>    
+        </div>  
+        <div id="output"></div>
+        <script type="text/javascript" src="https://www.free-counters.org/count/ffpb"></script><br>
+ <a href='https://www.easybooking.eu/produkte/julia-hotelsoftware'>Hotelprogramm Buchungen</a> <script type='text/javascript' src='https://www.whomania.com/ctr?id=a742f2ccc8bdc6983cf5a8e2315b224f636b4557'></script>  
     </div>
     </div>
     <div class="content">
@@ -293,31 +296,31 @@ function applyTranslations() {
             : translationData[selectedLanguage]?.["digitalcopy"] || "E-Book"
     )
     .join(", ");
+    bookDiv.innerHTML = `
+    <div class="book">
+        <img src="${book.relativeimagepath}" alt="${book.title}" class="book-image" />
+        <div class="book-content">
+            <h2>${book.title}</h2>
+            <p><strong>Categories:</strong> ${
+                book.categories.map(
+                    (cat) => translationData[selectedLanguage]?.[cat] || cat
+                ).join(", ")
+            }</p>
+            <p><strong>Languages:</strong> ${
+                book.languages?.join(", ") || book.language
+            }</p>
+            <p><strong>Release Date:</strong> ${book.releasedate}</p>
+            <p><strong>Source Type:</strong> ${sources}</p>
+            <p><strong>Description:</strong> ${
+                book[descriptionKey] || "No description available in this language."
+            }</p>
+            <a class="button" href="${book.buttonlink}">
+                ${translationData[selectedLanguage]?.[book.buttoncontents[0]] || book.buttoncontents[0]}
+            </a>
+        </div>
+    </div>
+`;
 
-        bookDiv.innerHTML = `
-            <div class="book-header">
-                <img src="${book.relativeimagepath}" alt="${book.title}" />
-                <div class="book-content">
-                    <h2>${book.title}</h2>
-                    <p><strong>Categories:</strong> ${
-                        book.categories.map(
-                            (cat) => translationData[selectedLanguage]?.[cat] || cat
-                        ).join(", ")
-                    }</p>
-                    <p><strong>Languages:</strong> ${
-                        book.languages?.join(", ") || book.language
-                    }</p>
-                    <p><strong>Release Date:</strong> ${book.releasedate}</p>
-                    <p><strong>Source Type:</strong> ${sources}</p>
-                    <p><strong>Description:</strong> ${
-                        book[descriptionKey] || "No description available in this language."
-                    }</p>
-                    <a class="button" href="${book.buttonlink}">
-                        ${translationData[selectedLanguage]?.[book.buttoncontents[0]] || book.buttoncontents[0]}
-                    </a>
-                </div>
-            </div>
-        `;
         bookList.appendChild(bookDiv);
     });
 }
@@ -348,5 +351,45 @@ function applyTranslations() {
     toggleButton.addEventListener('click', () => {
         sidebar.classList.toggle('visible');
         sidebar.classList.toggle('hidden');
+    });
+
+    // Run this script on page load
+    window.addEventListener('DOMContentLoaded', () => {
+      // Get the SVG element
+      const svg = document.getElementById('besucherzaehler2');
+
+      // Get all the <text> elements within the SVG
+      const texts = svg.querySelectorAll('text');
+
+      // Extract the text content and format it, excluding unwanted text
+      let outputText = '<h3 id="outputtext">Visitor Counter:</h3><ul>';
+      texts.forEach(text => {
+        // Get the content of the <text> element
+        let content = text.innerHTML;
+
+        // Remove any anchor (<a>) tag content
+        content = content.replace(/<a[^>]*>([^<]+)<\/a>/g, ''); // Regex to remove <a> tags
+
+        // If the content is not empty, add it to the output
+        if (content.trim() !== '') {
+          outputText += `<li>${content.trim()}</li>`;
+        }
+      });
+      outputText += '</ul>';
+
+      // Display the extracted text in the output div
+      const outputDiv = document.getElementById('output');
+      outputDiv.innerHTML = outputText;
+    });
+
+    // Wait until the DOM content is fully loaded
+    window.addEventListener('DOMContentLoaded', () => {
+      // Find the unwanted <a> tag by its href attribute
+      const unwantedLink = document.querySelector('a[href="https://www.easybooking.eu/produkte/julia-hotelsoftware"]');
+      
+      // If the unwanted <a> tag exists, set its visibility to hidden without affecting its space
+      if (unwantedLink) {
+        unwantedLink.style.visibility = 'hidden';  // Hides the element without affecting its layout
+      }
     });
     </script>
