@@ -84,29 +84,6 @@
       "releasedate": "2025"
     },
     {
-      "title": "KUANTUM TEVHİD (Gerçeklik, Bilinç ve Kozmik Bilgelik)",
-      "categories": [
-        "kuantum",
-        "tasavvuf"
-        ],
-      "language": "TR",
-      "sourcetype": [
-        "digitalcopy",
-        "physicalcopy"
-      ],
-      "description_en": "Quantum Tawhid takes you on a vast exploration from the depths of quantum physics to the mystical depths of Sufism. This book focuses on the understanding of Tawhid on your journey from the most minute details of the universe to the limits of human consciousness, allowing you to discover the fundamental unity of existence and that everything is a manifestation of God.",
-      "description_tr": "Kuantum Tevhid, sizi kuantum fiziğinin derinliklerinden, tasavvufun mistik derinliklerine uzanan geniş bir keşfe çıkarıyor. Bu kitap, evrenin en ince detaylarından, insan bilincinin sınırlarına kadar olan yolculuğunuzda, tevhid anlayışını merkezine alarak, varoluşun temel birliğini ve her şeyin Hakk'ın tecellisi olduğunu keşfetmenizi sağlıyor.",
-      "description_fr": "Quantum Tawhid vous emmène dans une vaste exploration des profondeurs de la physique quantique aux profondeurs mystiques du soufisme. Ce livre, dans votre voyage depuis les plus petits détails de l'univers jusqu'aux limites de la conscience humaine, se concentre sur la compréhension du monothéisme, vous permettant de découvrir l'unité fondamentale de l'existence et que tout est une manifestation de Dieu.",
-      "description_de": "Quantum Tawhid nimmt Sie mit auf eine umfassende Entdeckungsreise von den Tiefen der Quantenphysik bis in die mystischen Tiefen des Sufismus. Dieses Buch begleitet Sie auf Ihrer Reise von den kleinsten Einzelheiten des Universums bis an die Grenzen des menschlichen Bewusstseins und konzentriert sich auf das Verständnis des Monotheismus. So können Sie die grundlegende Einheit der Existenz erkennen und erkennen, dass alles eine Manifestation Gottes ist.",
-      "relativeimagepath": "./thumbnails/40.jpg",
-      "buttontypehtml": "download-button",
-      "buttoncontents": [
-        "preview"
-       ],
-      "buttonlink": "./previews/kuantum-tevhid.pdf",
-      "releasedate": "2024"
-    },
-    {
       "title": "QUANTUM TAWHEED (Reality, Consciousness and Cosmic Wisdom)",
       "categories": [
         "kuantum",
@@ -172,27 +149,27 @@
       "buttonlink": "./previews/Qde.pdf",
       "releasedate": "2024"
     },
-    {
-      "title": "Işığın İzinde (Kainatın Sırrı ve İlahi Nurun Yansımaları)",
+        {
+      "title": "KUANTUM TEVHİD (Gerçeklik, Bilinç ve Kozmik Bilgelik)",
       "categories": [
         "kuantum",
-        "tasavvuf",
-        "metafizik"
-      ],
+        "tasavvuf"
+        ],
       "language": "TR",
       "sourcetype": [
-        "digitalcopy"
+        "digitalcopy",
+        "physicalcopy"
       ],
-      "description_en": "This book, starting from the history of light, deeply examines its scientific dimensions, its meanings in sacred texts and cosmic functions. It offers a wide perspective from the holographic universe theory to the world of consciousness and perception; from the thin line between existence and non-existence to the new understanding of creation opened by quantum mechanics.",
-      "description_tr": "Bu kitap, ışığın tarihinden başlayarak, bilimsel boyutlarını, kutsal metinlerdeki anlamlarını ve kozmik işlevlerini derinlemesine inceliyor. Holografik evren teorisinden, bilinç ve algı dünyasına; varlık ve yokluk arasındaki ince çizgiden, kuantum mekaniğiyle açılan yeni yaratım anlayışına kadar geniş bir perspektif sunuyor.",
-      "description_fr": "Ce livre commence par l’histoire de la lumière et plonge dans ses dimensions scientifiques, ses significations textuelles sacrées et ses fonctions cosmiques. De la théorie de l’univers holographique au monde de la conscience et de la perception ; Il offre une perspective large, depuis la fine ligne entre l’existence et la non-existence jusqu’à la nouvelle compréhension de la création ouverte par la mécanique quantique.",
-      "description_de": "Dieses Buch beginnt mit der Geschichte des Lichts und befasst sich mit seinen wissenschaftlichen Dimensionen, heiligen Textbedeutungen und kosmischen Funktionen. Von der Theorie des holographischen Universums zur Welt des Bewusstseins und der Wahrnehmung; Es bietet eine breite Perspektive, von der dünnen Linie zwischen Existenz und Nichtexistenz bis hin zum neuen Verständnis der Schöpfung, das die Quantenmechanik ermöglicht.",
-      "relativeimagepath": "./thumbnails/light1.jpg",
+      "description_en": "Quantum Tawhid takes you on a vast exploration from the depths of quantum physics to the mystical depths of Sufism. This book focuses on the understanding of Tawhid on your journey from the most minute details of the universe to the limits of human consciousness, allowing you to discover the fundamental unity of existence and that everything is a manifestation of God.",
+      "description_tr": "Kuantum Tevhid, sizi kuantum fiziğinin derinliklerinden, tasavvufun mistik derinliklerine uzanan geniş bir keşfe çıkarıyor. Bu kitap, evrenin en ince detaylarından, insan bilincinin sınırlarına kadar olan yolculuğunuzda, tevhid anlayışını merkezine alarak, varoluşun temel birliğini ve her şeyin Hakk'ın tecellisi olduğunu keşfetmenizi sağlıyor.",
+      "description_fr": "Quantum Tawhid vous emmène dans une vaste exploration des profondeurs de la physique quantique aux profondeurs mystiques du soufisme. Ce livre, dans votre voyage depuis les plus petits détails de l'univers jusqu'aux limites de la conscience humaine, se concentre sur la compréhension du monothéisme, vous permettant de découvrir l'unité fondamentale de l'existence et que tout est une manifestation de Dieu.",
+      "description_de": "Quantum Tawhid nimmt Sie mit auf eine umfassende Entdeckungsreise von den Tiefen der Quantenphysik bis in die mystischen Tiefen des Sufismus. Dieses Buch begleitet Sie auf Ihrer Reise von den kleinsten Einzelheiten des Universums bis an die Grenzen des menschlichen Bewusstseins und konzentriert sich auf das Verständnis des Monotheismus. So können Sie die grundlegende Einheit der Existenz erkennen und erkennen, dass alles eine Manifestation Gottes ist.",
+      "relativeimagepath": "./thumbnails/40.jpg",
       "buttontypehtml": "download-button",
       "buttoncontents": [
-        "read"
-      ],
-      "buttonlink": "./previews/isigin-izinde.pdf",
+        "preview"
+       ],
+      "buttonlink": "./previews/kuantum-tevhid.pdf",
       "releasedate": "2024"
     },
         {
@@ -262,6 +239,29 @@
         "read"
       ],
       "buttonlink": "./previews/Lightde.pdf",
+      "releasedate": "2024"
+    },
+        {
+      "title": "Işığın İzinde (Kainatın Sırrı ve İlahi Nurun Yansımaları)",
+      "categories": [
+        "kuantum",
+        "tasavvuf",
+        "metafizik"
+      ],
+      "language": "TR",
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "This book, starting from the history of light, deeply examines its scientific dimensions, its meanings in sacred texts and cosmic functions. It offers a wide perspective from the holographic universe theory to the world of consciousness and perception; from the thin line between existence and non-existence to the new understanding of creation opened by quantum mechanics.",
+      "description_tr": "Bu kitap, ışığın tarihinden başlayarak, bilimsel boyutlarını, kutsal metinlerdeki anlamlarını ve kozmik işlevlerini derinlemesine inceliyor. Holografik evren teorisinden, bilinç ve algı dünyasına; varlık ve yokluk arasındaki ince çizgiden, kuantum mekaniğiyle açılan yeni yaratım anlayışına kadar geniş bir perspektif sunuyor.",
+      "description_fr": "Ce livre commence par l’histoire de la lumière et plonge dans ses dimensions scientifiques, ses significations textuelles sacrées et ses fonctions cosmiques. De la théorie de l’univers holographique au monde de la conscience et de la perception ; Il offre une perspective large, depuis la fine ligne entre l’existence et la non-existence jusqu’à la nouvelle compréhension de la création ouverte par la mécanique quantique.",
+      "description_de": "Dieses Buch beginnt mit der Geschichte des Lichts und befasst sich mit seinen wissenschaftlichen Dimensionen, heiligen Textbedeutungen und kosmischen Funktionen. Von der Theorie des holographischen Universums zur Welt des Bewusstseins und der Wahrnehmung; Es bietet eine breite Perspektive, von der dünnen Linie zwischen Existenz und Nichtexistenz bis hin zum neuen Verständnis der Schöpfung, das die Quantenmechanik ermöglicht.",
+      "relativeimagepath": "./thumbnails/light1.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/isigin-izinde.pdf",
       "releasedate": "2024"
     },
     {
