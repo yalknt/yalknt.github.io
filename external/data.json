@@ -1547,5 +1547,42 @@
       "buttonlink": "./previews/SAfr.pdf",
       "releasedate": "2025"
     }
+            {
+      "title": "THE GREAT ENCYCLOPEDIA OF ESOTERICISM AND OCCULTISM",
+      "categories": [
+        "giris",
+        "kuantum",
+        "tasavvuf",
+        "ibniarabi",
+        "sifa",
+        "hipnoz",
+        "astroloji",
+        "metafizik",
+        "din",
+        "zikir",
+        "sozluk",
+        "siir"
+      ],
+      "language": [
+    "TR",
+    "EN",
+    "DE",
+    "FR"
+  ],
+      "sourcetype": [
+        "digitalcopy"
+      ],
+      "description_en": "This very special study will include mysticism, occultism and esoteric subjects. With this book, you will be able to access very comprehensive, extensive and detailed explanations with rich visuals. We continue our preparations meticulously. ",
+      "description_tr": "Bu çok özel çalışma, mistisizm, okültizm ve ezoterik konuları içerecek olup, çok kapsamlı, geniş ve detaylı anlatımlara zengin görsellerle ulaşabileceksiniz. Hazırlıklarımızı titizlikle sürdürüyoruz.",
+      "description_fr": "Cette étude très spéciale comprendra le mysticisme, l’occultisme et des sujets ésotériques. Avec ce livre, vous pourrez accéder à des explications très complètes, étendues et détaillées avec des visuels riches. Nous poursuivons méticuleusement nos préparatifs.",
+      "description_de": "Dieses ganz besondere Studium wird Mystik, Okkultismus und esoterische Themen umfassen. Mit diesem Buch können Sie auf sehr umfassende, umfangreiche und detaillierte Erklärungen mit reichhaltigen Bildern zugreifen. Wir setzen unsere Vorbereitungen akribisch fort.",
+      "relativeimagepath": "./thumbnails/ga.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "read"
+      ],
+      "buttonlink": "./previews/O.pdf",
+      "releasedate": "2025"
+    }
   ]
 }
