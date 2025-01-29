@@ -1570,7 +1570,8 @@
     "FR"
   ],
       "sourcetype": [
-        "digitalcopy"
+        "digitalcopy",
+        "physicalcopy"
       ],
       "description_en": "This very special study will include mysticism, occultism and esoteric subjects. With this book, you will be able to access very comprehensive, extensive and detailed explanations with rich visuals. We continue our preparations meticulously. ",
       "description_tr": "Bu çok özel çalışma, mistisizm, okültizm ve ezoterik konuları içerecek olup, çok kapsamlı, geniş ve detaylı anlatımlara zengin görsellerle ulaşabileceksiniz. Hazırlıklarımızı titizlikle sürdürüyoruz.",
@@ -1582,7 +1583,18 @@
         "read"
       ],
       "buttonlink": "./previews/O.pdf",
-      "releasedate": "2025"
+      "releasedate": "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020",
+    "2019",
+    "2016",
+    "2015",
+    "2005",
+    "1999",
+    "1980"
     }
   ]
 }
