@@ -87,8 +87,7 @@
         {
       "title": "ENCYCLOPEDIA OF ESOTERISM AND OCCULTISM",
       "categories": [
-                "metafizik",
-         "okultizm"
+                         "okultizm"
       ],
       "language": "EN",
       "sourcetype": [
@@ -110,7 +109,7 @@
             {
       "title": "PICATRIX GİRİŞ",
       "categories": [
-                "metafizik"
+                "okultizm"
       ],
       "language": "TR",
       "sourcetype": [
@@ -222,8 +221,7 @@
       "title": "IN SEARCH OF THE LIGHT (The Secret of the Universe and Reflections of Divine Light)",
       "categories": [
         "kuantum",
-        "tasavvuf",
-        "metafizik"
+        "tasavvuf"
       ],
       "language": "EN",
       "sourcetype": [
@@ -245,8 +243,7 @@
       "title": "SUR LA PISTE DE LA LUMIÈRE (Le secret de l'univers et les reflets de la lumière divine)",
       "categories": [
         "kuantum",
-        "tasavvuf",
-        "metafizik"
+        "tasavvuf"
       ],
       "language": "FR",
       "sourcetype": [
@@ -268,8 +265,7 @@
       "title": "Dem Licht auf der Spur (Das Geheimnis des Universums und Reflexionen des göttlichen Lichts)",
       "categories": [
         "kuantum",
-        "tasavvuf",
-        "metafizik"
+        "tasavvuf"
       ],
       "language": "DE",
       "sourcetype": [
@@ -291,8 +287,7 @@
       "title": "Işığın İzinde (Kainatın Sırrı ve İlahi Nurun Yansımaları)",
       "categories": [
         "kuantum",
-        "tasavvuf",
-        "metafizik"
+        "tasavvuf"
       ],
       "language": "TR",
       "sourcetype": [
@@ -314,8 +309,7 @@
       "title": "Kuantum Tasavvuf-1",
       "categories": [
         "kuantum",
-        "tasavvuf",
-        "din"
+        "tasavvuf"
       ],
       "language": "TR",
       "sourcetype": [
@@ -338,8 +332,7 @@
       "title": "QUANTUM SUFISM 1",
       "categories": [
         "kuantum",
-        "tasavvuf",
-        "din"
+        "tasavvuf"
       ],
       "language": "EN",
       "sourcetype": [
@@ -362,8 +355,7 @@
       "title": "SOUFISME QUANTIQUE 1",
       "categories": [
         "kuantum",
-        "tasavvuf",
-        "din"
+        "tasavvuf"
       ],
       "language": "FR",
       "sourcetype": [
@@ -386,8 +378,7 @@
       "title": "QUANTEN-SUFISMUS 1",
       "categories": [
         "kuantum",
-        "tasavvuf",
-        "din"
+        "tasavvuf"
       ],
       "language": "DE",
       "sourcetype": [
@@ -410,8 +401,7 @@
       "title": "Kuantum Tasavvuf-2",
       "categories": [
         "kuantum",
-        "tasavvuf",
-        "din"
+        "tasavvuf"
       ],
       "language": "TR",
       "sourcetype": [
@@ -434,8 +424,7 @@
       "title": "QUANTUM SUFISM II",
       "categories": [
         "kuantum",
-        "tasavvuf",
-        "din"
+        "tasavvuf"
       ],
       "language": "EN",
       "sourcetype": [
@@ -458,8 +447,7 @@
       "title": "SOUFISME QUANTIQUE II",
       "categories": [
         "kuantum",
-        "tasavvuf",
-        "din"
+        "tasavvuf"
       ],
       "language": "FR",
       "sourcetype": [
@@ -482,8 +470,7 @@
       "title": "QUANTEN-SUFISMUS II",
       "categories": [
         "kuantum",
-        "tasavvuf",
-        "din"
+        "tasavvuf"
       ],
       "language": "DE",
       "sourcetype": [
@@ -506,7 +493,6 @@
       "title": "BE SIRRI Berzah",
       "categories": [
         "din",
-        "metafizik",
         "tasavvuf"
       ],
       "language": "TR",
@@ -529,7 +515,7 @@
     {
       "title": "B SECRET Berzakh",
       "categories": [
-        "metafizik",
+        "din",
         "tasavvuf"
       ],
       "language": "EN",
@@ -551,7 +537,7 @@
         {
       "title": "SECRET B İsthme",
       "categories": [
-        "metafizik",
+        "din",
         "tasavvuf"
       ],
       "language": "FR",
@@ -573,7 +559,7 @@
         {
       "title": "GEHEİMNİS B Landenge",
       "categories": [
-        "metafizik",
+        "din",
         "tasavvuf"
       ],
       "language": "DE",
@@ -712,8 +698,7 @@
       "categories": [
         "ibniarabi",
         "din",
-        "tasavvuf",
-        "metafizik"
+        "tasavvuf"       
       ],
       "language": "TR",
       "sourcetype": [
@@ -735,8 +720,7 @@
     {
       "title": "A Look At The Sciences and Events in the 20th Century from 800 Years Ago",
       "categories": [
-        "metafizik",
-        "din",
+        "okültizm",
         "ibniarabi"
       ],
       "language": "EN",
@@ -758,7 +742,6 @@
     {
       "title": "Bir Alimin Portresi: Ahmet Özmerdivanlı'yı Anlamak",
       "categories": [
-        "metafizik",
         "tasavvuf",
         "din"
       ],
@@ -781,7 +764,6 @@
     {
       "title": "PORTRAIT OF A SCHOLAR: UNDERSTANDING AHMET ÖZMERDİVANLI",
       "categories": [
-        "metafizik",
         "tasavvuf",
         "din"
       ],
@@ -804,7 +786,6 @@
     {
       "title": "PORTRÄT EINES WISSENSCHAFTLERS: AHMET ÖZMERDİVANLI VERSTEHEN",
       "categories": [
-        "metafizik",
         "tasavvuf",
         "din"
       ],
@@ -827,7 +808,6 @@
         {
       "title": "PORTRAIT D'UN ÉTUDIANT : COMPRENDRE AHMET ÖZMERDİVANLI",
       "categories": [
-        "metafizik",
         "tasavvuf",
         "din"
       ],
@@ -987,8 +967,7 @@
       "title": "MAĞARA (KEHF) SURESİ Bilinçaltı ve Hipnoz Ayetleri",
       "categories": [
         "hipnoz",
-        "din",
-        "metafizik"
+        "okultizm"
       ],
       "language": "TR",
       "sourcetype": [
@@ -1010,8 +989,7 @@
       "title": "The CAVE Subconscious and Hypnosis Verses",
       "categories": [
         "hipnoz",
-        "din",
-        "metafizik"
+        "okultizm"
       ],
       "language": "EN",
       "sourcetype": [
@@ -1032,7 +1010,7 @@
                 {
       "title": "PICATRIX 1.KİTAP",
       "categories": [
-                "metafizik"
+                "okultizm"
       ],
       "language": "TR",
       "sourcetype": [
@@ -1160,7 +1138,7 @@
     {
       "title": "Kuantum Rüya (Bab-ı Nevm)",
       "categories": [
-        "metafizik"
+        "din"
       ],
       "language": "TR",
       "sourcetype": [
@@ -1288,7 +1266,7 @@
     {
       "title": "REJET À LA RÉINCARNATION",
       "categories": [
-        "metafizik",
+        "din",
         "astroloji"
       ],
       "language": "FR",
@@ -1310,7 +1288,7 @@
         {
       "title": "REENKARNASYON İNANCINA REDDİYE",
       "categories": [
-        "metafizik",
+        "din",
         "astroloji"
       ],
       "language": "TR",
@@ -1332,7 +1310,7 @@
         {
       "title": "REJECTION OF REINCARNATION BELIEF",
       "categories": [
-        "metafizik",
+        "din",
         "astroloji"
       ],
       "language": "EN",
@@ -1354,7 +1332,7 @@
         {
       "title": "Ablehnung des Glaubens an die Reinkarnation",
       "categories": [
-        "metafizik",
+        "din",
         "astroloji"
       ],
       "language": "DE",
@@ -1376,9 +1354,8 @@
     {
       "title": "ÄTHER Geheimsubstanz",
       "categories": [
-        "metafizik",
-        "kuantum"
-      ],
+        "okultizm"
+              ],
       "language": "DE",
       "sourcetype": [
         "digitalcopy"
@@ -1398,8 +1375,7 @@
         {
       "title": "ESİR- SIR MADDE",
       "categories": [
-        "metafizik",
-        "kuantum"
+        "okultizm"
       ],
       "language": "TR",
       "sourcetype": [
@@ -1420,8 +1396,7 @@
         {
       "title": "ETHER- SECRET MATTER",
       "categories": [
-        "metafizik",
-        "kuantum"
+        "okultizm"
       ],
       "language": "EN",
       "sourcetype": [
@@ -1442,8 +1417,7 @@
         {
       "title": "L'ÉTHER- MATIÈRE SECRÈTE",
       "categories": [
-        "metafizik",
-        "kuantum"
+        "okultizm"
       ],
       "language": "FR",
       "sourcetype": [
@@ -1530,7 +1504,7 @@
     {
       "title": "Şeytan Hakkında",
       "categories": [
-        "metafizik",
+        "okultizm",
         "din"
       ],
       "language": "TR",
@@ -1552,7 +1526,7 @@
         {
       "title": "ABOUT SATAN",
       "categories": [
-        "metafizik",
+        "okultizm",
         "din"
       ],
       "language": "EN",
@@ -1574,7 +1548,7 @@
         {
       "title": "ÜBER DATAN",
       "categories": [
-        "metafizik",
+        "okultizm",
         "din"
       ],
       "language": "DE",
@@ -1596,7 +1570,7 @@
         {
       "title": "À PROPOS DU DIABLE",
       "categories": [
-        "metafizik",
+        "okultizm",
         "din"
       ],
       "language": "FR",
@@ -1618,7 +1592,7 @@
    {
       "title": "EZOTERİZM VE OKÜLTİZM ANSİKLOPEDİSİ",
       "categories": [
-                "metafizik"
+                "okultizm"
       ],
       "language": "TR",
       "sourcetype": [
