@@ -103,8 +103,7 @@
         "read"
       ],
       "buttonlink": "./previews/ESO.pdf",
-      "releaseyear": 
-        "2025"
+      "releasedate": "2025"
     },
             {
       "title": "PICATRIX GİRİŞ",
@@ -125,8 +124,7 @@
         "read"
       ],
       "buttonlink": "./previews/pi.pdf",
-      "releaseyear": 
-        "2025"
+      "releasedate": "2025"
     },
     {
       "title": "QUANTUM TAWHEED (Reality, Consciousness and Cosmic Wisdom)",
@@ -1608,7 +1606,7 @@
         "read"
       ],
       "buttonlink": "./previews/EZO.pdf",
-      "releaseyear": [
+      "releasedate": [
         "2025"
               ]
         }
