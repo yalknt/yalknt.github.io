@@ -85,24 +85,24 @@
       "releasedate": "2025"
            },
         {
-      "title": "ENCYCLOPEDIA OF ESOTERISM AND OCCULTISM",
+      "title": "EZOTERİK VE OKÜLT (GİZLİ) BİLİMLER ANSİKLOPEDİSİ",
       "categories": [
                          "okultizm"
       ],
-      "language": "EN",
+      "language": "TR",
       "sourcetype": [
-        "digitalcopy"
-              ],
-      "description_en": "This very special study includes mysticism, occultism and esoteric subjects. With this book, you will be able to access very comprehensive, extensive and detailed explanations with rich visuals. ",
-      "description_tr": "Bu çok özel çalışma, mistisizm, okültizm ve ezoterik konuları içermekte olup, çok kapsamlı, geniş ve detaylı anlatımlara zengin görsellerle ulaşabilirsiniz.",
-      "description_fr": "Cette étude très spéciale comprendra le mysticisme, l’occultisme et des sujets ésotériques. Avec ce livre, vous pourrez accéder à des explications très complètes, étendues et détaillées avec des visuels riches. ",
-      "description_de": "Dieses ganz besondere Studium wird Mystik, Okkultismus und esoterische Themen umfassen. Mit diesem Buch können Sie auf sehr umfassende, umfangreiche und detaillierte Erklärungen mit reichhaltigen Bildern zugreifen. ",
-      "relativeimagepath": "./thumbnails/ENC.jpg",
+        "digitalcopy","physicalcopy"
+      ],
+      "description_en": "An unprecedented compilation of secret sciences and ancient wisdom! This work, which extends from myths to mystical rituals, from occult orders to esoteric philosophies, is a real bedside book for those who want to discover the unknown! ",
+      "description_tr": "Gizli ilimler ve kadim bilgeliğin eşi benzeri görülmemiş bir derlemesi! Mitlerden mistik ayinlere, okült tarikatlardan ezoterik felsefelere kadar uzanan bu eser, bilinmeyeni keşfetmek isteyenler için gerçek bir başucu kitabı!",
+      "description_fr": "Une compilation sans précédent de sciences occultes et de sagesse ancienne ! Cet ouvrage, qui va des mythes aux rituels mystiques, des ordres occultes aux philosophies ésotériques, est un véritable livre de chevet pour qui veut découvrir l'inconnu ! ",
+      "description_de": "Eine beispiellose Zusammenstellung okkulter Wissenschaften und alter Weisheiten! Dieses Werk, das von Mythen bis zu mystischen Ritualen, von okkulten Orden bis zu esoterischen Philosophien reicht, ist ein echtes Nachttischbuch für alle, die das Unbekannte entdecken möchten! ",
+      "relativeimagepath": "./thumbnails/ezoterizm.jpg",
       "buttontypehtml": "download-button",
       "buttoncontents": [
         "read"
       ],
-      "buttonlink": "./previews/ESOTERİCx.pdf",
+      "buttonlink": "./previews/ezoterizm.pdf",
       "releasedate": "2025"
     },
             {
@@ -1586,28 +1586,6 @@
       ],
       "buttonlink": "./previews/SAfr.pdf",
       "releasedate": "2025"
-    },
-   {
-      "title": "EZOTERİZM VE OKÜLTİZM ANSİKLOPEDİSİ",
-      "categories": [
-                "okultizm"
-      ],
-      "language": "TR",
-      "sourcetype": [
-        "digitalcopy"
-              ],
-      "description_en": "This very special study includes mysticism, occultism and esoteric subjects. With this book, you are able to access very comprehensive, extensive and detailed explanations with rich visuals. ",
-      "description_tr": "Bu çok özel çalışma, mistisizm, okültizm ve ezoterik konuları içermekte olup, çok kapsamlı, geniş ve detaylı anlatımlara zengin görsellerle ulaşabileceksiniz. ",
-      "description_fr": "Cette étude très spéciale comprendra le mysticisme, l’occultisme et des sujets ésotériques. Avec ce livre, vous pourrez accéder à des explications très complètes, étendues et détaillées avec des visuels riches. ",
-      "description_de": "Dieses ganz besondere Studium wird Mystik, Okkultismus und esoterische Themen umfassen. Mit diesem Buch können Sie auf sehr umfassende, umfangreiche und detaillierte Erklärungen mit reichhaltigen Bildern zugreifen. ",
-      "relativeimagepath": "./thumbnails/ETR.jpg",
-      "buttontypehtml": "download-button",
-      "buttoncontents": [
-        "read"
-      ],
-      "buttonlink": "./previews/EZO.pdf",
-      "releasedate": [
-        "2025"
               ]
         }
   ]
