@@ -101,7 +101,7 @@
       "relativeimagepath": "./thumbnails/ezoterizm.jpg",
       "buttontypehtml": "download-button",
       "buttoncontents": [
-        "read"
+        "preview"
       ],
       "buttonlink": "./previews/Ezoterizm.pdf",
       "releasedate": "2025"
