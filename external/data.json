@@ -107,6 +107,27 @@
       "releasedate": "2025"
     },
             {
+      "title": "EZOTERİK BİLGELİK SETİ",
+      "categories": [
+                         "okultizm"
+      ],
+      "language": "TR",
+      "sourcetype": [
+                "physicalcopy"
+      ],
+      "description_en": "This 2466-page set looks at the 12 faces of truth, from Sufism to modern science, from ancient wisdom to secret sciences.",
+      "description_tr": "2466 sayfalık bu set, tasavvuftan modern bilime; kadim bilgelikten gizli ilimlere kadar hakikatin 12 yüzüne bakıyor.",
+      "description_fr": "Cet ensemble de 2466 pages couvre tout, du soufisme à la science moderne ; examine les 12 visages de la vérité, de la sagesse ancienne aux sciences cachées.",
+      "description_de": "Dieses 2466 Seiten umfassende Set deckt alles vom Sufismus bis zur modernen Wissenschaft ab; betrachtet die 12 Gesichter der Wahrheit, von alter Weisheit bis zu verborgenen Wissenschaften.",
+      "relativeimagepath": "./thumbnails/SET.jpg",
+      "buttontypehtml": "download-button",
+      "buttoncontents": [
+        "preview"
+      ],
+      "buttonlink": "./previews/SET.pdf",
+      "releasedate": "2025"
+    },
+            {
       "title": "PICATRIX GİRİŞ",
       "categories": [
                 "okultizm"
